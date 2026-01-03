@@ -1,0 +1,6 @@
+2022-12-05 17:03:45> SYSTEM : Analyze method - start; Method file C:\Users\Admin\OneDrive - CONG TY TNHH THIET BI Y TE PHUONG DONG\0work\HAMILTON\training_KhangTruong\demo_HBV_masterMix_v3.hsl
+2022-12-05 17:03:46> Microlab® STARlet IVD : Communication - progress; Connection to instrument is created.
+2022-12-05 17:03:47> SYSTEM : Analyze method - progress; C:\Users\Admin\OneDrive - CONG TY TNHH THIET BI Y TE PHUONG DONG\0work\HAMILTON\training_KhangTruong\demo_HBV_masterMix_v3.hsl(1) : error 1312: cannot open include file: 'C:\Users\Admin\OneDrive - CONG TY TNHH THIET BI Y TE PHUONG DONG\0work\HAMILTON\Methods\demo_HBV_masterMix_v3.res'
+2022-12-05 17:03:47> SYSTEM : Analyze method - error; An error occurred while running Vector.  The error description is: Method contains syntax errors (0x23 - 0x2 - 0x35) , 
+2022-12-05 17:03:47> SYSTEM : Analyze method - complete with error; 
+2022-12-05 17:03:50> SYSTEM : File checksum - written; $$author=Admin$$valid=0$$time=2022-12-05 17:03$$checksum=c1906591$$length=134$$

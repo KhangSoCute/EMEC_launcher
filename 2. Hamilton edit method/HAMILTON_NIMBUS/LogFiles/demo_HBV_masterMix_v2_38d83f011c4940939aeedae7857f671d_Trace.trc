@@ -1,0 +1,861 @@
+2022-11-10 16:58:29> SYSTEM : Analyze method - start; Method file C:\Users\Admin\OneDrive - CONG TY TNHH THIET BI Y TE PHUONG DONG\0work\HAMILTON\Methods\demo_HBV_masterMix_v2.hsl
+2022-11-10 16:58:31> Microlab® STARlet IVD : Communication - progress; Connection to instrument is created.
+2022-11-10 16:58:32> SYSTEM : Analyze method - complete; 
+2022-11-10 16:58:34> SYSTEM : Start method - start; 
+2022-11-10 16:58:34> SYSTEM : Start method - progress; User name: Admin
+2022-11-10 16:58:34> SYSTEM : Start method - progress; Phoenix software version: 4.5.0.7977
+2022-11-10 16:58:35> SYSTEM : Start method - progress; Database version: DB Plus
+2022-11-10 16:58:35> SYSTEM : Start method - progress; Sample tracking: On
+2022-11-10 16:58:35> SYSTEM : Start method - progress; Vector Database: On
+2022-11-10 16:58:35> SYSTEM : Start method - progress; Vector Database connection: Database 'HamiltonVectorDB' on Microsoft SQL Server 'LOCALHOST\HAMILTON' with user 'Hamilton'
+2022-11-10 16:58:35> Microlab® STARlet IVD : Start method command - start;
+2022-11-10 16:58:35> Microlab® STARlet IVD : Start method command - progress; Microlab® STARlet IVD software version: 4.5.0.5217
+2022-11-10 16:58:35> Microlab® STARlet IVD : Start method command - progress; Serial number of Instrument: 0000
+2022-11-10 16:58:35> Microlab® STARlet IVD : Start method command - progress; Firmware version of main module: 0.0X 2002-05-08
+2022-11-10 16:58:35> Microlab® STARlet IVD : Start method command - progress; Firmware version of 1000µl channels: 0.0X 2002-05-08, 0.0X 2002-05-08, 0.0X 2002-05-08, 0.0X 2002-05-08, 0.0X 2002-05-08, 0.0X 2002-05-08, 0.0X 2002-05-08, 0.0X 2002-05-08
+2022-11-10 16:58:35> Microlab® STARlet IVD : Start method command - progress; Firmware version of 5ml channels: not installed
+2022-11-10 16:58:35> Microlab® STARlet IVD : Start method command - progress; Firmware version of labware handling channels: not installed
+2022-11-10 16:58:35> Microlab® STARlet IVD : Start method command - progress; Firmware version of X drive: 0.0X 2002-05-08
+2022-11-10 16:58:35> Microlab® STARlet IVD : Start method command - progress; Firmware version of auto load: not installed
+2022-11-10 16:58:35> Microlab® STARlet IVD : Start method command - progress; Firmware version of iSWAP: not installed
+2022-11-10 16:58:35> Microlab® STARlet IVD : Start method command - progress; Firmware version of washer 1: not installed
+2022-11-10 16:58:35> Microlab® STARlet IVD : Start method command - progress; Firmware version of washer 2: not installed
+2022-11-10 16:58:35> Microlab® STARlet IVD : Start method command - progress; Firmware version of temperature-controlled carrier 1: not installed
+2022-11-10 16:58:35> Microlab® STARlet IVD : Start method command - progress; Firmware version of temperature-controlled carrier 2: not installed
+2022-11-10 16:58:35> Microlab® STARlet IVD : Start method command - progress; Firmware version of CO-RE 96 Head: not installed
+2022-11-10 16:58:35> Microlab® STARlet IVD : Start method command - progress; Firmware version of pump station 1: not installed
+2022-11-10 16:58:35> Microlab® STARlet IVD : Start method command - progress; Firmware version of pump station 2: not installed
+2022-11-10 16:58:35> Microlab® STARlet IVD : Start method command - progress; Firmware version of pump station 3: not installed
+2022-11-10 16:58:35> Microlab® STARlet IVD : Start method command - progress; Firmware version of nano dispenser: not installed
+2022-11-10 16:58:35> Microlab® STARlet IVD : Start method command - progress; Firmware version of nano dispenser pressure unit: not installed
+2022-11-10 16:58:35> Microlab® STARlet IVD : Start method command - progress; Firmware version of CO-RE 384 Head: not installed
+2022-11-10 16:58:35> Microlab® STARlet IVD : Start method command - progress; Firmware version of tube gripper: not installed
+2022-11-10 16:58:35> Microlab® STARlet IVD : Start method command - progress; Firmware version of camera channel: not installed
+2022-11-10 16:58:35> Microlab® STARlet IVD : Start method command - progress; Firmware version of gel card gripper: not installed
+2022-11-10 16:58:35> Microlab® STARlet IVD : Start method command - progress; Firmware version of punch card gripper: not installed
+2022-11-10 16:58:35> Microlab® STARlet IVD : Start method command - progress; Firmware version of puncher module: not installed
+2022-11-10 16:58:35> Microlab® STARlet IVD : Start method command - progress; Firmware version of twister decapper station 1 module 1: not installed
+2022-11-10 16:58:35> Microlab® STARlet IVD : Start method command - progress; Firmware version of twister decapper station 1 module 2: not installed
+2022-11-10 16:58:35> Microlab® STARlet IVD : Start method command - progress; Firmware version of twister decapper station 2 module 1: not installed
+2022-11-10 16:58:35> Microlab® STARlet IVD : Start method command - progress; Firmware version of twister decapper station 2 module 2: not installed
+2022-11-10 16:58:37> Microlab® STARlet IVD : Start method command - complete;
+2022-11-10 16:58:37> SYSTEM : Start method - complete; 
+2022-11-10 16:58:37> SYSTEM : Execute method - start; Method file C:\Users\Admin\OneDrive - CONG TY TNHH THIET BI Y TE PHUONG DONG\0work\HAMILTON\Methods\demo_HBV_masterMix_v2.hsl
+2022-11-10 16:58:37> Microlab® STARlet IVD : Initialize (Single Step) - start;
+2022-11-10 16:58:40> Microlab® STARlet IVD : Initialize (Single Step) - complete;  > channel 1: Waste,  > channel 2: Waste,  > channel 3: Waste,  > channel 4: Waste,  > channel 5: Waste,  > channel 6: Waste,  > channel 7: Waste,  > channel 8: Waste, 
+2022-11-10 16:58:40> Microlab® STARlet IVD : Lock/Unlock Front Cover (Single Step) - start;
+2022-11-10 16:58:40> Microlab® STARlet IVD : Lock/Unlock Front Cover (Single Step) - complete;  > Front Cover: locked
+2022-11-10 16:58:40> SYSTEM : User Input Dialog - start; <Number of Sample?>,   Available button(s): <OK>, <Cancel>,   Default button: <OK>,   Input row 1 - Prompt: <declairation number of Sample>, Default value: <1>, Type: <Integer>, Minimum: <1>, Maximum: <72>
+2022-11-10 16:58:45> SYSTEM : User Input Dialog - complete; <Number of Sample?>,   Closed with: <OK (1)>,   Input row 1 - Prompt: <declairation number of Sample>, Value: <71>
+2022-11-10 16:58:45> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - start;
+2022-11-10 16:58:46> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - complete;  > channel 1: htf_l_0001, 1 > channel 2: htf_l_0001, 2 > channel 3: htf_l_0001, 3
+2022-11-10 16:58:46> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - start;
+2022-11-10 16:58:48> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - complete;  > channel 1: Adapter_PCR3_RevA_0001, 9, 790 uL > channel 2: Adapter_PCR3_RevA_0001, 10, 790 uL > channel 3: Adapter_PCR3_RevA_0001, 11, 790 uL
+2022-11-10 16:58:48> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-11-10 16:58:49> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: AB_8Strip_0001, A1, 30 uL > channel 2: AB_8Strip_0001, B1, 30 uL > channel 3: AB_8Strip_0001, C1, 30 uL
+2022-11-10 16:58:49> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-11-10 16:58:49> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: AB_8Strip_0001, D1, 30 uL > channel 2: AB_8Strip_0001, E1, 30 uL > channel 3: AB_8Strip_0001, F1, 30 uL
+2022-11-10 16:58:49> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-11-10 16:58:50> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: AB_8Strip_0001, G1, 30 uL > channel 2: AB_8Strip_0001, H1, 30 uL > channel 3: AB_8Strip_0001, A2, 30 uL
+2022-11-10 16:58:50> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-11-10 16:58:51> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: AB_8Strip_0001, B2, 30 uL > channel 2: AB_8Strip_0001, C2, 30 uL > channel 3: AB_8Strip_0001, D2, 30 uL
+2022-11-10 16:58:51> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-11-10 16:58:52> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: AB_8Strip_0001, E2, 30 uL > channel 2: AB_8Strip_0001, F2, 30 uL > channel 3: AB_8Strip_0001, G2, 30 uL
+2022-11-10 16:58:52> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-11-10 16:58:52> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: AB_8Strip_0001, H2, 30 uL > channel 2: AB_8Strip_0001, A3, 30 uL > channel 3: AB_8Strip_0001, B3, 30 uL
+2022-11-10 16:58:52> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-11-10 16:58:53> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: AB_8Strip_0001, C3, 30 uL > channel 2: AB_8Strip_0001, D3, 30 uL > channel 3: AB_8Strip_0001, E3, 30 uL
+2022-11-10 16:58:53> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-11-10 16:58:54> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: AB_8Strip_0001, F3, 30 uL > channel 2: AB_8Strip_0001, G3, 30 uL > channel 3: AB_8Strip_0001, H3, 30 uL
+2022-11-10 16:58:54> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-11-10 16:58:54> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: AB_8Strip_0001, A4, 30 uL > channel 2: AB_8Strip_0001, B4, 30 uL > channel 3: AB_8Strip_0001, C4, 30 uL
+2022-11-10 16:58:54> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-11-10 16:58:55> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: AB_8Strip_0001, D4, 30 uL > channel 2: AB_8Strip_0001, E4, 30 uL > channel 3: AB_8Strip_0001, F4, 30 uL
+2022-11-10 16:58:55> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-11-10 16:58:56> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: AB_8Strip_0001, G4, 30 uL > channel 2: AB_8Strip_0001, H4, 30 uL > channel 3: AB_8Strip_0001, A5, 30 uL
+2022-11-10 16:58:56> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-11-10 16:58:57> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: AB_8Strip_0001, B5, 30 uL > channel 2: AB_8Strip_0001, C5, 30 uL > channel 3: AB_8Strip_0001, D5, 30 uL
+2022-11-10 16:58:57> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-11-10 16:58:58> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: AB_8Strip_0001, E5, 30 uL > channel 2: AB_8Strip_0001, F5, 30 uL > channel 3: AB_8Strip_0001, G5, 30 uL
+2022-11-10 16:58:58> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-11-10 16:58:58> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: AB_8Strip_0001, H5, 30 uL > channel 2: AB_8Strip_0001, A6, 30 uL > channel 3: AB_8Strip_0001, B6, 30 uL
+2022-11-10 16:58:58> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-11-10 16:58:59> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: AB_8Strip_0001, C6, 30 uL > channel 2: AB_8Strip_0001, D6, 30 uL > channel 3: AB_8Strip_0001, E6, 30 uL
+2022-11-10 16:58:59> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-11-10 16:59:00> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: AB_8Strip_0001, F6, 30 uL > channel 2: AB_8Strip_0001, G6, 30 uL > channel 3: AB_8Strip_0001, H6, 30 uL
+2022-11-10 16:59:00> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-11-10 16:59:01> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: AB_8Strip_0001, A7, 30 uL > channel 2: AB_8Strip_0001, B7, 30 uL > channel 3: AB_8Strip_0001, C7, 30 uL
+2022-11-10 16:59:01> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-11-10 16:59:01> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: AB_8Strip_0001, D7, 30 uL > channel 2: AB_8Strip_0001, E7, 30 uL > channel 3: AB_8Strip_0001, F7, 30 uL
+2022-11-10 16:59:01> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-11-10 16:59:02> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: AB_8Strip_0001, G7, 30 uL > channel 2: AB_8Strip_0001, H7, 30 uL > channel 3: AB_8Strip_0001, A8, 30 uL
+2022-11-10 16:59:02> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-11-10 16:59:03> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: AB_8Strip_0001, B8, 30 uL > channel 2: AB_8Strip_0001, C8, 30 uL > channel 3: AB_8Strip_0001, D8, 30 uL
+2022-11-10 16:59:03> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-11-10 16:59:04> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: AB_8Strip_0001, E8, 30 uL > channel 2: AB_8Strip_0001, F8, 30 uL > channel 3: AB_8Strip_0001, G8, 30 uL
+2022-11-10 16:59:04> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-11-10 16:59:04> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: AB_8Strip_0001, H8, 30 uL > channel 2: AB_8Strip_0001, A9, 30 uL > channel 3: AB_8Strip_0001, B9, 30 uL
+2022-11-10 16:59:04> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-11-10 16:59:05> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: AB_8Strip_0001, C9, 30 uL > channel 2: AB_8Strip_0001, D9, 30 uL > channel 3: AB_8Strip_0001, E9, 30 uL
+2022-11-10 16:59:05> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-11-10 16:59:06> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: AB_8Strip_0001, F9, 30 uL > channel 2: AB_8Strip_0001, G9, 30 uL > channel 3: AB_8Strip_0001, H9, 30 uL
+2022-11-10 16:59:06> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-11-10 16:59:07> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: AB_8Strip_0001, A10, 30 uL > channel 2: AB_8Strip_0001, B10, 30 uL > channel 3: AB_8Strip_0001, C10, 30 uL
+2022-11-10 16:59:07> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-11-10 16:59:07> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: AB_8Strip_0001, D10, 30 uL > channel 2: AB_8Strip_0001, E10, 30 uL > channel 3: AB_8Strip_0001, F10, 30 uL
+2022-11-10 16:59:07> USER : Trace - complete; loop break
+2022-11-10 16:59:07> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - start;
+2022-11-10 16:59:08> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - complete;  > channel 1: Waste,  > channel 2: Waste,  > channel 3: Waste,  > channel 4: Waste,  > channel 5: Waste,  > channel 6: Waste,  > channel 7: Waste,  > channel 8: Waste, 
+2022-11-10 16:59:08> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - start;
+2022-11-10 16:59:09> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - complete;  > channel 1: htf_l_0001, 4
+2022-11-10 16:59:09> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - start;
+2022-11-10 16:59:10> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - complete;  > channel 1: Adapter_PCR3_RevA_0001, 6, 12 uL
+2022-11-10 16:59:10> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-11-10 16:59:11> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: White_Strip_0001, A1, 2 uL
+2022-11-10 16:59:11> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-11-10 16:59:12> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: White_Strip_0001, B1, 2 uL
+2022-11-10 16:59:12> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-11-10 16:59:12> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: White_Strip_0001, C1, 2 uL
+2022-11-10 16:59:12> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-11-10 16:59:13> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: White_Strip_0001, D1, 2 uL
+2022-11-10 16:59:13> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-11-10 16:59:14> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: White_Strip_0001, E1, 2 uL
+2022-11-10 16:59:14> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-11-10 16:59:14> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: White_Strip_0001, F1, 2 uL
+2022-11-10 16:59:14> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - start;
+2022-11-10 16:59:15> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - complete;  > channel 1: htf_l_0001, 5 > channel 2: htf_l_0001, 6 > channel 3: htf_l_0001, 7 > channel 4: htf_l_0001, 8 > channel 5: htf_l_0001, 9
+2022-11-10 16:59:15> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - start;
+2022-11-10 16:59:17> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - complete;  > channel 1: Adapter_PCR3_RevA_0001, 1, 20 uL > channel 2: Adapter_PCR3_RevA_0001, 2, 20 uL > channel 3: Adapter_PCR3_RevA_0001, 3, 20 uL > channel 4: Adapter_PCR3_RevA_0001, 4, 20 uL > channel 5: Adapter_PCR3_RevA_0001, 5, 20 uL
+2022-11-10 16:59:17> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-11-10 16:59:17> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: White_Strip_0001, A1, 20 uL > channel 2: White_Strip_0001, B1, 20 uL > channel 3: White_Strip_0001, C1, 20 uL > channel 4: White_Strip_0001, D1, 20 uL > channel 5: White_Strip_0001, E1, 20 uL
+2022-11-10 16:59:17> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - start;
+2022-11-10 16:59:18> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - complete;  > channel 1: Waste,  > channel 2: Waste,  > channel 3: Waste,  > channel 4: Waste,  > channel 5: Waste,  > channel 6: Waste,  > channel 7: Waste,  > channel 8: Waste, 
+2022-11-10 16:59:18> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - start;
+2022-11-10 16:59:19> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - complete;  > channel 1: htf_l_0001, 10
+2022-11-10 16:59:19> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - start;
+2022-11-10 16:59:20> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - complete;  > channel 1: Adapter_PCR3_RevA_0001, 7, 20 uL
+2022-11-10 16:59:20> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-11-10 16:59:21> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: White_Strip_0001, F1, 20 uL
+2022-11-10 16:59:21> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - start;
+2022-11-10 16:59:21> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - complete;  > channel 1: Waste,  > channel 2: Waste,  > channel 3: Waste,  > channel 4: Waste,  > channel 5: Waste,  > channel 6: Waste,  > channel 7: Waste,  > channel 8: Waste, 
+2022-11-10 16:59:21> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - start;
+2022-11-10 16:59:22> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - complete;  > channel 1: htf_l_0001, 11
+2022-11-10 16:59:22> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - start;
+2022-11-10 16:59:23> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - complete;  > channel 1: Plate_Bioplastics, A1, 20 uL
+2022-11-10 16:59:23> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-11-10 16:59:24> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: White_Strip_0001, G1, 20 uL
+2022-11-10 16:59:24> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - start;
+2022-11-10 16:59:25> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - complete;  > channel 1: Waste,  > channel 2: Waste,  > channel 3: Waste,  > channel 4: Waste,  > channel 5: Waste,  > channel 6: Waste,  > channel 7: Waste,  > channel 8: Waste, 
+2022-11-10 16:59:25> USER : Trace - complete; loop break
+2022-11-10 16:59:25> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - start;
+2022-11-10 16:59:26> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - complete;  > channel 1: htf_l_0001, 12
+2022-11-10 16:59:26> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - start;
+2022-11-10 16:59:27> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - complete;  > channel 1: Plate_Bioplastics, A1, 20 uL
+2022-11-10 16:59:27> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-11-10 16:59:28> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: White_Strip_0001, G1, 20 uL
+2022-11-10 16:59:28> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - start;
+2022-11-10 16:59:28> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - complete;  > channel 1: Waste,  > channel 2: Waste,  > channel 3: Waste,  > channel 4: Waste,  > channel 5: Waste,  > channel 6: Waste,  > channel 7: Waste,  > channel 8: Waste, 
+2022-11-10 16:59:28> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - start;
+2022-11-10 16:59:29> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - complete;  > channel 1: htf_l_0001, 13
+2022-11-10 16:59:29> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - start;
+2022-11-10 16:59:30> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - complete;  > channel 1: Plate_Bioplastics, B1, 20 uL
+2022-11-10 16:59:30> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-11-10 16:59:31> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: White_Strip_0001, H1, 20 uL
+2022-11-10 16:59:31> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - start;
+2022-11-10 16:59:32> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - complete;  > channel 1: Waste,  > channel 2: Waste,  > channel 3: Waste,  > channel 4: Waste,  > channel 5: Waste,  > channel 6: Waste,  > channel 7: Waste,  > channel 8: Waste, 
+2022-11-10 16:59:32> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - start;
+2022-11-10 16:59:32> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - complete;  > channel 1: htf_l_0001, 14
+2022-11-10 16:59:32> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - start;
+2022-11-10 16:59:34> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - complete;  > channel 1: Plate_Bioplastics, C1, 20 uL
+2022-11-10 16:59:34> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-11-10 16:59:34> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: AB_8Strip_0001, A2, 20 uL
+2022-11-10 16:59:34> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - start;
+2022-11-10 16:59:35> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - complete;  > channel 1: Waste,  > channel 2: Waste,  > channel 3: Waste,  > channel 4: Waste,  > channel 5: Waste,  > channel 6: Waste,  > channel 7: Waste,  > channel 8: Waste, 
+2022-11-10 16:59:35> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - start;
+2022-11-10 16:59:36> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - complete;  > channel 1: htf_l_0001, 15
+2022-11-10 16:59:36> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - start;
+2022-11-10 16:59:37> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - complete;  > channel 1: Plate_Bioplastics, D1, 20 uL
+2022-11-10 16:59:37> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-11-10 16:59:38> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: AB_8Strip_0001, B2, 20 uL
+2022-11-10 16:59:38> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - start;
+2022-11-10 16:59:38> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - complete;  > channel 1: Waste,  > channel 2: Waste,  > channel 3: Waste,  > channel 4: Waste,  > channel 5: Waste,  > channel 6: Waste,  > channel 7: Waste,  > channel 8: Waste, 
+2022-11-10 16:59:38> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - start;
+2022-11-10 16:59:39> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - complete;  > channel 1: htf_l_0001, 16
+2022-11-10 16:59:39> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - start;
+2022-11-10 16:59:40> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - complete;  > channel 1: Plate_Bioplastics, E1, 20 uL
+2022-11-10 16:59:40> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-11-10 16:59:41> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: AB_8Strip_0001, C2, 20 uL
+2022-11-10 16:59:41> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - start;
+2022-11-10 16:59:42> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - complete;  > channel 1: Waste,  > channel 2: Waste,  > channel 3: Waste,  > channel 4: Waste,  > channel 5: Waste,  > channel 6: Waste,  > channel 7: Waste,  > channel 8: Waste, 
+2022-11-10 16:59:42> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - start;
+2022-11-10 16:59:42> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - complete;  > channel 1: htf_l_0001, 17
+2022-11-10 16:59:42> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - start;
+2022-11-10 16:59:44> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - complete;  > channel 1: Plate_Bioplastics, F1, 20 uL
+2022-11-10 16:59:44> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-11-10 16:59:44> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: AB_8Strip_0001, D2, 20 uL
+2022-11-10 16:59:44> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - start;
+2022-11-10 16:59:45> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - complete;  > channel 1: Waste,  > channel 2: Waste,  > channel 3: Waste,  > channel 4: Waste,  > channel 5: Waste,  > channel 6: Waste,  > channel 7: Waste,  > channel 8: Waste, 
+2022-11-10 16:59:45> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - start;
+2022-11-10 16:59:46> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - complete;  > channel 1: htf_l_0001, 18
+2022-11-10 16:59:46> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - start;
+2022-11-10 16:59:47> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - complete;  > channel 1: Plate_Bioplastics, G1, 20 uL
+2022-11-10 16:59:47> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-11-10 16:59:48> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: AB_8Strip_0001, E2, 20 uL
+2022-11-10 16:59:48> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - start;
+2022-11-10 16:59:48> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - complete;  > channel 1: Waste,  > channel 2: Waste,  > channel 3: Waste,  > channel 4: Waste,  > channel 5: Waste,  > channel 6: Waste,  > channel 7: Waste,  > channel 8: Waste, 
+2022-11-10 16:59:48> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - start;
+2022-11-10 16:59:49> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - complete;  > channel 1: htf_l_0001, 19
+2022-11-10 16:59:49> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - start;
+2022-11-10 16:59:50> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - complete;  > channel 1: Plate_Bioplastics, H1, 20 uL
+2022-11-10 16:59:50> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-11-10 16:59:51> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: AB_8Strip_0001, F2, 20 uL
+2022-11-10 16:59:51> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - start;
+2022-11-10 16:59:52> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - complete;  > channel 1: Waste,  > channel 2: Waste,  > channel 3: Waste,  > channel 4: Waste,  > channel 5: Waste,  > channel 6: Waste,  > channel 7: Waste,  > channel 8: Waste, 
+2022-11-10 16:59:52> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - start;
+2022-11-10 16:59:53> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - complete;  > channel 1: htf_l_0001, 20
+2022-11-10 16:59:53> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - start;
+2022-11-10 16:59:54> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - complete;  > channel 1: Plate_Bioplastics, A2, 20 uL
+2022-11-10 16:59:54> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-11-10 16:59:54> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: AB_8Strip_0001, G2, 20 uL
+2022-11-10 16:59:54> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - start;
+2022-11-10 16:59:55> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - complete;  > channel 1: Waste,  > channel 2: Waste,  > channel 3: Waste,  > channel 4: Waste,  > channel 5: Waste,  > channel 6: Waste,  > channel 7: Waste,  > channel 8: Waste, 
+2022-11-10 16:59:55> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - start;
+2022-11-10 16:59:56> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - complete;  > channel 1: htf_l_0001, 21
+2022-11-10 16:59:56> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - start;
+2022-11-10 16:59:57> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - complete;  > channel 1: Plate_Bioplastics, B2, 20 uL
+2022-11-10 16:59:57> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-11-10 16:59:58> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: AB_8Strip_0001, H2, 20 uL
+2022-11-10 16:59:58> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - start;
+2022-11-10 16:59:58> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - complete;  > channel 1: Waste,  > channel 2: Waste,  > channel 3: Waste,  > channel 4: Waste,  > channel 5: Waste,  > channel 6: Waste,  > channel 7: Waste,  > channel 8: Waste, 
+2022-11-10 16:59:58> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - start;
+2022-11-10 16:59:59> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - complete;  > channel 1: htf_l_0001, 22
+2022-11-10 16:59:59> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - start;
+2022-11-10 17:00:00> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - complete;  > channel 1: Plate_Bioplastics, C2, 20 uL
+2022-11-10 17:00:00> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-11-10 17:00:01> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: AB_8Strip_0001, A3, 20 uL
+2022-11-10 17:00:01> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - start;
+2022-11-10 17:00:02> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - complete;  > channel 1: Waste,  > channel 2: Waste,  > channel 3: Waste,  > channel 4: Waste,  > channel 5: Waste,  > channel 6: Waste,  > channel 7: Waste,  > channel 8: Waste, 
+2022-11-10 17:00:02> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - start;
+2022-11-10 17:00:02> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - complete;  > channel 1: htf_l_0001, 23
+2022-11-10 17:00:02> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - start;
+2022-11-10 17:00:04> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - complete;  > channel 1: Plate_Bioplastics, D2, 20 uL
+2022-11-10 17:00:04> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-11-10 17:00:04> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: AB_8Strip_0001, B3, 20 uL
+2022-11-10 17:00:04> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - start;
+2022-11-10 17:00:05> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - complete;  > channel 1: Waste,  > channel 2: Waste,  > channel 3: Waste,  > channel 4: Waste,  > channel 5: Waste,  > channel 6: Waste,  > channel 7: Waste,  > channel 8: Waste, 
+2022-11-10 17:00:05> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - start;
+2022-11-10 17:00:06> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - complete;  > channel 1: htf_l_0001, 24
+2022-11-10 17:00:06> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - start;
+2022-11-10 17:00:07> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - complete;  > channel 1: Plate_Bioplastics, E2, 20 uL
+2022-11-10 17:00:07> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-11-10 17:00:08> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: AB_8Strip_0001, C3, 20 uL
+2022-11-10 17:00:08> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - start;
+2022-11-10 17:00:08> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - complete;  > channel 1: Waste,  > channel 2: Waste,  > channel 3: Waste,  > channel 4: Waste,  > channel 5: Waste,  > channel 6: Waste,  > channel 7: Waste,  > channel 8: Waste, 
+2022-11-10 17:00:08> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - start;
+2022-11-10 17:00:09> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - complete;  > channel 1: htf_l_0001, 25
+2022-11-10 17:00:09> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - start;
+2022-11-10 17:00:10> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - complete;  > channel 1: Plate_Bioplastics, F2, 20 uL
+2022-11-10 17:00:10> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-11-10 17:00:11> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: AB_8Strip_0001, D3, 20 uL
+2022-11-10 17:00:11> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - start;
+2022-11-10 17:00:12> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - complete;  > channel 1: Waste,  > channel 2: Waste,  > channel 3: Waste,  > channel 4: Waste,  > channel 5: Waste,  > channel 6: Waste,  > channel 7: Waste,  > channel 8: Waste, 
+2022-11-10 17:00:12> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - start;
+2022-11-10 17:00:12> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - complete;  > channel 1: htf_l_0001, 26
+2022-11-10 17:00:12> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - start;
+2022-11-10 17:00:14> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - complete;  > channel 1: Plate_Bioplastics, G2, 20 uL
+2022-11-10 17:00:14> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-11-10 17:00:14> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: AB_8Strip_0001, E3, 20 uL
+2022-11-10 17:00:14> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - start;
+2022-11-10 17:00:15> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - complete;  > channel 1: Waste,  > channel 2: Waste,  > channel 3: Waste,  > channel 4: Waste,  > channel 5: Waste,  > channel 6: Waste,  > channel 7: Waste,  > channel 8: Waste, 
+2022-11-10 17:00:15> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - start;
+2022-11-10 17:00:16> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - complete;  > channel 1: htf_l_0001, 27
+2022-11-10 17:00:16> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - start;
+2022-11-10 17:00:17> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - complete;  > channel 1: Plate_Bioplastics, H2, 20 uL
+2022-11-10 17:00:17> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-11-10 17:00:18> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: AB_8Strip_0001, F3, 20 uL
+2022-11-10 17:00:18> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - start;
+2022-11-10 17:00:18> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - complete;  > channel 1: Waste,  > channel 2: Waste,  > channel 3: Waste,  > channel 4: Waste,  > channel 5: Waste,  > channel 6: Waste,  > channel 7: Waste,  > channel 8: Waste, 
+2022-11-10 17:00:18> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - start;
+2022-11-10 17:00:19> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - complete;  > channel 1: htf_l_0001, 28
+2022-11-10 17:00:19> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - start;
+2022-11-10 17:00:20> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - complete;  > channel 1: Plate_Bioplastics, A3, 20 uL
+2022-11-10 17:00:20> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-11-10 17:00:21> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: AB_8Strip_0001, G3, 20 uL
+2022-11-10 17:00:21> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - start;
+2022-11-10 17:00:21> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - complete;  > channel 1: Waste,  > channel 2: Waste,  > channel 3: Waste,  > channel 4: Waste,  > channel 5: Waste,  > channel 6: Waste,  > channel 7: Waste,  > channel 8: Waste, 
+2022-11-10 17:00:21> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - start;
+2022-11-10 17:00:22> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - complete;  > channel 1: htf_l_0001, 29
+2022-11-10 17:00:22> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - start;
+2022-11-10 17:00:23> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - complete;  > channel 1: Plate_Bioplastics, B3, 20 uL
+2022-11-10 17:00:23> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-11-10 17:00:24> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: AB_8Strip_0001, H3, 20 uL
+2022-11-10 17:00:24> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - start;
+2022-11-10 17:00:25> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - complete;  > channel 1: Waste,  > channel 2: Waste,  > channel 3: Waste,  > channel 4: Waste,  > channel 5: Waste,  > channel 6: Waste,  > channel 7: Waste,  > channel 8: Waste, 
+2022-11-10 17:00:25> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - start;
+2022-11-10 17:00:26> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - complete;  > channel 1: htf_l_0001, 30
+2022-11-10 17:00:26> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - start;
+2022-11-10 17:00:27> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - complete;  > channel 1: Plate_Bioplastics, C3, 20 uL
+2022-11-10 17:00:27> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-11-10 17:00:27> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: AB_8Strip_0001, A4, 20 uL
+2022-11-10 17:00:27> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - start;
+2022-11-10 17:00:28> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - complete;  > channel 1: Waste,  > channel 2: Waste,  > channel 3: Waste,  > channel 4: Waste,  > channel 5: Waste,  > channel 6: Waste,  > channel 7: Waste,  > channel 8: Waste, 
+2022-11-10 17:00:28> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - start;
+2022-11-10 17:00:29> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - complete;  > channel 1: htf_l_0001, 31
+2022-11-10 17:00:29> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - start;
+2022-11-10 17:00:30> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - complete;  > channel 1: Plate_Bioplastics, D3, 20 uL
+2022-11-10 17:00:30> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-11-10 17:00:31> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: AB_8Strip_0001, B4, 20 uL
+2022-11-10 17:00:31> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - start;
+2022-11-10 17:00:31> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - complete;  > channel 1: Waste,  > channel 2: Waste,  > channel 3: Waste,  > channel 4: Waste,  > channel 5: Waste,  > channel 6: Waste,  > channel 7: Waste,  > channel 8: Waste, 
+2022-11-10 17:00:31> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - start;
+2022-11-10 17:00:32> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - complete;  > channel 1: htf_l_0001, 32
+2022-11-10 17:00:32> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - start;
+2022-11-10 17:00:33> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - complete;  > channel 1: Plate_Bioplastics, E3, 20 uL
+2022-11-10 17:00:33> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-11-10 17:00:34> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: AB_8Strip_0001, C4, 20 uL
+2022-11-10 17:00:34> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - start;
+2022-11-10 17:00:35> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - complete;  > channel 1: Waste,  > channel 2: Waste,  > channel 3: Waste,  > channel 4: Waste,  > channel 5: Waste,  > channel 6: Waste,  > channel 7: Waste,  > channel 8: Waste, 
+2022-11-10 17:00:35> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - start;
+2022-11-10 17:00:35> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - complete;  > channel 1: htf_l_0001, 33
+2022-11-10 17:00:35> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - start;
+2022-11-10 17:00:36> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - complete;  > channel 1: Plate_Bioplastics, F3, 20 uL
+2022-11-10 17:00:36> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-11-10 17:00:37> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: AB_8Strip_0001, D4, 20 uL
+2022-11-10 17:00:37> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - start;
+2022-11-10 17:00:38> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - complete;  > channel 1: Waste,  > channel 2: Waste,  > channel 3: Waste,  > channel 4: Waste,  > channel 5: Waste,  > channel 6: Waste,  > channel 7: Waste,  > channel 8: Waste, 
+2022-11-10 17:00:38> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - start;
+2022-11-10 17:00:39> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - complete;  > channel 1: htf_l_0001, 34
+2022-11-10 17:00:39> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - start;
+2022-11-10 17:00:40> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - complete;  > channel 1: Plate_Bioplastics, G3, 20 uL
+2022-11-10 17:00:40> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-11-10 17:00:40> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: AB_8Strip_0001, E4, 20 uL
+2022-11-10 17:00:40> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - start;
+2022-11-10 17:00:41> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - complete;  > channel 1: Waste,  > channel 2: Waste,  > channel 3: Waste,  > channel 4: Waste,  > channel 5: Waste,  > channel 6: Waste,  > channel 7: Waste,  > channel 8: Waste, 
+2022-11-10 17:00:41> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - start;
+2022-11-10 17:00:42> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - complete;  > channel 1: htf_l_0001, 35
+2022-11-10 17:00:42> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - start;
+2022-11-10 17:00:43> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - complete;  > channel 1: Plate_Bioplastics, H3, 20 uL
+2022-11-10 17:00:43> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-11-10 17:00:44> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: AB_8Strip_0001, F4, 20 uL
+2022-11-10 17:00:44> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - start;
+2022-11-10 17:00:44> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - complete;  > channel 1: Waste,  > channel 2: Waste,  > channel 3: Waste,  > channel 4: Waste,  > channel 5: Waste,  > channel 6: Waste,  > channel 7: Waste,  > channel 8: Waste, 
+2022-11-10 17:00:44> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - start;
+2022-11-10 17:00:45> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - complete;  > channel 1: htf_l_0001, 36
+2022-11-10 17:00:45> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - start;
+2022-11-10 17:00:46> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - complete;  > channel 1: Plate_Bioplastics, A4, 20 uL
+2022-11-10 17:00:46> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-11-10 17:00:47> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: AB_8Strip_0001, G4, 20 uL
+2022-11-10 17:00:47> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - start;
+2022-11-10 17:00:48> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - complete;  > channel 1: Waste,  > channel 2: Waste,  > channel 3: Waste,  > channel 4: Waste,  > channel 5: Waste,  > channel 6: Waste,  > channel 7: Waste,  > channel 8: Waste, 
+2022-11-10 17:00:48> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - start;
+2022-11-10 17:00:49> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - complete;  > channel 1: htf_l_0001, 37
+2022-11-10 17:00:49> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - start;
+2022-11-10 17:00:50> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - complete;  > channel 1: Plate_Bioplastics, B4, 20 uL
+2022-11-10 17:00:50> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-11-10 17:00:50> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: AB_8Strip_0001, H4, 20 uL
+2022-11-10 17:00:50> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - start;
+2022-11-10 17:00:51> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - complete;  > channel 1: Waste,  > channel 2: Waste,  > channel 3: Waste,  > channel 4: Waste,  > channel 5: Waste,  > channel 6: Waste,  > channel 7: Waste,  > channel 8: Waste, 
+2022-11-10 17:00:51> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - start;
+2022-11-10 17:00:52> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - complete;  > channel 1: htf_l_0001, 38
+2022-11-10 17:00:52> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - start;
+2022-11-10 17:00:53> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - complete;  > channel 1: Plate_Bioplastics, C4, 20 uL
+2022-11-10 17:00:53> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-11-10 17:00:54> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: AB_8Strip_0001, A5, 20 uL
+2022-11-10 17:00:54> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - start;
+2022-11-10 17:00:54> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - complete;  > channel 1: Waste,  > channel 2: Waste,  > channel 3: Waste,  > channel 4: Waste,  > channel 5: Waste,  > channel 6: Waste,  > channel 7: Waste,  > channel 8: Waste, 
+2022-11-10 17:00:54> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - start;
+2022-11-10 17:00:55> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - complete;  > channel 1: htf_l_0001, 39
+2022-11-10 17:00:55> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - start;
+2022-11-10 17:00:56> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - complete;  > channel 1: Plate_Bioplastics, D4, 20 uL
+2022-11-10 17:00:56> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-11-10 17:00:57> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: AB_8Strip_0001, B5, 20 uL
+2022-11-10 17:00:57> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - start;
+2022-11-10 17:00:58> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - complete;  > channel 1: Waste,  > channel 2: Waste,  > channel 3: Waste,  > channel 4: Waste,  > channel 5: Waste,  > channel 6: Waste,  > channel 7: Waste,  > channel 8: Waste, 
+2022-11-10 17:00:58> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - start;
+2022-11-10 17:00:58> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - complete;  > channel 1: htf_l_0001, 40
+2022-11-10 17:00:58> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - start;
+2022-11-10 17:00:59> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - complete;  > channel 1: Plate_Bioplastics, E4, 20 uL
+2022-11-10 17:01:00> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-11-10 17:01:00> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: AB_8Strip_0001, C5, 20 uL
+2022-11-10 17:01:00> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - start;
+2022-11-10 17:01:01> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - complete;  > channel 1: Waste,  > channel 2: Waste,  > channel 3: Waste,  > channel 4: Waste,  > channel 5: Waste,  > channel 6: Waste,  > channel 7: Waste,  > channel 8: Waste, 
+2022-11-10 17:01:01> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - start;
+2022-11-10 17:01:02> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - complete;  > channel 1: htf_l_0001, 41
+2022-11-10 17:01:02> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - start;
+2022-11-10 17:01:03> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - complete;  > channel 1: Plate_Bioplastics, F4, 20 uL
+2022-11-10 17:01:03> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-11-10 17:01:03> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: AB_8Strip_0001, D5, 20 uL
+2022-11-10 17:01:03> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - start;
+2022-11-10 17:01:04> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - complete;  > channel 1: Waste,  > channel 2: Waste,  > channel 3: Waste,  > channel 4: Waste,  > channel 5: Waste,  > channel 6: Waste,  > channel 7: Waste,  > channel 8: Waste, 
+2022-11-10 17:01:04> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - start;
+2022-11-10 17:01:05> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - complete;  > channel 1: htf_l_0001, 42
+2022-11-10 17:01:05> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - start;
+2022-11-10 17:01:06> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - complete;  > channel 1: Plate_Bioplastics, G4, 20 uL
+2022-11-10 17:01:06> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-11-10 17:01:07> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: AB_8Strip_0001, E5, 20 uL
+2022-11-10 17:01:07> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - start;
+2022-11-10 17:01:07> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - complete;  > channel 1: Waste,  > channel 2: Waste,  > channel 3: Waste,  > channel 4: Waste,  > channel 5: Waste,  > channel 6: Waste,  > channel 7: Waste,  > channel 8: Waste, 
+2022-11-10 17:01:07> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - start;
+2022-11-10 17:01:08> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - complete;  > channel 1: htf_l_0001, 43
+2022-11-10 17:01:08> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - start;
+2022-11-10 17:01:09> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - complete;  > channel 1: Plate_Bioplastics, H4, 20 uL
+2022-11-10 17:01:09> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-11-10 17:01:10> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: AB_8Strip_0001, F5, 20 uL
+2022-11-10 17:01:10> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - start;
+2022-11-10 17:01:11> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - complete;  > channel 1: Waste,  > channel 2: Waste,  > channel 3: Waste,  > channel 4: Waste,  > channel 5: Waste,  > channel 6: Waste,  > channel 7: Waste,  > channel 8: Waste, 
+2022-11-10 17:01:11> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - start;
+2022-11-10 17:01:11> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - complete;  > channel 1: htf_l_0001, 44
+2022-11-10 17:01:11> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - start;
+2022-11-10 17:01:13> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - complete;  > channel 1: Plate_Bioplastics, A5, 20 uL
+2022-11-10 17:01:13> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-11-10 17:01:13> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: AB_8Strip_0001, G5, 20 uL
+2022-11-10 17:01:13> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - start;
+2022-11-10 17:01:14> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - complete;  > channel 1: Waste,  > channel 2: Waste,  > channel 3: Waste,  > channel 4: Waste,  > channel 5: Waste,  > channel 6: Waste,  > channel 7: Waste,  > channel 8: Waste, 
+2022-11-10 17:01:14> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - start;
+2022-11-10 17:01:15> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - complete;  > channel 1: htf_l_0001, 45
+2022-11-10 17:01:15> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - start;
+2022-11-10 17:01:16> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - complete;  > channel 1: Plate_Bioplastics, B5, 20 uL
+2022-11-10 17:01:16> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-11-10 17:01:17> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: AB_8Strip_0001, H5, 20 uL
+2022-11-10 17:01:17> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - start;
+2022-11-10 17:01:17> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - complete;  > channel 1: Waste,  > channel 2: Waste,  > channel 3: Waste,  > channel 4: Waste,  > channel 5: Waste,  > channel 6: Waste,  > channel 7: Waste,  > channel 8: Waste, 
+2022-11-10 17:01:17> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - start;
+2022-11-10 17:01:18> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - complete;  > channel 1: htf_l_0001, 46
+2022-11-10 17:01:18> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - start;
+2022-11-10 17:01:19> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - complete;  > channel 1: Plate_Bioplastics, C5, 20 uL
+2022-11-10 17:01:19> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-11-10 17:01:20> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: AB_8Strip_0001, A6, 20 uL
+2022-11-10 17:01:20> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - start;
+2022-11-10 17:01:21> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - complete;  > channel 1: Waste,  > channel 2: Waste,  > channel 3: Waste,  > channel 4: Waste,  > channel 5: Waste,  > channel 6: Waste,  > channel 7: Waste,  > channel 8: Waste, 
+2022-11-10 17:01:21> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - start;
+2022-11-10 17:01:21> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - complete;  > channel 1: htf_l_0001, 47
+2022-11-10 17:01:21> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - start;
+2022-11-10 17:01:23> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - complete;  > channel 1: Plate_Bioplastics, D5, 20 uL
+2022-11-10 17:01:23> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-11-10 17:01:23> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: AB_8Strip_0001, B6, 20 uL
+2022-11-10 17:01:23> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - start;
+2022-11-10 17:01:24> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - complete;  > channel 1: Waste,  > channel 2: Waste,  > channel 3: Waste,  > channel 4: Waste,  > channel 5: Waste,  > channel 6: Waste,  > channel 7: Waste,  > channel 8: Waste, 
+2022-11-10 17:01:24> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - start;
+2022-11-10 17:01:25> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - complete;  > channel 1: htf_l_0001, 48
+2022-11-10 17:01:25> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - start;
+2022-11-10 17:01:26> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - complete;  > channel 1: Plate_Bioplastics, E5, 20 uL
+2022-11-10 17:01:26> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-11-10 17:01:26> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: AB_8Strip_0001, C6, 20 uL
+2022-11-10 17:01:26> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - start;
+2022-11-10 17:01:27> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - complete;  > channel 1: Waste,  > channel 2: Waste,  > channel 3: Waste,  > channel 4: Waste,  > channel 5: Waste,  > channel 6: Waste,  > channel 7: Waste,  > channel 8: Waste, 
+2022-11-10 17:01:27> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - start;
+2022-11-10 17:01:28> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - complete;  > channel 1: htf_l_0001, 49
+2022-11-10 17:01:28> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - start;
+2022-11-10 17:01:29> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - complete;  > channel 1: Plate_Bioplastics, F5, 20 uL
+2022-11-10 17:01:29> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-11-10 17:01:30> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: AB_8Strip_0001, D6, 20 uL
+2022-11-10 17:01:30> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - start;
+2022-11-10 17:01:30> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - complete;  > channel 1: Waste,  > channel 2: Waste,  > channel 3: Waste,  > channel 4: Waste,  > channel 5: Waste,  > channel 6: Waste,  > channel 7: Waste,  > channel 8: Waste, 
+2022-11-10 17:01:30> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - start;
+2022-11-10 17:01:31> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - complete;  > channel 1: htf_l_0001, 50
+2022-11-10 17:01:31> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - start;
+2022-11-10 17:01:32> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - complete;  > channel 1: Plate_Bioplastics, G5, 20 uL
+2022-11-10 17:01:32> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-11-10 17:01:33> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: AB_8Strip_0001, E6, 20 uL
+2022-11-10 17:01:33> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - start;
+2022-11-10 17:01:34> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - complete;  > channel 1: Waste,  > channel 2: Waste,  > channel 3: Waste,  > channel 4: Waste,  > channel 5: Waste,  > channel 6: Waste,  > channel 7: Waste,  > channel 8: Waste, 
+2022-11-10 17:01:34> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - start;
+2022-11-10 17:01:34> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - complete;  > channel 1: htf_l_0001, 51
+2022-11-10 17:01:34> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - start;
+2022-11-10 17:01:36> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - complete;  > channel 1: Plate_Bioplastics, H5, 20 uL
+2022-11-10 17:01:36> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-11-10 17:01:36> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: AB_8Strip_0001, F6, 20 uL
+2022-11-10 17:01:36> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - start;
+2022-11-10 17:01:37> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - complete;  > channel 1: Waste,  > channel 2: Waste,  > channel 3: Waste,  > channel 4: Waste,  > channel 5: Waste,  > channel 6: Waste,  > channel 7: Waste,  > channel 8: Waste, 
+2022-11-10 17:01:37> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - start;
+2022-11-10 17:01:38> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - complete;  > channel 1: htf_l_0001, 52
+2022-11-10 17:01:38> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - start;
+2022-11-10 17:01:39> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - complete;  > channel 1: Plate_Bioplastics, A6, 20 uL
+2022-11-10 17:01:39> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-11-10 17:01:40> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: AB_8Strip_0001, G6, 20 uL
+2022-11-10 17:01:40> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - start;
+2022-11-10 17:01:40> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - complete;  > channel 1: Waste,  > channel 2: Waste,  > channel 3: Waste,  > channel 4: Waste,  > channel 5: Waste,  > channel 6: Waste,  > channel 7: Waste,  > channel 8: Waste, 
+2022-11-10 17:01:40> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - start;
+2022-11-10 17:01:41> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - complete;  > channel 1: htf_l_0001, 53
+2022-11-10 17:01:41> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - start;
+2022-11-10 17:01:42> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - complete;  > channel 1: Plate_Bioplastics, B6, 20 uL
+2022-11-10 17:01:42> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-11-10 17:01:43> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: AB_8Strip_0001, H6, 20 uL
+2022-11-10 17:01:43> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - start;
+2022-11-10 17:01:44> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - complete;  > channel 1: Waste,  > channel 2: Waste,  > channel 3: Waste,  > channel 4: Waste,  > channel 5: Waste,  > channel 6: Waste,  > channel 7: Waste,  > channel 8: Waste, 
+2022-11-10 17:01:44> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - start;
+2022-11-10 17:01:44> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - complete;  > channel 1: htf_l_0001, 54
+2022-11-10 17:01:44> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - start;
+2022-11-10 17:01:46> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - complete;  > channel 1: Plate_Bioplastics, C6, 20 uL
+2022-11-10 17:01:46> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-11-10 17:01:46> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: AB_8Strip_0001, A7, 20 uL
+2022-11-10 17:01:46> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - start;
+2022-11-10 17:01:47> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - complete;  > channel 1: Waste,  > channel 2: Waste,  > channel 3: Waste,  > channel 4: Waste,  > channel 5: Waste,  > channel 6: Waste,  > channel 7: Waste,  > channel 8: Waste, 
+2022-11-10 17:01:47> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - start;
+2022-11-10 17:01:48> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - complete;  > channel 1: htf_l_0001, 55
+2022-11-10 17:01:48> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - start;
+2022-11-10 17:01:49> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - complete;  > channel 1: Plate_Bioplastics, D6, 20 uL
+2022-11-10 17:01:49> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-11-10 17:01:50> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: AB_8Strip_0001, B7, 20 uL
+2022-11-10 17:01:50> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - start;
+2022-11-10 17:01:50> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - complete;  > channel 1: Waste,  > channel 2: Waste,  > channel 3: Waste,  > channel 4: Waste,  > channel 5: Waste,  > channel 6: Waste,  > channel 7: Waste,  > channel 8: Waste, 
+2022-11-10 17:01:50> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - start;
+2022-11-10 17:01:51> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - complete;  > channel 1: htf_l_0001, 56
+2022-11-10 17:01:51> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - start;
+2022-11-10 17:01:52> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - complete;  > channel 1: Plate_Bioplastics, E6, 20 uL
+2022-11-10 17:01:52> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-11-10 17:01:53> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: AB_8Strip_0001, C7, 20 uL
+2022-11-10 17:01:53> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - start;
+2022-11-10 17:01:54> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - complete;  > channel 1: Waste,  > channel 2: Waste,  > channel 3: Waste,  > channel 4: Waste,  > channel 5: Waste,  > channel 6: Waste,  > channel 7: Waste,  > channel 8: Waste, 
+2022-11-10 17:01:54> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - start;
+2022-11-10 17:01:54> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - complete;  > channel 1: htf_l_0001, 57
+2022-11-10 17:01:54> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - start;
+2022-11-10 17:01:55> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - complete;  > channel 1: Plate_Bioplastics, F6, 20 uL
+2022-11-10 17:01:56> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-11-10 17:01:56> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: AB_8Strip_0001, D7, 20 uL
+2022-11-10 17:01:56> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - start;
+2022-11-10 17:01:57> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - complete;  > channel 1: Waste,  > channel 2: Waste,  > channel 3: Waste,  > channel 4: Waste,  > channel 5: Waste,  > channel 6: Waste,  > channel 7: Waste,  > channel 8: Waste, 
+2022-11-10 17:01:57> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - start;
+2022-11-10 17:01:58> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - complete;  > channel 1: htf_l_0001, 58
+2022-11-10 17:01:58> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - start;
+2022-11-10 17:01:59> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - complete;  > channel 1: Plate_Bioplastics, G6, 20 uL
+2022-11-10 17:01:59> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-11-10 17:02:00> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: AB_8Strip_0001, E7, 20 uL
+2022-11-10 17:02:00> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - start;
+2022-11-10 17:02:00> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - complete;  > channel 1: Waste,  > channel 2: Waste,  > channel 3: Waste,  > channel 4: Waste,  > channel 5: Waste,  > channel 6: Waste,  > channel 7: Waste,  > channel 8: Waste, 
+2022-11-10 17:02:00> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - start;
+2022-11-10 17:02:01> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - complete;  > channel 1: htf_l_0001, 59
+2022-11-10 17:02:01> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - start;
+2022-11-10 17:02:03> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - complete;  > channel 1: Plate_Bioplastics, H6, 20 uL
+2022-11-10 17:02:03> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-11-10 17:02:03> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: AB_8Strip_0001, F7, 20 uL
+2022-11-10 17:02:03> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - start;
+2022-11-10 17:02:04> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - complete;  > channel 1: Waste,  > channel 2: Waste,  > channel 3: Waste,  > channel 4: Waste,  > channel 5: Waste,  > channel 6: Waste,  > channel 7: Waste,  > channel 8: Waste, 
+2022-11-10 17:02:04> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - start;
+2022-11-10 17:02:05> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - complete;  > channel 1: htf_l_0001, 60
+2022-11-10 17:02:05> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - start;
+2022-11-10 17:02:06> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - complete;  > channel 1: Plate_Bioplastics, A7, 20 uL
+2022-11-10 17:02:06> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-11-10 17:02:07> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: AB_8Strip_0001, G7, 20 uL
+2022-11-10 17:02:07> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - start;
+2022-11-10 17:02:07> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - complete;  > channel 1: Waste,  > channel 2: Waste,  > channel 3: Waste,  > channel 4: Waste,  > channel 5: Waste,  > channel 6: Waste,  > channel 7: Waste,  > channel 8: Waste, 
+2022-11-10 17:02:07> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - start;
+2022-11-10 17:02:08> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - complete;  > channel 1: htf_l_0001, 61
+2022-11-10 17:02:08> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - start;
+2022-11-10 17:02:09> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - complete;  > channel 1: Plate_Bioplastics, B7, 20 uL
+2022-11-10 17:02:09> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-11-10 17:02:10> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: AB_8Strip_0001, H7, 20 uL
+2022-11-10 17:02:10> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - start;
+2022-11-10 17:02:11> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - complete;  > channel 1: Waste,  > channel 2: Waste,  > channel 3: Waste,  > channel 4: Waste,  > channel 5: Waste,  > channel 6: Waste,  > channel 7: Waste,  > channel 8: Waste, 
+2022-11-10 17:02:11> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - start;
+2022-11-10 17:02:11> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - complete;  > channel 1: htf_l_0001, 62
+2022-11-10 17:02:11> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - start;
+2022-11-10 17:02:13> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - complete;  > channel 1: Plate_Bioplastics, C7, 20 uL
+2022-11-10 17:02:13> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-11-10 17:02:13> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: AB_8Strip_0001, A8, 20 uL
+2022-11-10 17:02:13> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - start;
+2022-11-10 17:02:14> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - complete;  > channel 1: Waste,  > channel 2: Waste,  > channel 3: Waste,  > channel 4: Waste,  > channel 5: Waste,  > channel 6: Waste,  > channel 7: Waste,  > channel 8: Waste, 
+2022-11-10 17:02:14> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - start;
+2022-11-10 17:02:15> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - complete;  > channel 1: htf_l_0001, 63
+2022-11-10 17:02:15> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - start;
+2022-11-10 17:02:16> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - complete;  > channel 1: Plate_Bioplastics, D7, 20 uL
+2022-11-10 17:02:16> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-11-10 17:02:16> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: AB_8Strip_0001, B8, 20 uL
+2022-11-10 17:02:16> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - start;
+2022-11-10 17:02:17> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - complete;  > channel 1: Waste,  > channel 2: Waste,  > channel 3: Waste,  > channel 4: Waste,  > channel 5: Waste,  > channel 6: Waste,  > channel 7: Waste,  > channel 8: Waste, 
+2022-11-10 17:02:17> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - start;
+2022-11-10 17:02:18> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - complete;  > channel 1: htf_l_0001, 64
+2022-11-10 17:02:18> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - start;
+2022-11-10 17:02:19> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - complete;  > channel 1: Plate_Bioplastics, E7, 20 uL
+2022-11-10 17:02:19> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-11-10 17:02:20> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: AB_8Strip_0001, C8, 20 uL
+2022-11-10 17:02:20> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - start;
+2022-11-10 17:02:20> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - complete;  > channel 1: Waste,  > channel 2: Waste,  > channel 3: Waste,  > channel 4: Waste,  > channel 5: Waste,  > channel 6: Waste,  > channel 7: Waste,  > channel 8: Waste, 
+2022-11-10 17:02:20> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - start;
+2022-11-10 17:02:21> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - complete;  > channel 1: htf_l_0001, 65
+2022-11-10 17:02:21> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - start;
+2022-11-10 17:02:22> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - complete;  > channel 1: Plate_Bioplastics, F7, 20 uL
+2022-11-10 17:02:22> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-11-10 17:02:23> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: AB_8Strip_0001, D8, 20 uL
+2022-11-10 17:02:23> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - start;
+2022-11-10 17:02:24> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - complete;  > channel 1: Waste,  > channel 2: Waste,  > channel 3: Waste,  > channel 4: Waste,  > channel 5: Waste,  > channel 6: Waste,  > channel 7: Waste,  > channel 8: Waste, 
+2022-11-10 17:02:24> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - start;
+2022-11-10 17:02:24> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - complete;  > channel 1: htf_l_0001, 66
+2022-11-10 17:02:24> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - start;
+2022-11-10 17:02:26> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - complete;  > channel 1: Plate_Bioplastics, G7, 20 uL
+2022-11-10 17:02:26> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-11-10 17:02:26> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: AB_8Strip_0001, E8, 20 uL
+2022-11-10 17:02:26> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - start;
+2022-11-10 17:02:27> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - complete;  > channel 1: Waste,  > channel 2: Waste,  > channel 3: Waste,  > channel 4: Waste,  > channel 5: Waste,  > channel 6: Waste,  > channel 7: Waste,  > channel 8: Waste, 
+2022-11-10 17:02:27> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - start;
+2022-11-10 17:02:28> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - complete;  > channel 1: htf_l_0001, 67
+2022-11-10 17:02:28> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - start;
+2022-11-10 17:02:29> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - complete;  > channel 1: Plate_Bioplastics, H7, 20 uL
+2022-11-10 17:02:29> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-11-10 17:02:30> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: AB_8Strip_0001, F8, 20 uL
+2022-11-10 17:02:30> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - start;
+2022-11-10 17:02:30> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - complete;  > channel 1: Waste,  > channel 2: Waste,  > channel 3: Waste,  > channel 4: Waste,  > channel 5: Waste,  > channel 6: Waste,  > channel 7: Waste,  > channel 8: Waste, 
+2022-11-10 17:02:30> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - start;
+2022-11-10 17:02:31> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - complete;  > channel 1: htf_l_0001, 68
+2022-11-10 17:02:31> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - start;
+2022-11-10 17:02:32> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - complete;  > channel 1: Plate_Bioplastics, A8, 20 uL
+2022-11-10 17:02:32> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-11-10 17:02:33> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: AB_8Strip_0001, G8, 20 uL
+2022-11-10 17:02:33> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - start;
+2022-11-10 17:02:34> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - complete;  > channel 1: Waste,  > channel 2: Waste,  > channel 3: Waste,  > channel 4: Waste,  > channel 5: Waste,  > channel 6: Waste,  > channel 7: Waste,  > channel 8: Waste, 
+2022-11-10 17:02:34> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - start;
+2022-11-10 17:02:34> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - complete;  > channel 1: htf_l_0001, 69
+2022-11-10 17:02:34> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - start;
+2022-11-10 17:02:36> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - complete;  > channel 1: Plate_Bioplastics, B8, 20 uL
+2022-11-10 17:02:36> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-11-10 17:02:36> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: AB_8Strip_0001, H8, 20 uL
+2022-11-10 17:02:36> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - start;
+2022-11-10 17:02:37> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - complete;  > channel 1: Waste,  > channel 2: Waste,  > channel 3: Waste,  > channel 4: Waste,  > channel 5: Waste,  > channel 6: Waste,  > channel 7: Waste,  > channel 8: Waste, 
+2022-11-10 17:02:37> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - start;
+2022-11-10 17:02:38> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - complete;  > channel 1: htf_l_0001, 70
+2022-11-10 17:02:38> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - start;
+2022-11-10 17:02:39> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - complete;  > channel 1: Plate_Bioplastics, C8, 20 uL
+2022-11-10 17:02:39> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-11-10 17:02:39> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: AB_8Strip_0001, A9, 20 uL
+2022-11-10 17:02:39> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - start;
+2022-11-10 17:02:40> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - complete;  > channel 1: Waste,  > channel 2: Waste,  > channel 3: Waste,  > channel 4: Waste,  > channel 5: Waste,  > channel 6: Waste,  > channel 7: Waste,  > channel 8: Waste, 
+2022-11-10 17:02:40> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - start;
+2022-11-10 17:02:41> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - complete;  > channel 1: htf_l_0001, 71
+2022-11-10 17:02:41> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - start;
+2022-11-10 17:02:42> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - complete;  > channel 1: Plate_Bioplastics, D8, 20 uL
+2022-11-10 17:02:42> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-11-10 17:02:43> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: AB_8Strip_0001, B9, 20 uL
+2022-11-10 17:02:43> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - start;
+2022-11-10 17:02:43> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - complete;  > channel 1: Waste,  > channel 2: Waste,  > channel 3: Waste,  > channel 4: Waste,  > channel 5: Waste,  > channel 6: Waste,  > channel 7: Waste,  > channel 8: Waste, 
+2022-11-10 17:02:43> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - start;
+2022-11-10 17:02:44> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - complete;  > channel 1: htf_l_0001, 72
+2022-11-10 17:02:44> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - start;
+2022-11-10 17:02:45> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - complete;  > channel 1: Plate_Bioplastics, E8, 20 uL
+2022-11-10 17:02:45> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-11-10 17:02:46> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: AB_8Strip_0001, C9, 20 uL
+2022-11-10 17:02:46> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - start;
+2022-11-10 17:02:47> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - complete;  > channel 1: Waste,  > channel 2: Waste,  > channel 3: Waste,  > channel 4: Waste,  > channel 5: Waste,  > channel 6: Waste,  > channel 7: Waste,  > channel 8: Waste, 
+2022-11-10 17:02:47> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - start;
+2022-11-10 17:02:47> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - complete;  > channel 1: htf_l_0001, 73
+2022-11-10 17:02:47> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - start;
+2022-11-10 17:02:49> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - complete;  > channel 1: Plate_Bioplastics, F8, 20 uL
+2022-11-10 17:02:49> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-11-10 17:02:49> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: AB_8Strip_0001, D9, 20 uL
+2022-11-10 17:02:49> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - start;
+2022-11-10 17:02:50> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - complete;  > channel 1: Waste,  > channel 2: Waste,  > channel 3: Waste,  > channel 4: Waste,  > channel 5: Waste,  > channel 6: Waste,  > channel 7: Waste,  > channel 8: Waste, 
+2022-11-10 17:02:50> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - start;
+2022-11-10 17:02:51> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - complete;  > channel 1: htf_l_0001, 74
+2022-11-10 17:02:51> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - start;
+2022-11-10 17:02:52> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - complete;  > channel 1: Plate_Bioplastics, G8, 20 uL
+2022-11-10 17:02:52> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-11-10 17:02:53> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: AB_8Strip_0001, E9, 20 uL
+2022-11-10 17:02:53> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - start;
+2022-11-10 17:02:53> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - complete;  > channel 1: Waste,  > channel 2: Waste,  > channel 3: Waste,  > channel 4: Waste,  > channel 5: Waste,  > channel 6: Waste,  > channel 7: Waste,  > channel 8: Waste, 
+2022-11-10 17:02:53> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - start;
+2022-11-10 17:02:54> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - complete;  > channel 1: htf_l_0001, 75
+2022-11-10 17:02:54> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - start;
+2022-11-10 17:02:55> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - complete;  > channel 1: Plate_Bioplastics, H8, 20 uL
+2022-11-10 17:02:55> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-11-10 17:02:56> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: AB_8Strip_0001, F9, 20 uL
+2022-11-10 17:02:56> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - start;
+2022-11-10 17:02:57> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - complete;  > channel 1: Waste,  > channel 2: Waste,  > channel 3: Waste,  > channel 4: Waste,  > channel 5: Waste,  > channel 6: Waste,  > channel 7: Waste,  > channel 8: Waste, 
+2022-11-10 17:02:57> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - start;
+2022-11-10 17:02:57> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - complete;  > channel 1: htf_l_0001, 76
+2022-11-10 17:02:57> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - start;
+2022-11-10 17:02:59> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - complete;  > channel 1: Plate_Bioplastics, A9, 20 uL
+2022-11-10 17:02:59> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-11-10 17:02:59> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: AB_8Strip_0001, G9, 20 uL
+2022-11-10 17:02:59> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - start;
+2022-11-10 17:03:00> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - complete;  > channel 1: Waste,  > channel 2: Waste,  > channel 3: Waste,  > channel 4: Waste,  > channel 5: Waste,  > channel 6: Waste,  > channel 7: Waste,  > channel 8: Waste, 
+2022-11-10 17:03:00> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - start;
+2022-11-10 17:03:01> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - complete;  > channel 1: htf_l_0001, 77
+2022-11-10 17:03:01> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - start;
+2022-11-10 17:03:02> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - complete;  > channel 1: Plate_Bioplastics, B9, 20 uL
+2022-11-10 17:03:02> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-11-10 17:03:03> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: AB_8Strip_0001, H9, 20 uL
+2022-11-10 17:03:03> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - start;
+2022-11-10 17:03:03> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - complete;  > channel 1: Waste,  > channel 2: Waste,  > channel 3: Waste,  > channel 4: Waste,  > channel 5: Waste,  > channel 6: Waste,  > channel 7: Waste,  > channel 8: Waste, 
+2022-11-10 17:03:03> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - start;
+2022-11-10 17:03:04> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - complete;  > channel 1: htf_l_0001, 78
+2022-11-10 17:03:04> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - start;
+2022-11-10 17:03:05> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - complete;  > channel 1: Plate_Bioplastics, C9, 20 uL
+2022-11-10 17:03:05> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-11-10 17:03:06> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: AB_8Strip_0001, A10, 20 uL
+2022-11-10 17:03:06> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - start;
+2022-11-10 17:03:06> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - complete;  > channel 1: Waste,  > channel 2: Waste,  > channel 3: Waste,  > channel 4: Waste,  > channel 5: Waste,  > channel 6: Waste,  > channel 7: Waste,  > channel 8: Waste, 
+2022-11-10 17:03:06> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - start;
+2022-11-10 17:03:07> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - complete;  > channel 1: htf_l_0001, 79
+2022-11-10 17:03:07> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - start;
+2022-11-10 17:03:08> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - complete;  > channel 1: Plate_Bioplastics, D9, 20 uL
+2022-11-10 17:03:08> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-11-10 17:03:09> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: AB_8Strip_0001, B10, 20 uL
+2022-11-10 17:03:09> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - start;
+2022-11-10 17:03:10> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - complete;  > channel 1: Waste,  > channel 2: Waste,  > channel 3: Waste,  > channel 4: Waste,  > channel 5: Waste,  > channel 6: Waste,  > channel 7: Waste,  > channel 8: Waste, 
+2022-11-10 17:03:10> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - start;
+2022-11-10 17:03:10> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - complete;  > channel 1: htf_l_0001, 80
+2022-11-10 17:03:10> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - start;
+2022-11-10 17:03:12> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - complete;  > channel 1: Plate_Bioplastics, E9, 20 uL
+2022-11-10 17:03:12> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-11-10 17:03:12> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: AB_8Strip_0001, C10, 20 uL
+2022-11-10 17:03:12> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - start;
+2022-11-10 17:03:13> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - complete;  > channel 1: Waste,  > channel 2: Waste,  > channel 3: Waste,  > channel 4: Waste,  > channel 5: Waste,  > channel 6: Waste,  > channel 7: Waste,  > channel 8: Waste, 
+2022-11-10 17:03:13> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - start;
+2022-11-10 17:03:14> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - complete;  > channel 1: htf_l_0001, 81
+2022-11-10 17:03:14> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - start;
+2022-11-10 17:03:15> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - complete;  > channel 1: Plate_Bioplastics, F9, 20 uL
+2022-11-10 17:03:15> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-11-10 17:03:16> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: AB_8Strip_0001, D10, 20 uL
+2022-11-10 17:03:16> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - start;
+2022-11-10 17:03:16> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - complete;  > channel 1: Waste,  > channel 2: Waste,  > channel 3: Waste,  > channel 4: Waste,  > channel 5: Waste,  > channel 6: Waste,  > channel 7: Waste,  > channel 8: Waste, 
+2022-11-10 17:03:16> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - start;
+2022-11-10 17:03:17> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - complete;  > channel 1: htf_l_0001, 82
+2022-11-10 17:03:17> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - start;
+2022-11-10 17:03:18> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - complete;  > channel 1: Plate_Bioplastics, G9, 20 uL
+2022-11-10 17:03:18> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-11-10 17:03:19> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: AB_8Strip_0001, E10, 20 uL
+2022-11-10 17:03:19> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - start;
+2022-11-10 17:03:19> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - complete;  > channel 1: Waste,  > channel 2: Waste,  > channel 3: Waste,  > channel 4: Waste,  > channel 5: Waste,  > channel 6: Waste,  > channel 7: Waste,  > channel 8: Waste, 
+2022-11-10 17:03:19> SYSTEM : Execute method - complete; 
+2022-11-10 17:03:19> SYSTEM : End method - start; 
+2022-11-10 17:03:19> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Config\HxServices.cfg (06-Sep-22 2:35:00 PM)
+2022-11-10 17:03:19> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Config\HxStandardLanguage.cfg (12-Aug-22 9:29:51 AM)
+2022-11-10 17:03:19> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Config\HxStarMaintAndVer.cfg (15-Sep-22 10:43:37 AM)
+2022-11-10 17:03:19> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Config\HxStarMaintAndVerEnu.cfg (14-Mar-17 12:27:44 PM)
+2022-11-10 17:03:19> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Config\HxVectorDb.cfg (12-Aug-22 9:29:51 AM)
+2022-11-10 17:03:19> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Config\ML_Starlet.cfg (10-Nov-22 4:48:50 PM)
+2022-11-10 17:03:19> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Config\ML_Starlet.dck (14-Mar-17 1:14:42 PM)
+2022-11-10 17:03:19> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Config\ML_Starlet_Simulator.cfg (15-Sep-22 10:43:37 AM)
+2022-11-10 17:03:19> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Config\ML_STARType.cfg (12-Aug-22 9:27:39 AM)
+2022-11-10 17:03:19> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Config\ML_STARTypeEnu.cfg (02-Dec-16 4:18:12 PM)
+2022-11-10 17:03:19> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Labware\ML_STAR\CO-RE-GRIP\COREGripTool_OnWaste_1000ul.rck (26-Nov-09 4:35:42 PM)
+2022-11-10 17:03:19> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Labware\ML_STAR\CORE\teachingneedleblock.rck (17-Jun-08 10:19:28 AM)
+2022-11-10 17:03:19> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Labware\ML_STAR\CORE\waste.ctr (29-Oct-04 4:32:24 PM)
+2022-11-10 17:03:19> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Labware\ML_STAR\CORE\waste2.rck (12-Dec-07 3:27:46 PM)
+2022-11-10 17:03:19> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Labware\ML_STAR\CORE\WasteBlock.tml (22-Mar-08 8:28:32 AM)
+2022-11-10 17:03:19> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Labware\ML_STAR\ht.ctr (29-Oct-04 4:32:26 PM)
+2022-11-10 17:03:19> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Labware\ML_STAR\htf_l.rck (06-Dec-07 8:32:54 AM)
+2022-11-10 17:03:19> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Labware\ML_STAR\LiquidWaste.rck (27-Feb-07 3:54:46 AM)
+2022-11-10 17:03:19> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Labware\ML_STAR\SMP_CAR_24_15x100_A00.rck (12-Dec-07 3:27:38 PM)
+2022-11-10 17:03:19> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Labware\ML_STAR\SMP_CAR_32_12x100_A00.rck (12-Dec-07 3:27:40 PM)
+2022-11-10 17:03:19> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Labware\ML_STAR\STF_L.rck (06-Dec-07 8:32:56 AM)
+2022-11-10 17:03:19> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Labware\ML_STAR\TIP_CAR_480BC_HTF_A00.tml (12-Dec-07 4:08:36 PM)
+2022-11-10 17:03:19> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Labware\Seegene\AB_7500_plate.rck (15-May-20 7:15:42 AM)
+2022-11-10 17:03:19> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Labware\seegene\ab_8strip.ctr (21-Nov-13 7:31:15 AM)
+2022-11-10 17:03:19> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Labware\seegene\AB_8Strip.rck (21-Nov-13 4:55:13 AM)
+2022-11-10 17:03:19> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Labware\Seegene\AB_fast_8Strip.rck (03-Nov-20 1:32:47 PM)
+2022-11-10 17:03:19> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Labware\Seegene\AB_fast_plate.rck (14-May-20 12:29:16 PM)
+2022-11-10 17:03:19> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Labware\Seegene\Adapter_PCR1_RevA.rck (12-Aug-14 2:35:15 AM)
+2022-11-10 17:03:19> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Labware\Seegene\Adapter_PCR2_RevA.rck (12-Aug-14 2:35:56 AM)
+2022-11-10 17:03:19> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Labware\Seegene\Adapter_PCR3_RevA.rck (12-Sep-16 7:14:24 PM)
+2022-11-10 17:03:19> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Labware\Seegene\Adapter_PCR4_RevA.rck (12-Aug-14 2:36:38 AM)
+2022-11-10 17:03:19> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Labware\Seegene\Adapter_PCR5_RevA.rck (12-Aug-14 2:36:55 AM)
+2022-11-10 17:03:19> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Labware\Seegene\Adapter_PCR6_RevA.rck (12-Aug-14 2:37:26 AM)
+2022-11-10 17:03:19> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Labware\Seegene\Adapter_PCR7_RevA.rck (12-Aug-14 2:37:56 AM)
+2022-11-10 17:03:19> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Labware\Seegene\Bioplastics_8Strip.rck (11-Aug-16 2:47:01 PM)
+2022-11-10 17:03:19> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Labware\Seegene\bioplastics_plate.ctr (10-Dec-13 7:22:24 PM)
+2022-11-10 17:03:19> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Labware\seegene\Bioplastics_Plate.rck (10-Dec-13 9:32:15 AM)
+2022-11-10 17:03:19> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Labware\seegene\Clear_8Strip.rck (10-Dec-13 9:34:53 AM)
+2022-11-10 17:03:19> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Labware\Seegene\DWP96_MN_Sq_RdBottom_Heater_STARlet.rck (16-Aug-16 8:07:10 PM)
+2022-11-10 17:03:19> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Labware\Seegene\DWP96_MN_Sq_RdBottom_Magnet.rck (06-Jun-16 3:09:39 PM)
+2022-11-10 17:03:19> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Labware\Seegene\DWP96_MN_Sq_RdBottom_Magnet_STARlet.rck (16-Aug-16 8:23:18 PM)
+2022-11-10 17:03:19> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Labware\Seegene\Eluent Microplate.rck (18-Aug-20 1:54:34 PM)
+2022-11-10 17:03:19> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Labware\Seegene\PCR_Plate96.rck (22-Feb-17 9:01:50 AM)
+2022-11-10 17:03:19> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Labware\Seegene\RGT_CONT_50ml_A00.rck (22-Jun-16 7:08:17 PM)
+2022-11-10 17:03:19> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Labware\Seegene\RT_PCR_8Strip.rck (06-Dec-16 5:49:58 AM)
+2022-11-10 17:03:19> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Labware\Seegene\Seegene_1HHS_1Magnet_1Tip_2Tube_R01.tml (12-Sep-16 11:29:32 AM)
+2022-11-10 17:03:19> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Labware\Seegene\Seegene_2Reagent50mLx6_1DWP_1QiaEL_1PCR_R01.tml (30-Sep-19 2:54:17 PM)
+2022-11-10 17:03:19> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Labware\Seegene\Seegene_2Reagent50mLx6_1DWP_2PCR_R01.tml (18-Jun-16 3:46:11 PM)
+2022-11-10 17:03:19> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Labware\Seegene\SMP_CAR_12_Thinprep.rck (27-Sep-16 8:59:42 AM)
+2022-11-10 17:03:19> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Labware\Seegene\SMP_CAR_24_15x100_A00.rck (03-Mar-16 6:02:27 AM)
+2022-11-10 17:03:19> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Labware\Seegene\SMP_CAR_32_2ml.rck (11-Aug-20 7:13:40 AM)
+2022-11-10 17:03:19> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Labware\Seegene\SMP_CAR_32_Copan12mm.rck (27-Dec-12 5:27:06 AM)
+2022-11-10 17:03:19> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Labware\Seegene\SMP_CAR_32_Vials.rck (12-Dec-10 1:28:56 PM)
+2022-11-10 17:03:19> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Labware\Seegene\vial_3_reva.ctr (31-Jul-14 5:47:56 PM)
+2022-11-10 17:03:19> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Labware\seegene\white_strip.ctr (21-Nov-13 6:42:05 AM)
+2022-11-10 17:03:19> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Labware\Seegene\White_Strip.rck (22-Feb-17 9:01:50 AM)
+2022-11-10 17:03:19> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLErrLib.hsl (09-Mar-17 7:27:38 AM)
+2022-11-10 17:03:19> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLErrLib.stp (09-Mar-17 7:27:38 AM)
+2022-11-10 17:03:19> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLFilLib.hsl (09-Mar-17 7:27:38 AM)
+2022-11-10 17:03:19> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLFilLib.stp (09-Mar-17 7:27:38 AM)
+2022-11-10 17:03:19> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLGCCMlStarStepLib.hs_ (14-Mar-17 1:14:50 PM)
+2022-11-10 17:03:19> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLGCCMlStarStepLib.stp (14-Mar-17 1:14:50 PM)
+2022-11-10 17:03:19> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLKitLotLib.hs_ (14-Mar-17 1:14:50 PM)
+2022-11-10 17:03:19> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLKitLotLib.hsl (14-Mar-17 1:14:50 PM)
+2022-11-10 17:03:19> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLKitLotLib.stp (07-Apr-03 2:02:42 PM)
+2022-11-10 17:03:19> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLMappingReportImpl.hs_ (09-Mar-17 7:27:38 AM)
+2022-11-10 17:03:19> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLMappingReportImpl.stp (09-Mar-17 7:27:38 AM)
+2022-11-10 17:03:19> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLMECCLib.hs_ (09-Mar-17 7:27:38 AM)
+2022-11-10 17:03:19> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLMECCLib.stp (09-Mar-17 7:27:38 AM)
+2022-11-10 17:03:19> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLMETEDLib.hs_ (09-Mar-17 7:27:38 AM)
+2022-11-10 17:03:19> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLMETEDLib.stp (03-Jul-07 4:02:48 PM)
+2022-11-10 17:03:19> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLMlStarCfgKeys.hs_ (14-Mar-17 1:14:52 PM)
+2022-11-10 17:03:19> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLMlStarCfgKeys.stp (14-Mar-17 1:14:52 PM)
+2022-11-10 17:03:19> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLMlStarDeckDef.hs_ (14-Mar-17 1:14:52 PM)
+2022-11-10 17:03:19> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLMlStarDeckDef.stp (14-Mar-17 1:14:52 PM)
+2022-11-10 17:03:19> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLMlStarStepReturnLib.hsl (14-Mar-17 1:14:52 PM)
+2022-11-10 17:03:19> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLMlStarStepReturnLib.stp (14-Mar-17 1:14:52 PM)
+2022-11-10 17:03:19> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLMthLib.hsl (09-Mar-17 7:27:38 AM)
+2022-11-10 17:03:19> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLMthLib.stp (09-Mar-17 7:27:38 AM)
+2022-11-10 17:03:19> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLMthLibImpl.hs_ (09-Mar-17 7:27:38 AM)
+2022-11-10 17:03:19> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLMthLibImpl.stp (09-Mar-17 7:27:38 AM)
+2022-11-10 17:03:19> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLPTLLibImpl.hs_ (14-Mar-17 1:14:52 PM)
+2022-11-10 17:03:19> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLPTLLibImpl.stp (14-Mar-17 1:14:52 PM)
+2022-11-10 17:03:19> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLPTLStringTableEnu.hs_ (14-Mar-17 1:14:52 PM)
+2022-11-10 17:03:19> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLPTLStringTableEnu.stp (14-Mar-17 1:14:52 PM)
+2022-11-10 17:03:19> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLSeqLib.hsl (09-Mar-17 7:27:40 AM)
+2022-11-10 17:03:19> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLSeqLib.stp (09-Mar-17 7:27:40 AM)
+2022-11-10 17:03:19> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLStringTableLib.hs_ (09-Mar-17 7:27:40 AM)
+2022-11-10 17:03:19> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLStringTableLib.stp (09-Mar-17 7:27:40 AM)
+2022-11-10 17:03:19> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLStrLib.hsl (09-Mar-17 7:27:40 AM)
+2022-11-10 17:03:19> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLStrLib.stp (09-Mar-17 7:27:40 AM)
+2022-11-10 17:03:19> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLSynLib.hs_ (09-Mar-17 7:27:40 AM)
+2022-11-10 17:03:19> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLSynLib.hsl (09-Mar-17 7:27:40 AM)
+2022-11-10 17:03:19> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLSynLib.stp (09-Mar-17 7:27:40 AM)
+2022-11-10 17:03:19> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLTipCountingLib.hsl (14-Mar-17 1:14:54 PM)
+2022-11-10 17:03:19> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLTipCountingLib.stp (14-Mar-17 1:14:54 PM)
+2022-11-10 17:03:19> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLTrcLib.hsl (09-Mar-17 7:27:40 AM)
+2022-11-10 17:03:19> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLTrcLib.stp (09-Mar-17 7:27:40 AM)
+2022-11-10 17:03:19> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLUtilLib.hsl (09-Mar-17 7:27:40 AM)
+2022-11-10 17:03:19> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLUtilLib.stp (09-Mar-17 7:27:40 AM)
+2022-11-10 17:03:19> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLUtilLib2.hsl (09-Mar-17 7:27:40 AM)
+2022-11-10 17:03:19> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLUtilLib2.stp (09-Mar-17 7:27:40 AM)
+2022-11-10 17:03:19> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLUtilLib2Def.hs_ (09-Mar-17 7:27:40 AM)
+2022-11-10 17:03:20> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLUtilLib2Def.stp (09-Mar-17 7:27:40 AM)
+2022-11-10 17:03:20> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLVectorDb.hs_ (09-Mar-17 7:27:40 AM)
+2022-11-10 17:03:20> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLVectorDb.stp (09-Mar-17 7:27:40 AM)
+2022-11-10 17:03:20> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLVectorDbTracking.hsl (09-Mar-17 7:27:40 AM)
+2022-11-10 17:03:20> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLVectorDbTracking.stp (09-Mar-17 7:27:40 AM)
+2022-11-10 17:03:20> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLVectorDbTrackingDefs.hs_ (09-Mar-17 7:27:40 AM)
+2022-11-10 17:03:20> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLVectorDbTrackingDefs.stp (09-Mar-17 7:27:40 AM)
+2022-11-10 17:03:20> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLVectorDbTrackingImpl.hs_ (09-Mar-17 7:27:40 AM)
+2022-11-10 17:03:20> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLVectorDbTrackingImpl.stp (09-Mar-17 7:27:40 AM)
+2022-11-10 17:03:20> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLVectorDbWorklistManagement.hsl (09-Mar-17 7:27:40 AM)
+2022-11-10 17:03:20> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLVectorDbWorklistManagement.stp (09-Mar-17 7:27:42 AM)
+2022-11-10 17:03:20> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLVectorDbWorklistManagementDefs.hs_ (09-Mar-17 7:27:42 AM)
+2022-11-10 17:03:20> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLVectorDbWorklistManagementDefs.stp (09-Mar-17 7:27:42 AM)
+2022-11-10 17:03:20> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLVectorDbWorklistManagementImpl.hs_ (09-Mar-17 7:27:42 AM)
+2022-11-10 17:03:20> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLVectorDbWorklistManagementImpl.stp (09-Mar-17 7:27:42 AM)
+2022-11-10 17:03:20> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\SmartStepCustomizedErrorHandling\SmartStepCustomErrorHandling.hs_ (14-Mar-17 1:14:54 PM)
+2022-11-10 17:03:20> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\SmartStepCustomizedErrorHandling\SmartStepCustomErrorHandling.hsi (14-Mar-17 1:14:54 PM)
+2022-11-10 17:03:20> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\SmartStepCustomizedErrorHandling\SmartStepCustomErrorHandling.stp (13-Dec-16 2:01:14 PM)
+2022-11-10 17:03:20> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\System\ML_STARNeedle.dat (17-Aug-22 4:38:41 PM)
+2022-11-10 17:03:20> SYSTEM : End method - progress; Object referenced: File C:\Users\Admin\OneDrive - CONG TY TNHH THIET BI Y TE PHUONG DONG\0work\HAMILTON\Methods\demo_HBV_masterMix_v2.hsl (10-Nov-22 4:58:28 PM)
+2022-11-10 17:03:20> SYSTEM : End method - progress; Object referenced: File C:\Users\Admin\OneDrive - CONG TY TNHH THIET BI Y TE PHUONG DONG\0work\HAMILTON\Methods\demo_HBV_masterMix_v2.lay (10-Nov-22 3:22:03 PM)
+2022-11-10 17:03:20> SYSTEM : End method - progress; Object referenced: File C:\Users\Admin\OneDrive - CONG TY TNHH THIET BI Y TE PHUONG DONG\0work\HAMILTON\Methods\demo_HBV_masterMix_v2.res (10-Nov-22 3:22:03 PM)
+2022-11-10 17:03:20> SYSTEM : End method - progress; Object referenced: File C:\Users\Admin\OneDrive - CONG TY TNHH THIET BI Y TE PHUONG DONG\0work\HAMILTON\Methods\demo_HBV_masterMix_v2.sub (10-Nov-22 4:58:28 PM)
+2022-11-10 17:03:20> SYSTEM : End method - progress; Object referenced: File C:\Users\Admin\OneDrive - CONG TY TNHH THIET BI Y TE PHUONG DONG\0work\HAMILTON\Methods\HSLMECCLib.hs_ (04-Oct-16 11:46:12 PM)
+2022-11-10 17:03:20> SYSTEM : End method - progress; Object referenced: File C:\Users\Admin\OneDrive - CONG TY TNHH THIET BI Y TE PHUONG DONG\0work\HAMILTON\Methods\HSLMECCLib.stp (11-Jun-15 7:22:38 AM)
+2022-11-10 17:03:20> SYSTEM : End method - progress; Object referenced: File C:\Users\Admin\OneDrive - CONG TY TNHH THIET BI Y TE PHUONG DONG\0work\HAMILTON\Methods\HSLMECCLibEnu.hs_ (11-Jun-15 7:22:38 AM)
+2022-11-10 17:03:20> SYSTEM : End method - progress; Object referenced: File C:\Users\Admin\OneDrive - CONG TY TNHH THIET BI Y TE PHUONG DONG\0work\HAMILTON\Methods\HSLMECCLibEnu.stp (11-Jun-15 7:22:38 AM)
+2022-11-10 17:03:20> SYSTEM : End method - progress; Object referenced: File C:\Users\Admin\OneDrive - CONG TY TNHH THIET BI Y TE PHUONG DONG\0work\HAMILTON\Methods\HSLMECCLibImpl.hs_ (11-Jun-15 4:22:37 AM)
+2022-11-10 17:03:20> SYSTEM : End method - progress; Object referenced: File C:\Users\Admin\OneDrive - CONG TY TNHH THIET BI Y TE PHUONG DONG\0work\HAMILTON\Methods\HSLMECCLibImpl.stp (11-Jun-15 4:22:37 AM)
+2022-11-10 17:03:20> SYSTEM : End method - progress; Object referenced: File C:\Users\Admin\OneDrive - CONG TY TNHH THIET BI Y TE PHUONG DONG\0work\HAMILTON\Methods\HSLPTLLib.hsl (18-Feb-14 8:35:23 PM)
+2022-11-10 17:03:20> SYSTEM : End method - progress; Object referenced: File C:\Users\Admin\OneDrive - CONG TY TNHH THIET BI Y TE PHUONG DONG\0work\HAMILTON\Methods\HSLPTLLib.stp (18-Feb-14 8:35:23 PM)
+2022-11-10 17:03:20> SYSTEM : End method - progress; Object referenced: Liquid class HighVolumeFilter_Water_DispenseJet_Empty
+2022-11-10 17:03:20> SYSTEM : End method - progress; Object referenced: Liquid class HighVolumeFilter_Water_DispenseJet_Part
+2022-11-10 17:03:20> Microlab® STARlet IVD : End method command - start;
+2022-11-10 17:03:20> Microlab® STARlet IVD : Clean up instrument - progress; Move up 1000ul channels
+2022-11-10 17:03:20> Microlab® STARlet IVD : Clean up instrument - progress; Spreading channels
+2022-11-10 17:03:20> Microlab® STARlet IVD : End method command - complete;
+2022-11-10 17:03:20> SYSTEM : End method - complete; 
+2022-11-10 17:04:21> SYSTEM : File checksum - written; $$author=Admin$$valid=0$$time=2022-11-10 17:04$$checksum=96335220$$length=134$$

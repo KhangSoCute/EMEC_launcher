@@ -1,0 +1,97 @@
+2023-12-11 16:21:52,329 INFO [seegene.config.SgLauncherCheckCFG] SgLauncherConfigPath.LAUNCHER_INFORMATION = C:\Seegene\Seegene Launcher IVD V6\seegene\config\launcher.cfg 
+2023-12-11 16:21:52,331 INFO [seegene.config.SgLauncherCheckCFG] SgLauncherConfigPath.CARTRIDGE_INFORMATION = file:/C:/Seegene/Seegene%20Launcher%20IVD%20V6/seegene/config/cartridge.cfg 
+2023-12-11 16:21:52,334 INFO [seegene.config.SgLauncherCheckCFG] SgLauncherConfigPath.PLATEBARCODE_INFORMATION = C:\Seegene\Seegene Launcher IVD V6\seegene\config\platebarcode.cfg 
+2023-12-11 16:21:52,335 INFO [seegene.config.SgLauncherCheckCFG] SgLauncherConfigPath.USER_ACCOUNT_INFO = C:\Seegene\Seegene Launcher IVD V6\seegene\config\userAccount.cfg 
+2023-12-11 16:21:52,336 INFO [seegene.config.SgLauncherCheckCFG] SgLauncherConfigPath.LAUNCHER_INFORMATION = C:\Seegene\Seegene Launcher IVD V6\seegene\config\protocol.cfg 
+2023-12-11 16:21:52,336 INFO [seegene.config.SgLauncherCheckCFG] SgLauncherConfigPath.MAPPING_FILE_INFO = C:\Seegene\Seegene Launcher IVD V6\seegene\config\mapping.cfg 
+2023-12-11 16:21:52,337 INFO [seegene.config.SgLauncherCheckCFG] SgLauncherConfigPath.OPERATION_REPORT = C:\Seegene\Seegene Launcher IVD V6\seegene\config\operationReport.cfg 
+2023-12-11 16:21:54,949 INFO [seegene.SgLauncherMain] SgLauncherMain start V6.02.009.036 
+2023-12-11 16:21:58,053 INFO [seegene.control.SgLauncherControl] Admin =  
+2023-12-11 16:22:09,759 INFO [seegene.com.panel.SgPanelDDay] [Latest Maintenance Info] Daily,Thu Mar 23 13:38:48 ICT 2023 
+2023-12-11 16:22:11,448 INFO [seegene.data.bean.SgMethodInfo] PRODUCT LIST(1): PRODUCT_ALL_047 
+2023-12-11 16:22:26,092 INFO [seegene.com.panel.SgPanelMethodStart] *************************Method_Run********************************* 
+2023-12-11 16:22:26,092 INFO [seegene.com.panel.SgPanelMethodStart] USER :  - service -  
+2023-12-11 16:22:26,093 INFO [seegene.com.panel.SgPanelMethodStart] Instrument : STARlet 
+2023-12-11 16:22:26,093 INFO [seegene.com.panel.SgPanelMethodStart] STEP_001/SARS-CoV-2/RACK_003/TUBE_016/null/null 
+2023-12-11 16:22:27,085 INFO [seegene.com.panel.SgPanelMethodStart] [SAVE PLATEINFO CSV] : C:\Seegene_Method_Setting\CFX96\Allplex\STARlet 2023-12-11 16.22.27 Extraction, SARS2, 32 Sample Carrier, 2ml Tube 
+2023-12-11 16:22:27,325 INFO [seegene.com.panel.SgPanelMethodStart] -------------------------------------------------------------------------------- 
+2023-12-11 16:22:27,325 INFO [seegene.com.panel.SgPanelMethodStart]  
+2023-12-11 16:22:27,326 INFO [seegene.com.panel.SgPanelMethodStart] -------------------------------------------------------------------------------- 
+2023-12-11 16:22:27,387 INFO [seegene.com.panel.SgPanelMethodStart] runMethod C:\Program Files (x86)\Hamilton\Bin\HxRun.exe C:\Program Files (x86)\Hamilton\Methods\STARlet_v6.1.med 
+2023-12-11 16:22:28,635 INFO [seegene.com.panel.SgPanelMethodStart$1] TRC File Name = C:\Program Files (x86)\Hamilton\LogFiles\STARlet_v6.1_fb31d93938134adfbe8fc7f31ad8a3fa_Trace.trc 
+2023-12-11 16:22:44,873 INFO [seegene.com.panel.SgPanelMethodStart$1execLogHandler] << ******************************************** Launcher V6.00.000 ****************************************** 
+2023-12-11 16:22:44,880 INFO [seegene.com.panel.SgPanelMethodStart$1execLogHandler] << ******************************************** Launcher V6.00.000.023 ****************************************** 
+2023-12-11 16:22:44,888 INFO [seegene.com.panel.SgPanelMethodStart$1execLogHandler] << ******************************************** Launcher RUO V6.00.001 ****************************************** 
+2023-12-11 16:22:44,899 INFO [seegene.com.panel.SgPanelMethodStart$1execLogHandler] << ******************************************** Launcher V6.00.001 ****************************************** 
+2023-12-11 16:22:44,906 INFO [seegene.com.panel.SgPanelMethodStart$1execLogHandler] << ******************************************** Launcher V6.00.005 ****************************************** 
+2023-12-11 16:22:44,914 INFO [seegene.com.panel.SgPanelMethodStart$1execLogHandler] << ******************************************** Launcher V6.00.006 ****************************************** 
+2023-12-11 16:22:44,923 INFO [seegene.com.panel.SgPanelMethodStart$1execLogHandler] << ******************************************** Launcher V6.00.007 ****************************************** 
+2023-12-11 16:22:44,931 INFO [seegene.com.panel.SgPanelMethodStart$1execLogHandler] << ******************************************** Launcher V6.01.000 ****************************************** 
+2023-12-11 16:22:44,942 INFO [seegene.com.panel.SgPanelMethodStart$1execLogHandler] << ******************************************** Launcher V6.02.000 ****************************************** 
+2023-12-11 16:22:44,950 INFO [seegene.com.panel.SgPanelMethodStart$1execLogHandler] << ******************************************** Launcher V6.02.001 ****************************************** 
+2023-12-11 16:22:44,960 INFO [seegene.com.panel.SgPanelMethodStart$1execLogHandler] << ******************************************** SARS-CoV-2 V1.00.000 ****************************************** 
+2023-12-11 16:22:44,967 INFO [seegene.com.panel.SgPanelMethodStart$1execLogHandler] << ******************************************** SARS-CoV-2 V1.00.000 ****************************************** 
+2023-12-11 16:22:44,976 INFO [seegene.com.panel.SgPanelMethodStart$1execLogHandler] << ******************************************** Launcher V6.02.006 ****************************************** 
+2023-12-11 16:22:44,984 INFO [seegene.com.panel.SgPanelMethodStart$1execLogHandler] << ******************************************** Launcher V6.02.007 ****************************************** 
+2023-12-11 16:22:44,994 INFO [seegene.com.panel.SgPanelMethodStart$1execLogHandler] << ******************************************** Launcher V6.02.008 ****************************************** 
+2023-12-11 16:22:45,002 INFO [seegene.com.panel.SgPanelMethodStart$1execLogHandler] << ******************************************** Launcher V6.03.000 ****************************************** 
+2023-12-11 16:22:45,009 INFO [seegene.com.panel.SgPanelMethodStart$1execLogHandler] << +++++++++++++++++++++++++++++++++++++++++++ 
+2023-12-11 16:22:45,010 INFO [seegene.com.panel.SgPanelMethodStart$1execLogHandler] << +++++++++++++++ Initialize STARlet +++++++++++++++ 
+2023-12-11 16:22:48,611 INFO [seegene.com.panel.SgPanelMethodStart$1execLogHandler] << +++++++++++++++++++++++++++++++++++++++++++ 
+2023-12-11 16:22:48,679 INFO [seegene.com.panel.SgPanelMethodStart$1execLogHandler] << ******************** Check if STARlet is in Simulation Mode *********************** 
+2023-12-11 16:22:48,680 INFO [seegene.com.panel.SgPanelMethodStart$1execLogHandler] << ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+2023-12-11 16:22:48,681 INFO [seegene.com.panel.SgPanelMethodStart$1execLogHandler] << +++++++++++++++ Experiment Information and Sample Count +++++++++++++++ 
+2023-12-11 16:22:48,681 INFO [seegene.com.panel.SgPanelMethodStart$1execLogHandler] << ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+2023-12-11 16:22:48,690 INFO [seegene.com.panel.SgPanelMethodStart$1execLogHandler] << ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+2023-12-11 16:22:48,698 INFO [seegene.com.panel.SgPanelMethodStart$1execLogHandler] << ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+2023-12-11 16:22:48,705 INFO [seegene.com.panel.SgPanelMethodStart$1execLogHandler] << ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+2023-12-11 16:22:48,723 INFO [seegene.com.panel.SgPanelMethodStart$1execLogHandler] << ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+2023-12-11 16:22:48,723 INFO [seegene.com.panel.SgPanelMethodStart$1execLogHandler] << +++++++++++++++++++++++++++++++++++++++++++++ 
+2023-12-11 16:22:48,723 INFO [seegene.com.panel.SgPanelMethodStart$1execLogHandler] << +++++++++++++++++++++++++++++++++++++++++++++ 
+2023-12-11 16:22:48,731 INFO [seegene.com.panel.SgPanelMethodStart$1execLogHandler] << +++++++++++++++++++++++++++++++++++++++++++++ 
+2023-12-11 16:22:48,744 INFO [seegene.com.panel.SgPanelMethodStart$1execLogHandler] << +++++++++++++++++++++++++++++++++++++++++++++ 
+2023-12-11 16:22:48,756 INFO [seegene.com.panel.SgPanelMethodStart$1execLogHandler] << +++++++++++++++++++++++++++++++++++++++++++++ 
+2023-12-11 16:22:48,771 INFO [seegene.com.panel.SgPanelMethodStart$1execLogHandler] << +++++++++++++++++++++++++++++++++++++++++++++ 
+2023-12-11 16:22:48,772 INFO [seegene.com.panel.SgPanelMethodStart$1execLogHandler] << ********* Details of para_Bead_Position(s) Sequence: 
+2023-12-11 16:22:48,788 INFO [seegene.com.panel.SgPanelMethodStart$1execLogHandler] << ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+2023-12-11 16:22:48,848 INFO [seegene.com.panel.SgPanelMethodStart$1execLogHandler] << ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+2023-12-11 16:22:48,850 INFO [seegene.com.panel.SgPanelMethodStart$1execLogHandler] << ++++++++++++++++++++++++++++++++++++++++++ 
+2023-12-11 16:22:48,851 INFO [seegene.com.panel.SgPanelMethodStart$1execLogHandler] << +++++++++++++++ Initialize HHSs +++++++++++++++ 
+2023-12-11 16:22:48,859 INFO [seegene.com.panel.SgPanelMethodStart$1execLogHandler] << ++++++++++++++++++++++++++++++++++++++++++ 
+2023-12-11 16:22:48,859 INFO [seegene.com.panel.SgPanelMethodStart$1execLogHandler] << ++++++++++++++++++++++++++++++++++++++++++ 
+2023-12-11 16:22:48,860 INFO [seegene.com.panel.SgPanelMethodStart$1execLogHandler] << ++++++++++++Check Core-Grippers+++++++++++++ 
+2023-12-11 16:22:50,975 INFO [seegene.com.panel.SgPanelMethodStart$1execLogHandler] << ++++++++++++++++++++++++++++++++++++++++++ 
+2023-12-11 16:22:50,995 INFO [seegene.com.panel.SgPanelMethodStart$1execLogHandler] << ******* Tip Counter Dialog and Check ******* 
+2023-12-11 16:22:50,997 INFO [seegene.com.panel.SgPanelMethodStart$1execLogHandler] << +++++++++++++++++++++++++++++++++ 
+2023-12-11 16:22:51,003 INFO [seegene.com.panel.SgPanelMethodStart$1execLogHandler] << +++++++++++++++++++++++++++++++++ 
+2023-12-11 16:22:51,008 INFO [seegene.com.panel.SgPanelMethodStart$1execLogHandler] << ******* Determine how many tips are required for this method ******* 
+2023-12-11 16:22:51,042 INFO [seegene.com.panel.SgPanelMethodStart$1execLogHandler] << ******* Determine how many tips are on the deck ******* 
+2023-12-11 16:22:58,019 INFO [seegene.com.panel.SgPanelMethodStart$1execLogHandler] << ********************* LOAD CARRIERS ********************* 
+2023-12-11 16:23:01,606 INFO [seegene.com.panel.SgPanelMethodStart$1execLogHandler] << ********************* Check DWP ********************* 
+2023-12-11 16:23:01,634 INFO [seegene.com.panel.SgPanelMethodStart$1execLogHandler] << ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+2023-12-11 16:23:01,649 INFO [seegene.com.panel.SgPanelMethodStart$1execLogHandler] << ++++++++++++++++++++ 1st_Move_DWP_from_StartingPosition_to_Shaker ++++++++++++++++++++ 
+2023-12-11 16:23:01,662 INFO [seegene.com.panel.SgPanelMethodStart$1execLogHandler] << ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+2023-12-11 16:23:01,663 INFO [seegene.com.panel.SgPanelMethodStart$1execLogHandler] << ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+2023-12-11 16:23:01,664 INFO [seegene.com.panel.SgPanelMethodStart$1execLogHandler] << +++++++++++++++ 1st_Move_DWP_from_StartingPosition_to_Shaker - Submethod Complete +++++++++++++++ 
+2023-12-11 16:23:01,665 INFO [seegene.com.panel.SgPanelMethodStart$1execLogHandler] << ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+2023-12-11 16:23:01,681 INFO [seegene.com.panel.SgPanelMethodStart$1execLogHandler] << ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+2023-12-11 16:23:01,692 INFO [seegene.com.panel.SgPanelMethodStart$1execLogHandler] << ++++++++++++++++++++ Start_Temp_Control ++++++++++++++++++++ 
+2023-12-11 16:23:01,694 INFO [seegene.com.panel.SgPanelMethodStart$1execLogHandler] << ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+2023-12-11 16:23:01,694 INFO [seegene.com.panel.SgPanelMethodStart$1execLogHandler] << ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+2023-12-11 16:23:01,695 INFO [seegene.com.panel.SgPanelMethodStart$1execLogHandler] << +++++++++++++++ Start_Temp_Control - Submethod Complete +++++++++++++++ 
+2023-12-11 16:23:01,695 INFO [seegene.com.panel.SgPanelMethodStart$1execLogHandler] << ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+2023-12-11 16:23:01,726 INFO [seegene.com.panel.SgPanelMethodStart$1execLogHandler] << ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+2023-12-11 16:23:01,727 INFO [seegene.com.panel.SgPanelMethodStart$1execLogHandler] << ++++++++++++++++++++ Stop_Temp_Control_2 ++++++++++++++++++++ 
+2023-12-11 16:23:01,728 INFO [seegene.com.panel.SgPanelMethodStart$1execLogHandler] << ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+2023-12-11 16:23:01,728 INFO [seegene.com.panel.SgPanelMethodStart$1execLogHandler] << ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+2023-12-11 16:23:01,729 INFO [seegene.com.panel.SgPanelMethodStart$1execLogHandler] << +++++++++++++++ Stop_Temp_Control_2 - Submethod Complete +++++++++++++++ 
+2023-12-11 16:23:01,736 INFO [seegene.com.panel.SgPanelMethodStart$1execLogHandler] << ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+2023-12-11 16:23:01,739 INFO [seegene.com.panel.SgPanelMethodStart$1execLogHandler] << ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+2023-12-11 16:23:01,740 INFO [seegene.com.panel.SgPanelMethodStart$1execLogHandler] << +++++++++++++++++++++++ Method Complete ++++++++++++++++++++++++ 
+2023-12-11 16:23:01,764 ERROR [seegene.com.panel.SgPanelMethodStart$1] 
+2023-12-11 16:23:05,334 INFO [seegene.com.panel.SgPanelMethodStart$1execLogHandler] << ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+2023-12-11 16:23:05,335 INFO [seegene.com.panel.SgPanelMethodStart$1execLogHandler] << ********************************************************************* 
+2023-12-11 16:23:05,335 INFO [seegene.com.panel.SgPanelMethodStart$1execLogHandler] << ********************* UNLOAD CARRIER **************** 
+2023-12-11 16:23:13,871 INFO [seegene.com.panel.SgPanelMethodStart$1execLogHandler] << ********************************************************************* 
+2023-12-11 16:23:17,477 INFO [seegene.com.panel.SgPanelMethodStart] [OPERATION FILE NAME] 2023-12-11 16.23.17 STARlet Operation Report.pdf 
+2023-12-11 16:23:22,326 INFO [seegene.SgLauncherMain$2] SgLauncherMain exit 

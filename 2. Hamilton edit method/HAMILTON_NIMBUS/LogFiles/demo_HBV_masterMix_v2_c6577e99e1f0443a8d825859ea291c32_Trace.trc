@@ -1,0 +1,48 @@
+2022-11-23 15:55:00> SYSTEM : Analyze method - start; Method file C:\Users\Admin\OneDrive - CONG TY TNHH THIET BI Y TE PHUONG DONG\0work\HAMILTON\Methods\demo_HBV_masterMix_v2.hsl
+2022-11-23 15:55:03> Microlab® STARlet IVD : Communication - progress; Connection to instrument is created.
+2022-11-23 15:55:05> SYSTEM : Analyze method - complete; 
+2022-11-23 15:55:15> Microlab® STARlet IVD : Communication - progress; Connection to instrument is interrupted.
+2022-11-23 15:55:22> Microlab® STARlet IVD : Communication - progress; Connection to instrument is created.
+2022-11-23 15:55:44> SYSTEM : Start method - start; 
+2022-11-23 15:55:44> SYSTEM : Start method - progress; User name: Admin
+2022-11-23 15:55:44> SYSTEM : Start method - progress; Phoenix software version: 4.5.0.7977
+2022-11-23 15:55:44> SYSTEM : Start method - progress; Database version: DB Plus
+2022-11-23 15:55:44> SYSTEM : Start method - progress; Sample tracking: On
+2022-11-23 15:55:44> SYSTEM : Start method - progress; Vector Database: On
+2022-11-23 15:55:44> SYSTEM : Start method - progress; Vector Database connection: Database 'HamiltonVectorDB' on Microsoft SQL Server 'LOCALHOST\HAMILTON' with user 'Hamilton'
+2022-11-23 15:55:44> Microlab® STARlet IVD : Start method command - start;
+2022-11-23 15:55:44> Microlab® STARlet IVD : Start method command - progress; Microlab® STARlet IVD software version: 4.5.0.5217
+2022-11-23 15:55:44> Microlab® STARlet IVD : Start method command - progress; Serial number of Instrument: D585
+2022-11-23 15:55:44> Microlab® STARlet IVD : Start method command - progress; Firmware version of main module: 7.5S 14 2017_09_26 (GRU C0 PLE)
+2022-11-23 15:55:44> Microlab® STARlet IVD : Start method command - progress; Firmware version of 1000µl channels: 4.0S a 2017-04-24, 4.0S a 2017-04-24, 4.0S a 2017-04-24, 4.0S a 2017-04-24, 4.0S a 2017-04-24, 4.0S a 2017-04-24, 4.0S a 2017-04-24, 4.0S a 2017-04-24
+2022-11-23 15:55:44> Microlab® STARlet IVD : Start method command - progress; Firmware version of 5ml channels: not installed
+2022-11-23 15:55:44> Microlab® STARlet IVD : Start method command - progress; Firmware version of labware handling channels: not installed
+2022-11-23 15:55:44> Microlab® STARlet IVD : Start method command - progress; Firmware version of X drive: 1.4S 2012-04-25
+2022-11-23 15:55:44> Microlab® STARlet IVD : Start method command - progress; Firmware version of auto load: 3.4S b 2012-02-13
+2022-11-23 15:55:44> Microlab® STARlet IVD : Start method command - progress; Firmware version of iSWAP: not installed
+2022-11-23 15:55:44> Microlab® STARlet IVD : Start method command - progress; Firmware version of washer 1: not installed
+2022-11-23 15:55:44> Microlab® STARlet IVD : Start method command - progress; Firmware version of washer 2: not installed
+2022-11-23 15:55:44> Microlab® STARlet IVD : Start method command - progress; Firmware version of temperature-controlled carrier 1: not installed
+2022-11-23 15:55:44> Microlab® STARlet IVD : Start method command - progress; Firmware version of temperature-controlled carrier 2: not installed
+2022-11-23 15:55:44> Microlab® STARlet IVD : Start method command - progress; Firmware version of CO-RE 96 Head: not installed
+2022-11-23 15:55:44> Microlab® STARlet IVD : Start method command - progress; Firmware version of pump station 1: not installed
+2022-11-23 15:55:44> Microlab® STARlet IVD : Start method command - progress; Firmware version of pump station 2: not installed
+2022-11-23 15:55:44> Microlab® STARlet IVD : Start method command - progress; Firmware version of pump station 3: not installed
+2022-11-23 15:55:44> Microlab® STARlet IVD : Start method command - progress; Firmware version of nano dispenser: not installed
+2022-11-23 15:55:44> Microlab® STARlet IVD : Start method command - progress; Firmware version of nano dispenser pressure unit: not installed
+2022-11-23 15:55:44> Microlab® STARlet IVD : Start method command - progress; Firmware version of CO-RE 384 Head: not installed
+2022-11-23 15:55:44> Microlab® STARlet IVD : Start method command - progress; Firmware version of tube gripper: not installed
+2022-11-23 15:55:44> Microlab® STARlet IVD : Start method command - progress; Firmware version of camera channel: not installed
+2022-11-23 15:55:44> Microlab® STARlet IVD : Start method command - progress; Firmware version of gel card gripper: not installed
+2022-11-23 15:55:44> Microlab® STARlet IVD : Start method command - progress; Firmware version of punch card gripper: not installed
+2022-11-23 15:55:44> Microlab® STARlet IVD : Start method command - progress; Firmware version of puncher module: not installed
+2022-11-23 15:55:44> Microlab® STARlet IVD : Start method command - progress; Firmware version of twister decapper station 1 module 1: not installed
+2022-11-23 15:55:44> Microlab® STARlet IVD : Start method command - progress; Firmware version of twister decapper station 1 module 2: not installed
+2022-11-23 15:55:44> Microlab® STARlet IVD : Start method command - progress; Firmware version of twister decapper station 2 module 1: not installed
+2022-11-23 15:55:44> Microlab® STARlet IVD : Start method command - progress; Firmware version of twister decapper station 2 module 2: not installed
+2022-11-23 15:55:49> Microlab® STARlet IVD : Lock/Unlock Front Cover (Single Step) - progress; Error handling waiting for manual recovery!
+2022-11-23 15:56:02> Microlab® STARlet IVD : Communication - progress; Connection to instrument is interrupted.
+2022-11-23 15:56:07> Microlab® STARlet IVD :  - progress; User action: Message box 'Cancel command' message 'If you have not specified a user-defined error handling, this action will abort the run.  Are you sure you want to do this?' was closed with button 'Yes'.
+2022-11-23 15:56:07> Microlab® STARlet IVD : Lock/Unlock Front Cover (Single Step) - error;  > Front Cover: 1, E:X0:16/60:Cancel
+2022-11-23 15:56:07> Microlab® STARlet IVD : Main - error; An error occurred while running Vector.  The error description is: Step canceled.  User-defined error handling will be used.  ([X0: Cover, Cover not closed.]) (0x28 - 0x1 - 0x80a) 
+2022-11-23 15:56:07> Microlab® STARlet IVD : Lock/Unlock Front Cover (Single Step) - progress; Error manually recovered by user.

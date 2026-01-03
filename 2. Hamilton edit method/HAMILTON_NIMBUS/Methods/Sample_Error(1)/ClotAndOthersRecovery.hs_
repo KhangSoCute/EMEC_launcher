@@ -1,0 +1,17 @@
+
+// this ALWAYS GENERATED file contains the sub-method library header
+// Generated at 2/13/2013 9:09:36 PM
+
+#pragma once
+#ifndef HSL_RUNTIME
+namespace CLOTANDOTHERSRECOVERY {
+function _InitLibrary() { }
+function _ExitLibrary() { }
+function ClotAndOtherErrorChannelSelection( variable & Ch1, variable & Ch2, variable & Ch3, variable & Ch4, variable & ErrorType ) void { }
+} // namespace
+#endif
+
+#ifdef HSL_RUNTIME
+#include __filename__ ".hsi"
+#endif
+// $$author=NIMBUS$$valid=0$$time=2013-02-13 21:09$$checksum=aca181df$$length=083$$

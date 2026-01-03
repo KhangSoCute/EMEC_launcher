@@ -1,0 +1,18 @@
+
+// this ALWAYS GENERATED file contains the sub-method library header
+// Generated at 2/15/2011 3:48:56 PM
+
+#pragma once
+#ifndef HSL_RUNTIME
+namespace CALCULATEVOLUMES {
+function _InitLibrary() { }
+function _ExitLibrary() { }
+function CheckVolume_1mL( device & ML_STAR, sequence SeqToCheck, variable ContainersConnected, variable ChannelUsed, variable MinimumRequired, variable & MeetsRequirement, variable & MeasuredVolume ) void { }
+function CheckVolume_5mL( device & ML_STAR, sequence & SeqToCheck, variable ContainersConnected, variable ChannelUsed, variable MinimumRequired, variable & MeetsRequirement, variable & MeasuredVolume ) void { }
+} // namespace
+#endif
+
+#ifdef HSL_RUNTIME
+#include __filename__ ".hsi"
+#endif
+// $$author=Seegene Admin$$valid=0$$time=2011-02-15 15:48$$checksum=724351a4$$length=090$$

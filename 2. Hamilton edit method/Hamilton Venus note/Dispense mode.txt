@@ -1,0 +1,5 @@
+According to the PDF VENUS Software Programmer’s Manual, the difference between jet and surface dispense mode is:
+
+Jet dispense mode: This mode allows the pipetting channels to dispense liquid in a jet stream without touching the surface of the target well or tube. This can save time and reduce cross-contamination. To use this mode, you need to set the JetDispense property of the Dispense command to True. You also need to specify the JetDispenseHeight property of the command, which defines the height above the target well or tube where the jet stream starts.
+Surface dispense mode: This mode is the opposite of jet dispense mode. The pipetting channels touch the surface of the target well or tube and dispense liquid slowly and gently. This can prevent splashing and foaming of the liquid. To use this mode, you need to set the JetDispense property of the Dispense command to False. You also need to specify the SurfaceOffset property of the command, which defines the distance from the surface of the target well or tube to the tip of the pipetting channel.
+

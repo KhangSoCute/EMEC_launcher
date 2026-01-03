@@ -1,0 +1,26 @@
+2023-05-19 12:58:14 - INFO     - MainThread - START!
+2023-05-19 12:58:14 - INFO     - MainThread - C:\myProject\fix_immulite is exist
+2023-05-19 12:58:14 - INFO     - MainThread - C:\myProject\fix_immulite\OUT is exist, check it!
+2023-05-19 12:58:14 - INFO     - MainThread - REALTIME GO!
+2023-05-19 13:00:38 - INFO     - MainThread - EXIST FOLDER: C:\myProject\fix_immulite\19-05-2023
+2023-05-19 13:00:38 - INFO     - MainThread - CHECKING... TXT IN IT
+2023-05-19 13:00:39 - INFO     - MainThread - EXIST .txt file test.txt. READ IT
+2023-05-19 13:00:39 - INFO     - Thread-1 (<lambda>) - CHECK FILE PHASE!
+2023-05-19 13:00:55 - INFO     - Thread-1 (<lambda>) - UPDATING.....
+2023-05-19 13:00:55 - INFO     - Thread-1 (<lambda>) - LIST new content: ['a']
+2023-05-19 13:00:55 - INFO     - Thread-1 (<lambda>) - AFTER filter: []
+2023-05-19 13:01:02 - INFO     - Thread-1 (<lambda>) - UPDATING.....
+2023-05-19 13:01:02 - INFO     - Thread-1 (<lambda>) - LIST new content: ['']
+2023-05-19 13:01:02 - INFO     - Thread-1 (<lambda>) - AFTER filter: []
+2023-05-19 13:02:43 - INFO     - Thread-1 (<lambda>) - UPDATING.....
+2023-05-19 13:02:43 - INFO     - Thread-1 (<lambda>) - LIST new content: ['5/19/2023 8:50:28 AM (R):\x05', '5/19/2023 8:50:28 AM (S):\x06', '5/19/2023 8:50:28 AM (R):\x021H|\\^&||DPC|Sender|111 Canfield Ave^Randolph^NJ^07869||(201)927-2828|N81|Receiver||P|1|20230519084259', '\x03', '5/19/2023 8:50:28 AM (S):\x06', '5/19/2023 8:50:28 AM (R):B0', '\x022Q|1|^300100113336||ALL||||||||O', '\x036F', '', '5/19/2023 8:50:28 AM (S):\x06', '5/19/2023 8:50:28 AM (R):\x023L|1', '\x033C', '', '5/19/2023 8:50:28 AM (S):\x06', '5/19/2023 8:50:29 AM (R):\x04', '5/19/2023 8:50:29 AM (S):\x05', '5/19/2023 8:50:29 AM (R):\x06', '5/19/2023 8:50:30 AM (S):\x021H|\\^&||DPC|Receiver|111 Canfield Ave^Randolph^NJ^07869||(201)927-2828|N81|Sender||P|1|20230519085030', '\x03A4', '', '5/19/2023 8:50:31 AM (S):\x022P|1|300100113336|||^^||||||||', '\x0320', '', '5/19/2023 8:50:31 AM (S):\x023O|1|300100113336||^^^SPE F1\\^^^SPE F13\\^^^SPE F14\\^^^SPE F2\\^^^SPE F212\\^^^SPE F24\\^^^SPE F245\\^^^SPE F25\\^^^SPE F26\\^^^SPE F27\\^^^SPE F40\\^^^SPE F79\\^^^SPE F83\\^^^SPE F9|R||||||||||||||||||||', '\x0354', '', '5/19/2023 8:50:32 AM (S):\x024L|1|N', '\x0307', '', '5/19/2023 8:50:32 AM (S):\x04', '5/19/2023 8:50:32 AM (R):\x06\x06\x06\x06\x05', '5/19/2023 8:50:32 AM (S):\x06', '5/19/2023 8:50:33 AM (R):\x021H|\\^&||DPC|Sender|111 Canfield Ave^Randolph^NJ^07869||(201)927-2828|N81|Receiver||P|1|20230519084303', '\x03', '5/19/2023 8:50:33 AM (S):\x06', '5/19/2023 8:50:33 AM (R):A6', '\x022Q|1|^300100113376||ALL||||||||O', '\x0373', '', '5/19/2023 8:50:33 AM (S):\x06', '5/19/2023 8:50:33 AM (R):\x023L|1', '\x033C']
+2023-05-19 13:02:43 - INFO     - Thread-1 (<lambda>) - AFTER filter: ['H|\\^&||DPC|Sender|111 Canfield Ave^Randolph^NJ^07869||(201)927-2828|N81|Receiver||P|1|20230519084259', 'L|1', 'H|\\^&||DPC|Receiver|111 Canfield Ave^Randolph^NJ^07869||(201)927-2828|N81|Sender||P|1|20230519085030', 'P|1|300100113336|||^^||||||||', 'O|1|300100113336||^^^SPE F1\\^^^SPE F13\\^^^SPE F14\\^^^SPE F2\\^^^SPE F212\\^^^SPE F24\\^^^SPE F245\\^^^SPE F25\\^^^SPE F26\\^^^SPE F27\\^^^SPE F40\\^^^SPE F79\\^^^SPE F83\\^^^SPE F9|R||||||||||||||||||||', 'L|1|N', 'H|\\^&||DPC|Sender|111 Canfield Ave^Randolph^NJ^07869||(201)927-2828|N81|Receiver||P|1|20230519084303', 'L|1']
+2023-05-19 13:02:44 - INFO     - Thread-1 (<lambda>) - NEW DATA: ['H|\\^&||DPC|Sender|111 Canfield Ave^Randolph^NJ^07869||(201)927-2828|N81|Receiver||P|1|20230519084259', 'L|1']
+2023-05-19 13:02:44 - INFO     - Thread-1 (<lambda>) - EXPORT to: C:\myProject\fix_immulite\OUT\0.txt
+2023-05-19 13:02:45 - INFO     - Thread-1 (<lambda>) - NEW DATA: ['H|\\^&||DPC|Receiver|111 Canfield Ave^Randolph^NJ^07869||(201)927-2828|N81|Sender||P|1|20230519085030', 'P|1|300100113336|||^^||||||||', 'O|1|300100113336||^^^SPE F1\\^^^SPE F13\\^^^SPE F14\\^^^SPE F2\\^^^SPE F212\\^^^SPE F24\\^^^SPE F245\\^^^SPE F25\\^^^SPE F26\\^^^SPE F27\\^^^SPE F40\\^^^SPE F79\\^^^SPE F83\\^^^SPE F9|R||||||||||||||||||||', 'L|1|N']
+2023-05-19 13:02:45 - INFO     - Thread-1 (<lambda>) - EXPORT to: C:\myProject\fix_immulite\OUT\1.txt
+2023-05-19 13:02:46 - INFO     - Thread-1 (<lambda>) - NEW DATA: ['H|\\^&||DPC|Sender|111 Canfield Ave^Randolph^NJ^07869||(201)927-2828|N81|Receiver||P|1|20230519084303', 'L|1']
+2023-05-19 13:02:46 - INFO     - Thread-1 (<lambda>) - EXPORT to: C:\myProject\fix_immulite\OUT\2.txt
+2023-05-19 13:04:21 - INFO     - Dummy-2 - SAVE COUNT FILE: 3
+2023-05-19 13:04:21 - INFO     - Dummy-2 - STOP!
+2023-05-19 13:04:21 - INFO     - Dummy-2 - CLOSE thread!

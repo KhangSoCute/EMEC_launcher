@@ -1,0 +1,4 @@
+H|\^&||DPC|Receiver|111 Canfield Ave^Randolph^NJ^07869||(201)927-2828|N81|Sender||P|1|20230519085034
+P|1|300100113376|||^^||||||||
+O|1|300100113376||^^^SPE F1\^^^SPE F13\^^^SPE F14\^^^SPE F2\^^^SPE F212\^^^SPE F24\^^^SPE F245\^^^SPE F25\^^^SPE F26\^^^SPE F27\^^^SPE F40\^^^SPE F79\^^^SPE F83\^^^SPE F9|R||||||||||||||||||||
+L|1|N

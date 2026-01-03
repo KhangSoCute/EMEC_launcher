@@ -1,0 +1,1 @@
+pyinstaller main_v2.py --hidden-import xlwt --hidden-import openpyxl --hidden-import xlrd --hidden-import pywin32

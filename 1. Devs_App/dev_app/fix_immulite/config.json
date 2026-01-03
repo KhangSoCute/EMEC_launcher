@@ -1,0 +1,9 @@
+{
+    "PATH_TXT_IN" : "C:\\myProject\\fix_immulite",
+    "PATH_FOLDER_OUT": "C:\\myProject\\fix_immulite\\OUT",
+
+    "SERVER_NAME": "IMMUNLITE",
+
+    "START_MARK": "H|\\^&",
+    "END_MARK": "L|1"
+}

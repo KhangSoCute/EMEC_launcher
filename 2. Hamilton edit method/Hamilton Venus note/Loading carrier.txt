@@ -1,0 +1,9 @@
+ you can use the Load Carrier command to load a carrier onto the deck of the ML STAR instrument. Here are the steps to use this command:
+
+First, you need to open the Method Editor and create a new method or edit an existing one. You also need to link a deck layout to your method, which defines the positions and types of labware on the deck.
+Next, you need to drag and drop the Load Carrier command from the Toolbox window to the desired position in your method. You can find this command under the ML STAR Single Steps group.
+Then, you need to specify the properties of the Load Carrier command in the Properties window. The most important properties are:
+Carrier: This is the name of the carrier that you want to load. You can select it from a drop-down list of predefined carriers, or type in a custom name if you have defined your own carrier in the Labware Editor.
+Position: This is the position on the deck where you want to load the carrier. You can select it from a drop-down list of available positions, or type in a custom position if you have defined your own deck layout in the System Deck Editor.
+Barcode: This is an optional property that allows you to specify a barcode for the carrier. If you enable this property, you need to scan the barcode of the carrier before loading it onto the deck. This can help you verify that you are loading the correct carrier.
+Finally, you need to save your method and run it on the ML STAR instrument. The instrument will prompt you to load the carrier onto the specified position and scan its barcode if required. Then, it will execute the rest of your method.

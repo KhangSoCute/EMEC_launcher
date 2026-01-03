@@ -1,0 +1,200 @@
+2022-12-07 14:39:21> SYSTEM : Analyze method - start; Method file C:\Users\Admin\OneDrive - CONG TY TNHH THIET BI Y TE PHUONG DONG\0work\HAMILTON\training_KhangTruong\Aliquot.hsl
+2022-12-07 14:39:22> Microlab® STARlet IVD : Communication - progress; Connection to instrument is created.
+2022-12-07 14:39:24> SYSTEM : Analyze method - complete; 
+2022-12-07 14:39:26> SYSTEM : Start method - start; 
+2022-12-07 14:39:26> SYSTEM : Start method - progress; User name: Admin
+2022-12-07 14:39:26> SYSTEM : Start method - progress; Phoenix software version: 4.5.0.7977
+2022-12-07 14:39:26> SYSTEM : Start method - progress; Database version: DB Plus
+2022-12-07 14:39:26> SYSTEM : Start method - progress; Sample tracking: On
+2022-12-07 14:39:26> SYSTEM : Start method - progress; Vector Database: On
+2022-12-07 14:39:26> SYSTEM : Start method - progress; Vector Database connection: Database 'HamiltonVectorDB' on Microsoft SQL Server 'LOCALHOST\HAMILTON' with user 'Hamilton'
+2022-12-07 14:39:26> Microlab® STARlet IVD : Start method command - start;
+2022-12-07 14:39:26> Microlab® STARlet IVD : Start method command - progress; Microlab® STARlet IVD software version: 4.5.0.5217
+2022-12-07 14:39:26> Microlab® STARlet IVD : Start method command - progress; Serial number of Instrument: 0000
+2022-12-07 14:39:26> Microlab® STARlet IVD : Start method command - progress; Firmware version of main module: 0.0X 2002-05-08
+2022-12-07 14:39:26> Microlab® STARlet IVD : Start method command - progress; Firmware version of 1000µl channels: 0.0X 2002-05-08, 0.0X 2002-05-08, 0.0X 2002-05-08, 0.0X 2002-05-08, 0.0X 2002-05-08, 0.0X 2002-05-08, 0.0X 2002-05-08, 0.0X 2002-05-08
+2022-12-07 14:39:26> Microlab® STARlet IVD : Start method command - progress; Firmware version of 5ml channels: not installed
+2022-12-07 14:39:26> Microlab® STARlet IVD : Start method command - progress; Firmware version of labware handling channels: not installed
+2022-12-07 14:39:26> Microlab® STARlet IVD : Start method command - progress; Firmware version of X drive: 0.0X 2002-05-08
+2022-12-07 14:39:26> Microlab® STARlet IVD : Start method command - progress; Firmware version of auto load: not installed
+2022-12-07 14:39:26> Microlab® STARlet IVD : Start method command - progress; Firmware version of iSWAP: not installed
+2022-12-07 14:39:26> Microlab® STARlet IVD : Start method command - progress; Firmware version of washer 1: not installed
+2022-12-07 14:39:26> Microlab® STARlet IVD : Start method command - progress; Firmware version of washer 2: not installed
+2022-12-07 14:39:26> Microlab® STARlet IVD : Start method command - progress; Firmware version of temperature-controlled carrier 1: not installed
+2022-12-07 14:39:26> Microlab® STARlet IVD : Start method command - progress; Firmware version of temperature-controlled carrier 2: not installed
+2022-12-07 14:39:26> Microlab® STARlet IVD : Start method command - progress; Firmware version of CO-RE 96 Head: not installed
+2022-12-07 14:39:26> Microlab® STARlet IVD : Start method command - progress; Firmware version of pump station 1: not installed
+2022-12-07 14:39:26> Microlab® STARlet IVD : Start method command - progress; Firmware version of pump station 2: not installed
+2022-12-07 14:39:26> Microlab® STARlet IVD : Start method command - progress; Firmware version of pump station 3: not installed
+2022-12-07 14:39:26> Microlab® STARlet IVD : Start method command - progress; Firmware version of nano dispenser: not installed
+2022-12-07 14:39:26> Microlab® STARlet IVD : Start method command - progress; Firmware version of nano dispenser pressure unit: not installed
+2022-12-07 14:39:26> Microlab® STARlet IVD : Start method command - progress; Firmware version of CO-RE 384 Head: not installed
+2022-12-07 14:39:26> Microlab® STARlet IVD : Start method command - progress; Firmware version of tube gripper: not installed
+2022-12-07 14:39:26> Microlab® STARlet IVD : Start method command - progress; Firmware version of camera channel: not installed
+2022-12-07 14:39:26> Microlab® STARlet IVD : Start method command - progress; Firmware version of gel card gripper: not installed
+2022-12-07 14:39:26> Microlab® STARlet IVD : Start method command - progress; Firmware version of punch card gripper: not installed
+2022-12-07 14:39:26> Microlab® STARlet IVD : Start method command - progress; Firmware version of puncher module: not installed
+2022-12-07 14:39:26> Microlab® STARlet IVD : Start method command - progress; Firmware version of twister decapper station 1 module 1: not installed
+2022-12-07 14:39:26> Microlab® STARlet IVD : Start method command - progress; Firmware version of twister decapper station 1 module 2: not installed
+2022-12-07 14:39:26> Microlab® STARlet IVD : Start method command - progress; Firmware version of twister decapper station 2 module 1: not installed
+2022-12-07 14:39:26> Microlab® STARlet IVD : Start method command - progress; Firmware version of twister decapper station 2 module 2: not installed
+2022-12-07 14:39:28> Microlab® STARlet IVD : Start method command - complete;
+2022-12-07 14:39:28> SYSTEM : Start method - complete; 
+2022-12-07 14:39:28> SYSTEM : Execute method - start; Method file C:\Users\Admin\OneDrive - CONG TY TNHH THIET BI Y TE PHUONG DONG\0work\HAMILTON\training_KhangTruong\Aliquot.hsl
+2022-12-07 14:39:28> Microlab® STARlet IVD : Initialize (Single Step) - start;
+2022-12-07 14:39:31> Microlab® STARlet IVD : Initialize (Single Step) - complete;  > channel 1: Waste,  > channel 2: Waste,  > channel 3: Waste,  > channel 4: Waste,  > channel 5: Waste,  > channel 6: Waste,  > channel 7: Waste,  > channel 8: Waste, 
+2022-12-07 14:39:31> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - start;
+2022-12-07 14:39:33> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - complete;  > channel 1: VER_HT_0001, 1 > channel 2: VER_HT_0001, 2 > channel 3: VER_HT_0001, 3 > channel 4: VER_HT_0001, 4 > channel 5: VER_HT_0001, 5 > channel 6: VER_HT_0001, 6 > channel 7: VER_HT_0001, 7 > channel 8: VER_HT_0001, 8
+2022-12-07 14:39:33> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - start;
+2022-12-07 14:39:34> Microlab® STARlet IVD : 1000ul Channel Aspirate (Single Step) - complete;  > channel 1: Ham_DW_Rgt_L_0001, 1, 700 uL > channel 2: Ham_DW_Rgt_L_0001, 2, 700 uL > channel 3: Ham_DW_Rgt_L_0001, 3, 700 uL > channel 4: Ham_DW_Rgt_L_0001, 4, 700 uL > channel 5: Ham_DW_Rgt_L_0001, 5, 700 uL > channel 6: Ham_DW_Rgt_L_0001, 6, 700 uL > channel 7: Ham_DW_Rgt_L_0001, 7, 700 uL > channel 8: Ham_DW_Rgt_L_0001, 8, 700 uL
+2022-12-07 14:39:34> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-12-07 14:39:35> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: Ham_DW_Rgt_L_0001, 9, 50 uL > channel 2: Ham_DW_Rgt_L_0001, 10, 50 uL > channel 3: Ham_DW_Rgt_L_0001, 11, 50 uL > channel 4: Ham_DW_Rgt_L_0001, 12, 50 uL > channel 5: Ham_DW_Rgt_L_0001, 13, 50 uL > channel 6: Ham_DW_Rgt_L_0001, 14, 50 uL > channel 7: Ham_DW_Rgt_L_0001, 15, 50 uL > channel 8: Ham_DW_Rgt_L_0001, 16, 50 uL
+2022-12-07 14:39:35> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-12-07 14:39:36> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: Nun_96_Fl_Lb_0001, A1, 50 uL > channel 2: Nun_96_Fl_Lb_0001, B1, 50 uL > channel 3: Nun_96_Fl_Lb_0001, C1, 50 uL > channel 4: Nun_96_Fl_Lb_0001, D1, 50 uL > channel 5: Nun_96_Fl_Lb_0001, E1, 50 uL > channel 6: Nun_96_Fl_Lb_0001, F1, 50 uL > channel 7: Nun_96_Fl_Lb_0001, G1, 50 uL > channel 8: Nun_96_Fl_Lb_0001, H1, 50 uL
+2022-12-07 14:39:36> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-12-07 14:39:37> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: Nun_96_Fl_Lb_0001, A2, 50 uL > channel 2: Nun_96_Fl_Lb_0001, B2, 50 uL > channel 3: Nun_96_Fl_Lb_0001, C2, 50 uL > channel 4: Nun_96_Fl_Lb_0001, D2, 50 uL > channel 5: Nun_96_Fl_Lb_0001, E2, 50 uL > channel 6: Nun_96_Fl_Lb_0001, F2, 50 uL > channel 7: Nun_96_Fl_Lb_0001, G2, 50 uL > channel 8: Nun_96_Fl_Lb_0001, H2, 50 uL
+2022-12-07 14:39:37> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-12-07 14:39:38> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: Nun_96_Fl_Lb_0001, A3, 50 uL > channel 2: Nun_96_Fl_Lb_0001, B3, 50 uL > channel 3: Nun_96_Fl_Lb_0001, C3, 50 uL > channel 4: Nun_96_Fl_Lb_0001, D3, 50 uL > channel 5: Nun_96_Fl_Lb_0001, E3, 50 uL > channel 6: Nun_96_Fl_Lb_0001, F3, 50 uL > channel 7: Nun_96_Fl_Lb_0001, G3, 50 uL > channel 8: Nun_96_Fl_Lb_0001, H3, 50 uL
+2022-12-07 14:39:38> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-12-07 14:39:38> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: Nun_96_Fl_Lb_0001, A4, 50 uL > channel 2: Nun_96_Fl_Lb_0001, B4, 50 uL > channel 3: Nun_96_Fl_Lb_0001, C4, 50 uL > channel 4: Nun_96_Fl_Lb_0001, D4, 50 uL > channel 5: Nun_96_Fl_Lb_0001, E4, 50 uL > channel 6: Nun_96_Fl_Lb_0001, F4, 50 uL > channel 7: Nun_96_Fl_Lb_0001, G4, 50 uL > channel 8: Nun_96_Fl_Lb_0001, H4, 50 uL
+2022-12-07 14:39:38> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-12-07 14:39:39> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: Nun_96_Fl_Lb_0001, A5, 50 uL > channel 2: Nun_96_Fl_Lb_0001, B5, 50 uL > channel 3: Nun_96_Fl_Lb_0001, C5, 50 uL > channel 4: Nun_96_Fl_Lb_0001, D5, 50 uL > channel 5: Nun_96_Fl_Lb_0001, E5, 50 uL > channel 6: Nun_96_Fl_Lb_0001, F5, 50 uL > channel 7: Nun_96_Fl_Lb_0001, G5, 50 uL > channel 8: Nun_96_Fl_Lb_0001, H5, 50 uL
+2022-12-07 14:39:39> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-12-07 14:39:40> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: Nun_96_Fl_Lb_0001, A6, 50 uL > channel 2: Nun_96_Fl_Lb_0001, B6, 50 uL > channel 3: Nun_96_Fl_Lb_0001, C6, 50 uL > channel 4: Nun_96_Fl_Lb_0001, D6, 50 uL > channel 5: Nun_96_Fl_Lb_0001, E6, 50 uL > channel 6: Nun_96_Fl_Lb_0001, F6, 50 uL > channel 7: Nun_96_Fl_Lb_0001, G6, 50 uL > channel 8: Nun_96_Fl_Lb_0001, H6, 50 uL
+2022-12-07 14:39:40> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-12-07 14:39:41> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: Nun_96_Fl_Lb_0001, A7, 50 uL > channel 2: Nun_96_Fl_Lb_0001, B7, 50 uL > channel 3: Nun_96_Fl_Lb_0001, C7, 50 uL > channel 4: Nun_96_Fl_Lb_0001, D7, 50 uL > channel 5: Nun_96_Fl_Lb_0001, E7, 50 uL > channel 6: Nun_96_Fl_Lb_0001, F7, 50 uL > channel 7: Nun_96_Fl_Lb_0001, G7, 50 uL > channel 8: Nun_96_Fl_Lb_0001, H7, 50 uL
+2022-12-07 14:39:41> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-12-07 14:39:42> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: Nun_96_Fl_Lb_0001, A8, 50 uL > channel 2: Nun_96_Fl_Lb_0001, B8, 50 uL > channel 3: Nun_96_Fl_Lb_0001, C8, 50 uL > channel 4: Nun_96_Fl_Lb_0001, D8, 50 uL > channel 5: Nun_96_Fl_Lb_0001, E8, 50 uL > channel 6: Nun_96_Fl_Lb_0001, F8, 50 uL > channel 7: Nun_96_Fl_Lb_0001, G8, 50 uL > channel 8: Nun_96_Fl_Lb_0001, H8, 50 uL
+2022-12-07 14:39:42> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-12-07 14:39:42> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: Nun_96_Fl_Lb_0001, A9, 50 uL > channel 2: Nun_96_Fl_Lb_0001, B9, 50 uL > channel 3: Nun_96_Fl_Lb_0001, C9, 50 uL > channel 4: Nun_96_Fl_Lb_0001, D9, 50 uL > channel 5: Nun_96_Fl_Lb_0001, E9, 50 uL > channel 6: Nun_96_Fl_Lb_0001, F9, 50 uL > channel 7: Nun_96_Fl_Lb_0001, G9, 50 uL > channel 8: Nun_96_Fl_Lb_0001, H9, 50 uL
+2022-12-07 14:39:42> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-12-07 14:39:43> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: Nun_96_Fl_Lb_0001, A10, 50 uL > channel 2: Nun_96_Fl_Lb_0001, B10, 50 uL > channel 3: Nun_96_Fl_Lb_0001, C10, 50 uL > channel 4: Nun_96_Fl_Lb_0001, D10, 50 uL > channel 5: Nun_96_Fl_Lb_0001, E10, 50 uL > channel 6: Nun_96_Fl_Lb_0001, F10, 50 uL > channel 7: Nun_96_Fl_Lb_0001, G10, 50 uL > channel 8: Nun_96_Fl_Lb_0001, H10, 50 uL
+2022-12-07 14:39:43> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-12-07 14:39:44> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: Nun_96_Fl_Lb_0001, A11, 50 uL > channel 2: Nun_96_Fl_Lb_0001, B11, 50 uL > channel 3: Nun_96_Fl_Lb_0001, C11, 50 uL > channel 4: Nun_96_Fl_Lb_0001, D11, 50 uL > channel 5: Nun_96_Fl_Lb_0001, E11, 50 uL > channel 6: Nun_96_Fl_Lb_0001, F11, 50 uL > channel 7: Nun_96_Fl_Lb_0001, G11, 50 uL > channel 8: Nun_96_Fl_Lb_0001, H11, 50 uL
+2022-12-07 14:39:44> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - start;
+2022-12-07 14:39:45> Microlab® STARlet IVD : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: Nun_96_Fl_Lb_0001, A12, 50 uL > channel 2: Nun_96_Fl_Lb_0001, B12, 50 uL > channel 3: Nun_96_Fl_Lb_0001, C12, 50 uL > channel 4: Nun_96_Fl_Lb_0001, D12, 50 uL > channel 5: Nun_96_Fl_Lb_0001, E12, 50 uL > channel 6: Nun_96_Fl_Lb_0001, F12, 50 uL > channel 7: Nun_96_Fl_Lb_0001, G12, 50 uL > channel 8: Nun_96_Fl_Lb_0001, H12, 50 uL
+2022-12-07 14:39:45> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - start;
+2022-12-07 14:39:46> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - complete;  > channel 1: Waste,  > channel 2: Waste,  > channel 3: Waste,  > channel 4: Waste,  > channel 5: Waste,  > channel 6: Waste,  > channel 7: Waste,  > channel 8: Waste, 
+2022-12-07 14:39:46> SYSTEM : User Output Dialog - start; <Notificagtion>,   Available button(s): <OK>,   Default button: <OK>,   Message: <complete700>
+2022-12-07 14:40:01> SYSTEM : User Output Dialog - complete; <Notificagtion>,   Automatically closed (timeout) with: <OK (1)>
+2022-12-07 14:40:01> SYSTEM : Execute method - complete; 
+2022-12-07 14:40:01> SYSTEM : End method - start; 
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Config\HxServices.cfg (05-Dec-22 2:38:56 PM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Config\HxStandardLanguage.cfg (12-Aug-22 9:29:51 AM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Config\HxStarMaintAndVer.cfg (07-Dec-22 1:39:29 PM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Config\HxStarMaintAndVerEnu.cfg (14-Mar-17 12:27:44 PM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Config\HxVectorDb.cfg (12-Aug-22 9:29:51 AM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Config\ML_Starlet.cfg (07-Dec-22 2:16:50 PM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Config\ML_Starlet.dck (14-Mar-17 1:14:42 PM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Config\ML_Starlet_Simulator.cfg (07-Dec-22 1:39:29 PM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Config\ML_STARType.cfg (12-Aug-22 9:27:39 AM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Config\ML_STARTypeEnu.cfg (02-Dec-16 4:18:12 PM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Labware\Hamilton\Ham_DW_Rgt_96_L.rck (21-Sep-06 8:18:56 AM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Labware\hamilton\ham_dw_rgt_l.ctr (21-Sep-06 8:18:56 AM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Labware\Hamilton\Ham_DW_Rgt_L.rck (21-Sep-06 8:18:56 AM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Labware\ML_STAR\CO-RE-GRIP\COREGripTool_AtWaste_1000ul.rck (14-Jan-09 4:15:08 PM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Labware\ML_STAR\CORE\TeachingNeedle5ml.rck (17-Jun-08 10:19:28 AM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Labware\ML_STAR\CORE\teachingneedleblock.rck (17-Jun-08 10:19:28 AM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Labware\ML_STAR\CORE\verification.rck (12-Dec-07 3:27:46 PM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Labware\ML_STAR\CORE\waste.ctr (29-Oct-04 4:32:24 PM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Labware\ML_STAR\CORE\waste2.rck (12-Dec-07 3:27:46 PM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Labware\ML_STAR\CORE\WasteBlock.tml (22-Mar-08 8:28:32 AM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Labware\ML_STAR\PLT_CAR_L5AC_A00.tml (12-Dec-07 4:08:28 PM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Labware\ML_STAR\PLT_CAR_L5MD_A00.tml (12-Dec-07 4:08:28 PM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Labware\ML_STAR\REAGENT\RGT_CAR_3R_A01.tml (30-Nov-09 8:06:26 AM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Labware\ML_STAR\REAGENT\rgt_cont_120ml_a00.rck (12-Dec-07 4:14:04 PM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Labware\ML_STAR\SMP_CAR_24_15x75_A00.rck (12-Dec-07 3:27:38 PM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Labware\ML_STAR\st_l.rck (30-Apr-08 12:56:28 PM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Labware\ML_STAR\TIP_CAR_480BC_A00.tml (12-Dec-07 4:08:36 PM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Labware\ML_STAR\TIP_CAR_480BC_ST_A00.tml (12-Dec-07 4:08:36 PM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Labware\ML_STAR\Verification\ver_ht.ctr (29-Oct-04 3:32:26 PM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Labware\ML_STAR\Verification\VER_HT.rck (12-Oct-09 3:57:50 PM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Labware\ML_STAR\Verification\VER_LT.rck (12-Oct-09 3:57:50 PM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Labware\ML_STAR\Verification\VER_ST.rck (12-Oct-09 3:57:50 PM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Labware\Nunc\Nun_384_Sq.rck (26-Nov-09 2:24:42 PM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Labware\nunc\Nun_96_Fl.ctr (21-Sep-06 8:19:00 AM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Labware\Nunc\Nun_96_Fl_Lb.lid (21-Sep-06 8:19:00 AM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Labware\Nunc\Nun_96_Fl_Lb.rck (21-Sep-06 8:19:00 AM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLErrLib.hsl (09-Mar-17 7:27:38 AM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLErrLib.stp (09-Mar-17 7:27:38 AM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLFilLib.hsl (09-Mar-17 7:27:38 AM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLFilLib.stp (09-Mar-17 7:27:38 AM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLGCCMlStarStepLib.hs_ (14-Mar-17 1:14:50 PM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLGCCMlStarStepLib.stp (14-Mar-17 1:14:50 PM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLKitLotLib.hs_ (14-Mar-17 1:14:50 PM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLKitLotLib.hsl (14-Mar-17 1:14:50 PM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLKitLotLib.stp (07-Apr-03 2:02:42 PM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLMappingReportImpl.hs_ (09-Mar-17 7:27:38 AM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLMappingReportImpl.stp (09-Mar-17 7:27:38 AM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLMECCLib.hs_ (09-Mar-17 7:27:38 AM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLMECCLib.stp (09-Mar-17 7:27:38 AM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLMETEDLib.hs_ (09-Mar-17 7:27:38 AM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLMETEDLib.stp (03-Jul-07 4:02:48 PM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLMlStarCfgKeys.hs_ (14-Mar-17 1:14:52 PM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLMlStarCfgKeys.stp (14-Mar-17 1:14:52 PM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLMlStarDeckDef.hs_ (14-Mar-17 1:14:52 PM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLMlStarDeckDef.stp (14-Mar-17 1:14:52 PM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLMlStarStepReturnLib.hsl (14-Mar-17 1:14:52 PM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLMlStarStepReturnLib.stp (14-Mar-17 1:14:52 PM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLMthLib.hsl (09-Mar-17 7:27:38 AM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLMthLib.stp (09-Mar-17 7:27:38 AM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLMthLibImpl.hs_ (09-Mar-17 7:27:38 AM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLMthLibImpl.stp (09-Mar-17 7:27:38 AM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLPTLLibImpl.hs_ (14-Mar-17 1:14:52 PM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLPTLLibImpl.stp (14-Mar-17 1:14:52 PM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLPTLStringTableEnu.hs_ (14-Mar-17 1:14:52 PM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLPTLStringTableEnu.stp (14-Mar-17 1:14:52 PM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLSeqLib.hsl (09-Mar-17 7:27:40 AM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLSeqLib.stp (09-Mar-17 7:27:40 AM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLStringTableLib.hs_ (09-Mar-17 7:27:40 AM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLStringTableLib.stp (09-Mar-17 7:27:40 AM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLStrLib.hsl (09-Mar-17 7:27:40 AM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLStrLib.stp (09-Mar-17 7:27:40 AM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLSynLib.hs_ (09-Mar-17 7:27:40 AM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLSynLib.hsl (09-Mar-17 7:27:40 AM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLSynLib.stp (09-Mar-17 7:27:40 AM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLTipCountingLib.hsl (14-Mar-17 1:14:54 PM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLTipCountingLib.stp (14-Mar-17 1:14:54 PM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLTrcLib.hsl (09-Mar-17 7:27:40 AM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLTrcLib.stp (09-Mar-17 7:27:40 AM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLUtilLib.hsl (09-Mar-17 7:27:40 AM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLUtilLib.stp (09-Mar-17 7:27:40 AM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLUtilLib2.hsl (09-Mar-17 7:27:40 AM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLUtilLib2.stp (09-Mar-17 7:27:40 AM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLUtilLib2Def.hs_ (09-Mar-17 7:27:40 AM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLUtilLib2Def.stp (09-Mar-17 7:27:40 AM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLVectorDb.hs_ (09-Mar-17 7:27:40 AM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLVectorDb.stp (09-Mar-17 7:27:40 AM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLVectorDbTracking.hsl (09-Mar-17 7:27:40 AM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLVectorDbTracking.stp (09-Mar-17 7:27:40 AM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLVectorDbTrackingDefs.hs_ (09-Mar-17 7:27:40 AM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLVectorDbTrackingDefs.stp (09-Mar-17 7:27:40 AM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLVectorDbTrackingImpl.hs_ (09-Mar-17 7:27:40 AM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLVectorDbTrackingImpl.stp (09-Mar-17 7:27:40 AM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLVectorDbWorklistManagement.hsl (09-Mar-17 7:27:40 AM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLVectorDbWorklistManagement.stp (09-Mar-17 7:27:42 AM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLVectorDbWorklistManagementDefs.hs_ (09-Mar-17 7:27:42 AM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLVectorDbWorklistManagementDefs.stp (09-Mar-17 7:27:42 AM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLVectorDbWorklistManagementImpl.hs_ (09-Mar-17 7:27:42 AM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLVectorDbWorklistManagementImpl.stp (09-Mar-17 7:27:42 AM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\SmartStepCustomizedErrorHandling\SmartStepCustomErrorHandling.hs_ (14-Mar-17 1:14:54 PM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\SmartStepCustomizedErrorHandling\SmartStepCustomErrorHandling.hsi (14-Mar-17 1:14:54 PM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\SmartStepCustomizedErrorHandling\SmartStepCustomErrorHandling.stp (13-Dec-16 2:01:14 PM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Methods\HSLMECCLib.hs_ (04-Oct-16 11:46:12 PM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Methods\HSLMECCLib.stp (11-Jun-15 7:22:38 AM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Methods\HSLMECCLibImpl.hs_ (11-Jun-15 4:22:37 AM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Methods\HSLMECCLibImpl.stp (11-Jun-15 4:22:37 AM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Methods\HSLPTLLib.hsl (18-Feb-14 8:35:23 PM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Methods\HSLPTLLib.stp (18-Feb-14 8:35:23 PM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\System\ML_STARNeedle.dat (24-Nov-22 2:32:03 PM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Users\Admin\OneDrive - CONG TY TNHH THIET BI Y TE PHUONG DONG\0work\HAMILTON\training_KhangTruong\Aliquot.hsl (07-Dec-22 2:39:19 PM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Users\Admin\OneDrive - CONG TY TNHH THIET BI Y TE PHUONG DONG\0work\HAMILTON\training_KhangTruong\Aliquot.sub (07-Dec-22 2:39:19 PM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Users\Admin\OneDrive - CONG TY TNHH THIET BI Y TE PHUONG DONG\0work\HAMILTON\training_KhangTruong\Basic_Deck.lay (07-Dec-22 1:39:40 PM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: File C:\Users\Admin\OneDrive - CONG TY TNHH THIET BI Y TE PHUONG DONG\0work\HAMILTON\training_KhangTruong\Basic_Deck.res (07-Dec-22 1:39:40 PM)
+2022-12-07 14:40:01> SYSTEM : End method - progress; Object referenced: Liquid class HighVolume_Water_DispenseJet_Part
+2022-12-07 14:40:01> Microlab® STARlet IVD : End method command - start;
+2022-12-07 14:40:01> Microlab® STARlet IVD : Clean up instrument - progress; Move up 1000ul channels
+2022-12-07 14:40:01> Microlab® STARlet IVD : Clean up instrument - progress; Spreading channels
+2022-12-07 14:40:01> Microlab® STARlet IVD : End method command - complete;
+2022-12-07 14:40:01> SYSTEM : End method - complete; 
+2022-12-07 14:40:07> SYSTEM : File checksum - written; $$author=Admin$$valid=0$$time=2022-12-07 14:40$$checksum=7a1d5332$$length=134$$

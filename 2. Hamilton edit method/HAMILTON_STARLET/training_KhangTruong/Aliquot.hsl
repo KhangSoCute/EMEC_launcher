@@ -1,0 +1,112 @@
+#include "Basic_Deck.res"
+global device ML_STAR ("Basic_Deck.lay", "ML_STAR", hslTrue);
+/* {{ 2 "LibraryInsertLine" "" */ // }} ""
+dialog dialogHandle59E37D3AA6B74e6c9E9DD0B1A0246CF1;
+dialog dialogHandleD7D1432FC0E746e28FEBEFD2FB55E6B9;
+dialog dialogHandleA55EF9EDF39F4ff88E81E397A366E8C2;
+dialog dialogHandle1;
+variable intAspirateVolume;
+variable Notificagtion;
+variable loopCounter1;
+variable complete;
+dialog dialogHandle425CAC5861574414ADDBAE31081DD46D;
+/* {{ 2 "VariableInsertLine" "" */ // }} ""
+// {{ 2 "TemplateIncludeBlock" ""
+ namespace _Method { #include "HSLMETEDLib.hs_" } 
+ namespace _Method { #include "HSLMECCLib.hs_" } 
+ namespace _Method { #include "HSLPTLLib.hsl" } 
+// }} ""
+// {{{ 2 "LocalSubmethodInclude" ""
+ namespace _Method {  #include __filename__ ".sub"  } 
+// }} ""
+/* {{ 2 "ProcessInsertLine" "" */ // }} ""
+// {{{ 5 "main" "Begin"
+namespace _Method { method main(  ) void {
+// }} ""
+// {{ 5 "main" "InitLocals"
+// }} ""
+// {{ 2 "AutoInitBlock" ""
+PTL::SetWashingStateDefault("RinseTime1", 5);
+PTL::SetWashingStateDefault("SoakTime1", 5);
+PTL::SetWashingStateDefault("FlowRate1", 11);
+PTL::SetWashingStateDefault("RinseTime2", 0);
+PTL::SetWashingStateDefault("SoakTime2", 0);
+PTL::SetWashingStateDefault("FlowRate2", 11);
+PTL::SetWashingStateDefault("DrainingTime", 10);
+PTL::SetWashingStateDefault("StartWashLiquid", 0);
+PTL::SetLoadingStateDefault("RecoveryOptionContinue", hslFalse);
+PTL::SetLoadingStateDefault("RecoveryOptionExclude", hslTrue);
+PTL::SetLoadingStateDefault("RecoveryOptionDefault", 1);
+PTL::SetLoadingStateDefault("KitLotCheckEnabled", hslFalse);
+::RegisterAbortHandler( "OnAbort");
+// }} ""
+// {{ 1 1 0 "7317206a_d306_422d_bedf44fc35248695" "ML_STAR:{1C0C0CB0-7C87-11D3-AD83-0004ACB1DCB2}"
+{
+	variable arrRetValues[];
+	arrRetValues = ML_STAR._1C0C0CB0_7C87_11D3_AD83_0004ACB1DCB2("7317206a_d306_422d_bedf44fc35248695"); // Initialize
+}
+// }} ""
+// {{ 2 1 0 "e26b34b1_f2e7_4e77_a76e2f736b12aee1" "{B31F3544-5D80-11d4-A5EB-0050DA737D89}"
+intAspirateVolume = 50 * 14;
+// }} ""
+// {{ 3 1 0 "5c06f4eb_7da7_4c27_9f016d485036c961" "ML_STAR:{541143FA-7FA2-11D3-AD85-0004ACB1DCB2}"
+{
+	variable arrRetValues[];
+	arrRetValues = ML_STAR._541143FA_7FA2_11D3_AD85_0004ACB1DCB2("5c06f4eb_7da7_4c27_9f016d485036c961"); // TipPickUp
+}
+// }} ""
+// {{ 4 1 0 "7d6920a4_d618_4259_b69836e9866f9072" "ML_STAR:{541143F5-7FA2-11D3-AD85-0004ACB1DCB2}"
+{
+	variable arrRetValues[];
+	arrRetValues = ML_STAR._541143F5_7FA2_11D3_AD85_0004ACB1DCB2("7d6920a4_d618_4259_b69836e9866f9072"); // Aspirate
+}
+// }} ""
+// {{ 5 1 0 "d4f8dc23_041f_45f3_8e2d474d359434ad" "ML_STAR:{541143F8-7FA2-11D3-AD85-0004ACB1DCB2}"
+{
+	variable arrRetValues[];
+	arrRetValues = ML_STAR._541143F8_7FA2_11D3_AD85_0004ACB1DCB2("d4f8dc23_041f_45f3_8e2d474d359434ad"); // Dispense
+}
+// }} ""
+// {{ 6 1 0 "f53ba377_1bbb_45a2_acd95c89904909d2" "{B31F3532-5D80-11d4-A5EB-0050DA737D89}"
+{
+loopCounter1 = 0;
+while (
+   (ML_STAR.Nun_96_Fl_Lb_0001.GetCurrentPosition() > 0)
+)
+{
+AlignSequences(hslTrue, ML_STAR.Nun_96_Fl_Lb_0001, 1);
+loopCounter1 = loopCounter1 + 1;
+// }} ""
+// {{ 7 1 0 "b84b6176_9665_4f39_b6e59724cd3cc7fb" "ML_STAR:{541143F8-7FA2-11D3-AD85-0004ACB1DCB2}"
+{
+	variable arrRetValues[];
+	arrRetValues = ML_STAR._541143F8_7FA2_11D3_AD85_0004ACB1DCB2("b84b6176_9665_4f39_b6e59724cd3cc7fb"); // Dispense
+}
+// }} ""
+// {{ 8 1 0 "f53ba377_1bbb_45a2_acd95c89904909d2" "{B31F3532-5D80-11d4-A5EB-0050DA737D89}"
+if (
+   (ML_STAR.Nun_96_Fl_Lb_0001.GetCurrentPosition() > 0 && ML_STAR.Nun_96_Fl_Lb_0001.GetMax() == 0 )
+)
+{ MECC::EndlessSequenceLoopWarning(GetFileName()); }
+
+}
+ML_STAR.Nun_96_Fl_Lb_0001.SetMax(ML_STAR.Nun_96_Fl_Lb_0001.GetTotal());
+ML_STAR.Nun_96_Fl_Lb_0001.SetCurrentPosition(1);
+}
+// }} ""
+// {{ 9 1 0 "20069074_e001_4916_84adbe55cb35a13f" "ML_STAR:{541143FC-7FA2-11D3-AD85-0004ACB1DCB2}"
+{
+	variable arrRetValues[];
+	arrRetValues = ML_STAR._541143FC_7FA2_11D3_AD85_0004ACB1DCB2("20069074_e001_4916_84adbe55cb35a13f"); // TipEject
+}
+// }} ""
+// {{ 10 1 0 "79a3fa8c_70db_4395_87de987e7d962fc5" "{21E07B31-8D2E-11d4-A3B8-002035848439}"
+dialogHandle425CAC5861574414ADDBAE31081DD46D.SetOutput(Translate("complete"), intAspirateVolume);
+dialogHandle425CAC5861574414ADDBAE31081DD46D.ShowOutput(Translate("Notificagtion"), hslOKOnly | hslInformation | hslDefButton1, 15);
+// }} ""
+// {{ 2 "AutoExitBlock" ""
+// }} ""
+// {{{ 5 "main" "End"
+} }
+// }} ""
+// $$author=Admin$$valid=0$$time=2022-12-07 14:56$$checksum=fd55f5c1$$length=084$$

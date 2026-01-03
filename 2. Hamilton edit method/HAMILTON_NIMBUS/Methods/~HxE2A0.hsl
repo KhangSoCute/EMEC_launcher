@@ -1,0 +1,538 @@
+global device NimbusChannel ("C:\\Users\\Admin\\OneDrive - CONG TY TNHH THIET BI Y TE PHUONG DONG\\0work\\0MM\\HAMILTON_NIMBUS\\Methods\\demo_HBV_masterMix_Nimbus.lay", "NimbusChannel", hslTrue);
+ namespace _Method { #include "HSLTipCountingLib.hsl" } 
+ namespace _Method { #include "HSLTipCountingNimbusLib.hsl" } 
+#include "C:\\Users\\Admin\\OneDrive - CONG TY TNHH THIET BI Y TE PHUONG DONG\\0work\\0MM\\HAMILTON_NIMBUS\\Methods\\demo_HBV_masterMix_Nimbus.res"
+/* {{ 2 "LibraryInsertLine" "" */ // }} ""
+variable stringPipetteVariable;
+variable intVolumeWater_default;
+variable intVolumeMasterMix_aspirate;
+variable intNumberOfSample;
+variable all_tips_1000ul_full_counter;
+variable intVolumeSample_default;
+variable intSampleEndPosition;
+variable intVolumeIC_default;
+variable intVolumeQS_default;
+variable intCurrentPosition;
+variable intVolumeMasterMix_aspirate_temp;
+variable loopCounter_DW96_masterMix;
+variable intVolumeIC_aspirate;
+variable loopCounter2;
+variable intVoumeIC_default;
+variable intEndPosition_sample_1;
+variable i;
+variable intCurrentPosition_sample;
+variable loopCounter3;
+variable loopCounter4;
+dialog dialogHandle7A16CE38E21042bc8EB66AF406079020;
+variable intVolumeMasterMix_default;
+variable Master;
+file file1;
+/* {{ 2 "VariableInsertLine" "" */ // }} ""
+// {{ 2 "TemplateIncludeBlock" ""
+ namespace _Method { #include "HSLMETEDLib.hs_" } 
+ namespace _Method { #include "HSLMECCLib.hs_" } 
+// }} ""
+// {{{ 2 "LocalSubmethodInclude" ""
+ namespace _Method {  #include __filename__ ".sub"  } 
+// }} ""
+/* {{ 2 "ProcessInsertLine" "" */ // }} ""
+// {{{ 5 "main" "Begin"
+namespace _Method { method main(  ) void {
+// }} ""
+// {{ 5 "main" "InitLocals"
+// }} ""
+// {{ 2 "AutoInitBlock" ""
+::RegisterAbortHandler( "OnAbort");
+// }} ""
+// {{ 1 1 0 "6638e466_9ab9_418a_8342a6b7e7e0fbfe" "NimbusChannel:{3A356192-E4CF-40AA-B9D6-8B00717D034D}"
+{
+	NimbusChannel._3A356192_E4CF_40AA_B9D6_8B00717D034D("6638e466_9ab9_418a_8342a6b7e7e0fbfe"); // Initialize
+}
+// }} ""
+// {{ 2 1 0 "1937aa3e_78da_41b6_85dfa46ea2ac2b5c" "{B31F3534-5D80-11d4-A5EB-0050DA737D89}"
+file1.AddField("No.Sample", intNumberOfSample, hslInteger);
+if( 0 == file1.Open("C:\\Users\\Admin\\OneDrive - CONG TY TNHH THIET BI Y TE PHUONG DONG\\Desktop\\Nimbus.xls" + " " + "Master$", hslRead) )
+{
+    MECC::RaiseRuntimeErrorEx(-1523711743, MECC::IDS::stepNameFileOpen, MECC::IDS::errorStepFileOpenFailed, "C:\\Users\\Admin\\OneDrive - CONG TY TNHH THIET BI Y TE PHUONG DONG\\Desktop\\Nimbus.xls", "HxMetEdCompCmd");
+}
+// }} ""
+// {{ 3 1 0 "07e42396_b6f6_4929_a2ac33623f803d91" "{586C3429-F931-405f-9938-928E22C90BFA}"
+
+// }} ""
+/* {{ 1 "" "0" */ if(0){  /* }} "" */
+// {{ 4 1 0 "9e559c6e_8b70_45f1_9a1663fd40217a39" "{B31F3539-5D80-11d4-A5EB-0050DA737D89}"
+dialogHandle7A16CE38E21042bc8EB66AF406079020.SetInputSize(1);
+dialogHandle7A16CE38E21042bc8EB66AF406079020.SetInputField(0, Translate("Number of sample"), hslInteger, 1, 1, 72);
+dialogHandle7A16CE38E21042bc8EB66AF406079020.ShowInput(Translate("Number of sample"), hslInfinite, hslOKOnly | hslDefButton1);
+intNumberOfSample = dialogHandle7A16CE38E21042bc8EB66AF406079020.GetInputField(0);
+// }} ""
+/* {{ 1 "" "1" */ } /* }} "" */
+// {{ 5 1 0 "c19be1c5_aa7c_4a44_87312eeac5428225" "{B31F3543-5D80-11d4-A5EB-0050DA737D89}"
+intVolumeMasterMix_default = 30;
+// }} ""
+// {{ 6 1 0 "56c3c857_51f5_47b4_93cd1c3f620c5d30" "{B31F3543-5D80-11d4-A5EB-0050DA737D89}"
+intVolumeQS_default = 20;
+// }} ""
+// {{ 7 1 0 "4e8987b3_c517_4687_93123a771c83c1b6" "{B31F3543-5D80-11d4-A5EB-0050DA737D89}"
+intVolumeSample_default = 20;
+// }} ""
+// {{ 8 1 0 "68b205da_9da5_4c6e_9324d2dfda9f045a" "{B31F3543-5D80-11d4-A5EB-0050DA737D89}"
+intVolumeWater_default = 20;
+// }} ""
+// {{ 9 1 0 "326d5393_1e51_4d44_835486b013a1f006" "{B31F3543-5D80-11d4-A5EB-0050DA737D89}"
+intVolumeIC_default = 2;
+// }} ""
+// {{ 10 1 0 "45caba79_16bb_497a_b83fb78da79d3f69" "{B31F3543-5D80-11d4-A5EB-0050DA737D89}"
+stringPipetteVariable = Translate("");
+// }} ""
+// {{ 11 1 0 "07e42396_b6f6_4929_a2ac33623f803d91" "{586C3429-F931-405f-9938-928E22C90BFA}"
+
+// }} ""
+// {{ 12 1 0 "38f192ae_e79b_42dc_aa2e62cb944f3563" "{586C3429-F931-405f-9938-928E22C90BFA}"
+
+// }} ""
+// {{ 13 1 0 "c589fe26_f6d0_4eda_969afaab17d3ce8b" "{B31F3543-5D80-11d4-A5EB-0050DA737D89}"
+all_tips_1000ul_full_counter = Translate("0");
+// }} ""
+// {{{ 14 1 0 "9c018992_dbcd_4b04_bb9d0c87d531a6bd" "{C1F3C015-47B3-4514-9407-AC2E65043419}"
+TipCount1::Edit2(NimbusChannel.All_1000ul_Tips, all_tips_1000ul_full_counter, NimbusChannel, 300);
+// }} ""
+// {{ 15 1 0 "38f192ae_e79b_42dc_aa2e62cb944f3563" "{586C3429-F931-405f-9938-928E22C90BFA}"
+
+// }} ""
+// {{ 16 1 0 "1b7e9d3e_7221_434f_9e9b0364882d4cf6" "{586C3429-F931-405f-9938-928E22C90BFA}"
+
+// }} ""
+// {{ 17 1 0 "506e66c6_2080_40e6_91d7c44a045adf7e" "{F07B0071-8EFC-11d4-A3BA-002035848439}"
+
+// }} ""
+// {{ 18 1 0 "0425aa4a_8737_40be_9cb27d57d3e9f9e6" "{B31F3544-5D80-11d4-A5EB-0050DA737D89}"
+intSampleEndPosition = intNumberOfSample + 6;
+// }} ""
+// {{ 19 1 0 "8e50e235_25a5_4b39_8bb79c56b7b574ad" "{B31F3544-5D80-11d4-A5EB-0050DA737D89}"
+intVolumeMasterMix_aspirate = intVolumeMasterMix_default * intSampleEndPosition;
+// }} ""
+// {{ 20 1 0 "6688ac1f_68c6_41b1_882d761dac62273d" "{F07B0071-8EFC-11d4-A3BA-002035848439}"
+
+// }} ""
+// {{ 21 1 0 "8fb0b848_b30e_4739_8ab89533a34fa67a" "{B31F3531-5D80-11d4-A5EB-0050DA737D89}"
+if (intSampleEndPosition > 66)
+{
+// }} ""
+// {{ 22 1 0 "8b4c5efb_a704_4cdd_8b47a86990a9ccdf" "{B31F3543-5D80-11d4-A5EB-0050DA737D89}"
+stringPipetteVariable = Translate("1110");
+// }} ""
+// {{ 23 1 0 "34f75762_258b_441b_8f3740d36a24679b" "{B31F3544-5D80-11d4-A5EB-0050DA737D89}"
+intVolumeMasterMix_aspirate_temp = intVolumeMasterMix_aspirate / 3;
+// }} ""
+// {{ 24 1 0 "3578a81f_8a17_4919_803e621d8c526f22" "{B31F3544-5D80-11d4-A5EB-0050DA737D89}"
+intVolumeMasterMix_aspirate = intVolumeMasterMix_aspirate_temp + 20;
+// }} ""
+// {{ 25 1 0 "15ba5606_dc35_4a35_b47c396bbc72ef6d" "NimbusChannel:{935A540D-7DE1-4DA5-8C65-398305BFFDE9}"
+{
+	NimbusChannel._935A540D_7DE1_4DA5_8C65_398305BFFDE9("15ba5606_dc35_4a35_b47c396bbc72ef6d"); // TipPickup
+}
+// }} ""
+// {{ 26 1 0 "54b91678_53a1_43f2_85acc38ed61c6e95" "NimbusChannel:{8F4B230A-4F8D-492F-948E-4D3E69DBECC6}"
+{
+	variable arrRetValues[];
+	arrRetValues = NimbusChannel._8F4B230A_4F8D_492F_948E_4D3E69DBECC6("54b91678_53a1_43f2_85acc38ed61c6e95"); // Aspirate
+}
+// }} ""
+// {{ 27 1 0 "8fb0b848_b30e_4739_8ab89533a34fa67a" "{B31F3531-5D80-11d4-A5EB-0050DA737D89}"
+}
+else
+{
+// }} ""
+// {{ 28 1 0 "da9072f6_6357_44fd_9a12ecb46499422b" "{B31F3531-5D80-11d4-A5EB-0050DA737D89}"
+if (intSampleEndPosition > 30)
+{
+// }} ""
+// {{ 29 1 0 "e0de3911_028c_48fc_8aa6e8cd035168fc" "{B31F3543-5D80-11d4-A5EB-0050DA737D89}"
+stringPipetteVariable = Translate("1100");
+// }} ""
+// {{ 30 1 0 "5645ac34_1708_4e70_a45ac6691e04965b" "{B31F3544-5D80-11d4-A5EB-0050DA737D89}"
+intVolumeMasterMix_aspirate_temp = intVolumeMasterMix_aspirate / 2;
+// }} ""
+// {{ 31 1 0 "500ef60c_4d38_4767_9607eba2d9bab56a" "{B31F3544-5D80-11d4-A5EB-0050DA737D89}"
+intVolumeMasterMix_aspirate = intVolumeMasterMix_aspirate_temp + 15;
+// }} ""
+// {{ 32 1 0 "ce0c112d_7e21_40ea_b59624251fcb7496" "NimbusChannel:{935A540D-7DE1-4DA5-8C65-398305BFFDE9}"
+{
+	NimbusChannel._935A540D_7DE1_4DA5_8C65_398305BFFDE9("ce0c112d_7e21_40ea_b59624251fcb7496"); // TipPickup
+}
+// }} ""
+// {{ 33 1 0 "1381a68c_c4aa_4891_a168caf9c830e6e8" "NimbusChannel:{8F4B230A-4F8D-492F-948E-4D3E69DBECC6}"
+{
+	variable arrRetValues[];
+	arrRetValues = NimbusChannel._8F4B230A_4F8D_492F_948E_4D3E69DBECC6("1381a68c_c4aa_4891_a168caf9c830e6e8"); // Aspirate
+}
+// }} ""
+// {{ 34 1 0 "da9072f6_6357_44fd_9a12ecb46499422b" "{B31F3531-5D80-11d4-A5EB-0050DA737D89}"
+}
+else
+{
+// }} ""
+// {{ 35 1 0 "56bd3711_fdcb_43c2_a4c3a859d400a83f" "{B31F3543-5D80-11d4-A5EB-0050DA737D89}"
+stringPipetteVariable = Translate("1000");
+// }} ""
+// {{ 36 1 0 "84b01f89_80d4_4ac8_82106b91068f8455" "NimbusChannel:{935A540D-7DE1-4DA5-8C65-398305BFFDE9}"
+{
+	NimbusChannel._935A540D_7DE1_4DA5_8C65_398305BFFDE9("84b01f89_80d4_4ac8_82106b91068f8455"); // TipPickup
+}
+// }} ""
+// {{ 37 1 0 "be74ee44_a0b4_487a_b7a8e5db3b9e5b0b" "NimbusChannel:{8F4B230A-4F8D-492F-948E-4D3E69DBECC6}"
+{
+	variable arrRetValues[];
+	arrRetValues = NimbusChannel._8F4B230A_4F8D_492F_948E_4D3E69DBECC6("be74ee44_a0b4_487a_b7a8e5db3b9e5b0b"); // Aspirate
+}
+// }} ""
+// {{ 38 1 0 "da9072f6_6357_44fd_9a12ecb46499422b" "{B31F3531-5D80-11d4-A5EB-0050DA737D89}"
+}
+// }} ""
+// {{ 39 1 0 "8fb0b848_b30e_4739_8ab89533a34fa67a" "{B31F3531-5D80-11d4-A5EB-0050DA737D89}"
+}
+// }} ""
+// {{ 40 1 0 "c8a5cd56_8ed1_4553_b439affadfc4cb92" "{B31F3532-5D80-11d4-A5EB-0050DA737D89}"
+{
+loopCounter_DW96_masterMix = 0;
+while (
+   (NimbusChannel.demo_whiteStrip_all.GetCurrentPosition() > 0)
+)
+{
+AlignSequences(hslTrue, NimbusChannel.demo_whiteStrip_all, 1);
+loopCounter_DW96_masterMix = loopCounter_DW96_masterMix + 1;
+// }} ""
+// {{ 41 1 0 "3554e336_e714_45be_b04f91c6c61a06c5" "NimbusChannel:{5D3B503A-1069-44C1-9284-266B7CC0D14C}"
+{
+	variable arrRetValues[];
+	arrRetValues = NimbusChannel._5D3B503A_1069_44C1_9284_266B7CC0D14C("3554e336_e714_45be_b04f91c6c61a06c5"); // Dispense
+}
+// }} ""
+// {{ 42 1 0 "d3d55a51_9c93_4a17_9453dc18c3c3a988" "{B31F353B-5D80-11d4-A5EB-0050DA737D89}"
+intCurrentPosition = NimbusChannel.demo_whiteStrip_all.GetCurrentPosition();
+// }} ""
+// {{ 43 1 0 "f10a6805_651c_412a_bab618ab720063b0" "{B31F3531-5D80-11d4-A5EB-0050DA737D89}"
+if (intCurrentPosition > intSampleEndPosition)
+{
+// }} ""
+// {{ 44 1 0 "66b5571f_d523_47c1_86a61454bb0a73ae" "{F07B0071-8EFC-11d4-A3BA-002035848439}"
+
+// }} ""
+// {{ 45 1 0 "1b89bd3a_7d20_4ed8_843795dfdaa7b7c1" "{B31F3533-5D80-11d4-A5EB-0050DA737D89}"
+break;
+// }} ""
+// {{ 46 1 0 "f10a6805_651c_412a_bab618ab720063b0" "{B31F3531-5D80-11d4-A5EB-0050DA737D89}"
+}
+// }} ""
+// {{ 47 1 0 "c8a5cd56_8ed1_4553_b439affadfc4cb92" "{B31F3532-5D80-11d4-A5EB-0050DA737D89}"
+if (
+   (NimbusChannel.demo_whiteStrip_all.GetCurrentPosition() > 0 && NimbusChannel.demo_whiteStrip_all.GetMax() == 0 )
+)
+{ MECC::EndlessSequenceLoopWarning(GetFileName()); }
+
+}
+NimbusChannel.demo_whiteStrip_all.SetMax(NimbusChannel.demo_whiteStrip_all.GetTotal());
+NimbusChannel.demo_whiteStrip_all.SetCurrentPosition(1);
+}
+// }} ""
+// {{ 48 1 0 "19befee3_a5a0_494e_bef8abc66300fe66" "NimbusChannel:{413D5718-074F-494B-8846-F959B3FA6EFF}"
+{
+	NimbusChannel._413D5718_074F_494B_8846_F959B3FA6EFF("19befee3_a5a0_494e_bef8abc66300fe66"); // TipEject
+}
+// }} ""
+// {{ 49 1 0 "1b7e9d3e_7221_434f_9e9b0364882d4cf6" "{586C3429-F931-405f-9938-928E22C90BFA}"
+
+// }} ""
+// {{ 50 1 0 "0ac20a14_0263_4cf2_aa5419b5fb477877" "{586C3429-F931-405f-9938-928E22C90BFA}"
+
+// }} ""
+// {{ 51 1 0 "a88171e8_a5dd_4573_928ba610cace7ae3" "{F07B0071-8EFC-11d4-A3BA-002035848439}"
+
+// }} ""
+// {{ 52 1 0 "fa8ff9ae_b03b_4ac2_b97526d6155445aa" "{B31F3544-5D80-11d4-A5EB-0050DA737D89}"
+intVolumeIC_aspirate = intVoumeIC_default * 6;
+// }} ""
+// {{ 53 1 0 "2cd2eb89_60ab_4229_a74f38eb0d1f8c97" "NimbusChannel:{935A540D-7DE1-4DA5-8C65-398305BFFDE9}"
+{
+	NimbusChannel._935A540D_7DE1_4DA5_8C65_398305BFFDE9("2cd2eb89_60ab_4229_a74f38eb0d1f8c97"); // TipPickup
+}
+// }} ""
+// {{ 54 1 0 "99e4fa3f_3827_4d9b_a4cecb8ac2d9f787" "NimbusChannel:{8F4B230A-4F8D-492F-948E-4D3E69DBECC6}"
+{
+	variable arrRetValues[];
+	arrRetValues = NimbusChannel._8F4B230A_4F8D_492F_948E_4D3E69DBECC6("99e4fa3f_3827_4d9b_a4cecb8ac2d9f787"); // Aspirate
+}
+// }} ""
+// {{ 55 1 0 "fd98a4e6_e02e_4bd2_956cb7077d6acbe8" "{B31F3532-5D80-11d4-A5EB-0050DA737D89}"
+{
+loopCounter2 = 0;
+while (
+   (NimbusChannel.demo_whiteStrip_IC.GetCurrentPosition() > 0)
+)
+{
+AlignSequences(hslTrue, NimbusChannel.demo_whiteStrip_IC, 1);
+loopCounter2 = loopCounter2 + 1;
+// }} ""
+// {{ 56 1 0 "a228ede2_e927_46a4_a3a5a67e07187dc0" "NimbusChannel:{5D3B503A-1069-44C1-9284-266B7CC0D14C}"
+{
+	variable arrRetValues[];
+	arrRetValues = NimbusChannel._5D3B503A_1069_44C1_9284_266B7CC0D14C("a228ede2_e927_46a4_a3a5a67e07187dc0"); // Dispense
+}
+// }} ""
+// {{ 57 1 0 "fd98a4e6_e02e_4bd2_956cb7077d6acbe8" "{B31F3532-5D80-11d4-A5EB-0050DA737D89}"
+if (
+   (NimbusChannel.demo_whiteStrip_IC.GetCurrentPosition() > 0 && NimbusChannel.demo_whiteStrip_IC.GetMax() == 0 )
+)
+{ MECC::EndlessSequenceLoopWarning(GetFileName()); }
+
+}
+NimbusChannel.demo_whiteStrip_IC.SetMax(NimbusChannel.demo_whiteStrip_IC.GetTotal());
+NimbusChannel.demo_whiteStrip_IC.SetCurrentPosition(1);
+}
+// }} ""
+// {{ 58 1 0 "8fc0ea01_e2f2_41ca_bc1c9bb3c5b8089e" "NimbusChannel:{413D5718-074F-494B-8846-F959B3FA6EFF}"
+{
+	NimbusChannel._413D5718_074F_494B_8846_F959B3FA6EFF("8fc0ea01_e2f2_41ca_bc1c9bb3c5b8089e"); // TipEject
+}
+// }} ""
+// {{ 59 1 0 "0ac20a14_0263_4cf2_aa5419b5fb477877" "{586C3429-F931-405f-9938-928E22C90BFA}"
+
+// }} ""
+// {{ 60 1 0 "b0935d0d_4be2_46e4_b2bb582e2ea7a6fb" "{586C3429-F931-405f-9938-928E22C90BFA}"
+
+// }} ""
+// {{ 61 1 0 "f0a34207_f96e_42bc_ac30f5f4b9203d4c" "{F07B0071-8EFC-11d4-A3BA-002035848439}"
+
+// }} ""
+// {{ 62 1 0 "d636ee43_ce58_4379_98d4d2d478896b9f" "NimbusChannel:{935A540D-7DE1-4DA5-8C65-398305BFFDE9}"
+{
+	NimbusChannel._935A540D_7DE1_4DA5_8C65_398305BFFDE9("d636ee43_ce58_4379_98d4d2d478896b9f"); // TipPickup
+}
+// }} ""
+// {{ 63 1 0 "27a4f622_eb51_44d8_bb025ab7f42e4128" "NimbusChannel:{8F4B230A-4F8D-492F-948E-4D3E69DBECC6}"
+{
+	variable arrRetValues[];
+	arrRetValues = NimbusChannel._8F4B230A_4F8D_492F_948E_4D3E69DBECC6("27a4f622_eb51_44d8_bb025ab7f42e4128"); // Aspirate
+}
+// }} ""
+// {{ 64 1 0 "cf2dd4cd_799d_410d_8738928d174929ff" "NimbusChannel:{5D3B503A-1069-44C1-9284-266B7CC0D14C}"
+{
+	variable arrRetValues[];
+	arrRetValues = NimbusChannel._5D3B503A_1069_44C1_9284_266B7CC0D14C("cf2dd4cd_799d_410d_8738928d174929ff"); // Dispense
+}
+// }} ""
+// {{ 65 1 0 "2aa9e88e_a61b_4a0b_a6f940d5ecc50e7d" "NimbusChannel:{413D5718-074F-494B-8846-F959B3FA6EFF}"
+{
+	NimbusChannel._413D5718_074F_494B_8846_F959B3FA6EFF("2aa9e88e_a61b_4a0b_a6f940d5ecc50e7d"); // TipEject
+}
+// }} ""
+// {{ 66 1 0 "6598eebe_3d15_456b_a2867817a0dca60b" "NimbusChannel:{935A540D-7DE1-4DA5-8C65-398305BFFDE9}"
+{
+	NimbusChannel._935A540D_7DE1_4DA5_8C65_398305BFFDE9("6598eebe_3d15_456b_a2867817a0dca60b"); // TipPickup
+}
+// }} ""
+// {{ 67 1 0 "0181577b_eca8_4f36_8d6f940272610eff" "NimbusChannel:{8F4B230A-4F8D-492F-948E-4D3E69DBECC6}"
+{
+	variable arrRetValues[];
+	arrRetValues = NimbusChannel._8F4B230A_4F8D_492F_948E_4D3E69DBECC6("0181577b_eca8_4f36_8d6f940272610eff"); // Aspirate
+}
+// }} ""
+// {{ 68 1 0 "7a1b0254_4ec1_4285_a7479bd41fdb9197" "NimbusChannel:{5D3B503A-1069-44C1-9284-266B7CC0D14C}"
+{
+	variable arrRetValues[];
+	arrRetValues = NimbusChannel._5D3B503A_1069_44C1_9284_266B7CC0D14C("7a1b0254_4ec1_4285_a7479bd41fdb9197"); // Dispense
+}
+// }} ""
+// {{ 69 1 0 "f8c782b6_b03b_4f6c_bcdb50f2efbc9cf7" "NimbusChannel:{413D5718-074F-494B-8846-F959B3FA6EFF}"
+{
+	NimbusChannel._413D5718_074F_494B_8846_F959B3FA6EFF("f8c782b6_b03b_4f6c_bcdb50f2efbc9cf7"); // TipEject
+}
+// }} ""
+// {{ 70 1 0 "b0935d0d_4be2_46e4_b2bb582e2ea7a6fb" "{586C3429-F931-405f-9938-928E22C90BFA}"
+
+// }} ""
+// {{ 71 1 0 "54cb1cd8_d703_4f25_856490c82d80f055" "{586C3429-F931-405f-9938-928E22C90BFA}"
+
+// }} ""
+// {{ 72 1 0 "bf41a5eb_7f64_4ee4_bcd8c8b0eba7d90a" "{F07B0071-8EFC-11d4-A3BA-002035848439}"
+
+// }} ""
+// {{ 73 1 0 "7e8b5c66_2bb5_4212_987a5f16fb654e91" "NimbusChannel:{935A540D-7DE1-4DA5-8C65-398305BFFDE9}"
+{
+	NimbusChannel._935A540D_7DE1_4DA5_8C65_398305BFFDE9("7e8b5c66_2bb5_4212_987a5f16fb654e91"); // TipPickup
+}
+// }} ""
+// {{ 74 1 0 "985a087c_da58_4793_bf74862479e63982" "NimbusChannel:{8F4B230A-4F8D-492F-948E-4D3E69DBECC6}"
+{
+	variable arrRetValues[];
+	arrRetValues = NimbusChannel._8F4B230A_4F8D_492F_948E_4D3E69DBECC6("985a087c_da58_4793_bf74862479e63982"); // Aspirate
+}
+// }} ""
+// {{ 75 1 0 "9e4b8b35_0921_4afc_a1e927ccafedc6e1" "NimbusChannel:{5D3B503A-1069-44C1-9284-266B7CC0D14C}"
+{
+	variable arrRetValues[];
+	arrRetValues = NimbusChannel._5D3B503A_1069_44C1_9284_266B7CC0D14C("9e4b8b35_0921_4afc_a1e927ccafedc6e1"); // Dispense
+}
+// }} ""
+// {{ 76 1 0 "abeee1f4_c810_41b0_8b768e0500b659d0" "NimbusChannel:{413D5718-074F-494B-8846-F959B3FA6EFF}"
+{
+	NimbusChannel._413D5718_074F_494B_8846_F959B3FA6EFF("abeee1f4_c810_41b0_8b768e0500b659d0"); // TipEject
+}
+// }} ""
+// {{ 77 1 0 "54cb1cd8_d703_4f25_856490c82d80f055" "{586C3429-F931-405f-9938-928E22C90BFA}"
+
+// }} ""
+// {{ 78 1 0 "2a1115d0_f425_4112_ad1c3eb1615c8d82" "{586C3429-F931-405f-9938-928E22C90BFA}"
+
+// }} ""
+// {{ 79 1 0 "7a3976c8_9194_43e8_b303726ade67972a" "{B31F3543-5D80-11d4-A5EB-0050DA737D89}"
+i = 0;
+// }} ""
+// {{ 80 1 0 "9919b6e1_2f2c_4cac_a92415f1cebcac7f" "{B31F3543-5D80-11d4-A5EB-0050DA737D89}"
+intEndPosition_sample_1 = 1;
+// }} ""
+//find pipette varaiable
+i=intNumberOfSample%4;
+intEndPosition_sample_1=intNumberOfSample-i;
+// {{ 82 1 0 "6350179a_b4dc_442c_b7ea30034f180740" "{B31F3532-5D80-11d4-A5EB-0050DA737D89}"
+{
+loopCounter3 = 0;
+while (
+   (NimbusChannel.demo_DW96_samples.GetCurrentPosition() > 0)
+)
+{
+AlignSequences(hslTrue, NimbusChannel.demo_DW96_samples, 1);
+loopCounter3 = loopCounter3 + 1;
+// }} ""
+// {{ 83 1 0 "05240605_f2f1_4faa_ae188a9e6280055f" "NimbusChannel:{935A540D-7DE1-4DA5-8C65-398305BFFDE9}"
+{
+	NimbusChannel._935A540D_7DE1_4DA5_8C65_398305BFFDE9("05240605_f2f1_4faa_ae188a9e6280055f"); // TipPickup
+}
+// }} ""
+// {{ 84 1 0 "412d5e4f_5864_4394_a6c395035fd542bb" "NimbusChannel:{8F4B230A-4F8D-492F-948E-4D3E69DBECC6}"
+{
+	variable arrRetValues[];
+	arrRetValues = NimbusChannel._8F4B230A_4F8D_492F_948E_4D3E69DBECC6("412d5e4f_5864_4394_a6c395035fd542bb"); // Aspirate
+}
+// }} ""
+// {{ 85 1 0 "9decb17d_f467_4e88_a64f4952d81667cc" "NimbusChannel:{5D3B503A-1069-44C1-9284-266B7CC0D14C}"
+{
+	variable arrRetValues[];
+	arrRetValues = NimbusChannel._5D3B503A_1069_44C1_9284_266B7CC0D14C("9decb17d_f467_4e88_a64f4952d81667cc"); // Dispense
+}
+// }} ""
+// {{ 86 1 0 "77b25937_45ad_48b4_8cb5c044be78ea58" "NimbusChannel:{413D5718-074F-494B-8846-F959B3FA6EFF}"
+{
+	NimbusChannel._413D5718_074F_494B_8846_F959B3FA6EFF("77b25937_45ad_48b4_8cb5c044be78ea58"); // TipEject
+}
+// }} ""
+// {{ 87 1 0 "3662e73d_207d_471e_ad7ae03c5447c640" "{B31F353B-5D80-11d4-A5EB-0050DA737D89}"
+intCurrentPosition_sample = NimbusChannel.demo_DW96_samples.GetCurrentPosition();
+// }} ""
+// {{ 88 1 0 "d29b21d4_4c21_4135_bb3c6e7b37973c8e" "{B31F3531-5D80-11d4-A5EB-0050DA737D89}"
+if (intCurrentPosition_sample > intEndPosition_sample_1)
+{
+// }} ""
+// {{ 89 1 0 "d4ad2ceb_2daf_4b69_a8bc663449a8200f" "{F07B0071-8EFC-11d4-A3BA-002035848439}"
+MECC::TraceComment(Translate("loop break"));
+// }} ""
+// {{ 90 1 0 "6b394b75_6ff9_4117_b9480f7712633365" "{B31F3533-5D80-11d4-A5EB-0050DA737D89}"
+break;
+// }} ""
+// {{ 91 1 0 "d29b21d4_4c21_4135_bb3c6e7b37973c8e" "{B31F3531-5D80-11d4-A5EB-0050DA737D89}"
+}
+// }} ""
+// {{ 92 1 0 "6350179a_b4dc_442c_b7ea30034f180740" "{B31F3532-5D80-11d4-A5EB-0050DA737D89}"
+if (
+   (NimbusChannel.demo_DW96_samples.GetCurrentPosition() > 0 && NimbusChannel.demo_DW96_samples.GetMax() == 0 )
+)
+{ MECC::EndlessSequenceLoopWarning(GetFileName()); }
+
+}
+NimbusChannel.demo_DW96_samples.SetMax(NimbusChannel.demo_DW96_samples.GetTotal());
+}
+// }} ""
+// {{ 93 1 0 "9411afdd_d93f_475d_9581e512d98c9726" "{F07B0071-8EFC-11d4-A3BA-002035848439}"
+
+// }} ""
+if(i==4){stringPipetteVariable="1111";}
+if(i==3){stringPipetteVariable="1110";}
+if(i==2){stringPipetteVariable="1100";}
+if(i==1){stringPipetteVariable="1000";}
+// {{ 95 1 0 "a8bd8bbc_6789_408e_866a1bff0cdc2be8" "{B31F3532-5D80-11d4-A5EB-0050DA737D89}"
+{
+loopCounter4 = 0;
+while (
+   (NimbusChannel.demo_DW96_samples.GetCurrentPosition() > 0)
+)
+{
+AlignSequences(hslTrue, NimbusChannel.demo_DW96_samples, 1);
+loopCounter4 = loopCounter4 + 1;
+// }} ""
+// {{ 96 1 0 "a8a46faa_864a_4618_94837a4c3d732224" "NimbusChannel:{935A540D-7DE1-4DA5-8C65-398305BFFDE9}"
+{
+	NimbusChannel._935A540D_7DE1_4DA5_8C65_398305BFFDE9("a8a46faa_864a_4618_94837a4c3d732224"); // TipPickup
+}
+// }} ""
+// {{ 97 1 0 "89a0ff0a_6cd7_429d_a51bc5103809f822" "NimbusChannel:{8F4B230A-4F8D-492F-948E-4D3E69DBECC6}"
+{
+	variable arrRetValues[];
+	arrRetValues = NimbusChannel._8F4B230A_4F8D_492F_948E_4D3E69DBECC6("89a0ff0a_6cd7_429d_a51bc5103809f822"); // Aspirate
+}
+// }} ""
+// {{ 98 1 0 "19a66a91_eb1d_4b70_bd26a0961f770316" "NimbusChannel:{5D3B503A-1069-44C1-9284-266B7CC0D14C}"
+{
+	variable arrRetValues[];
+	arrRetValues = NimbusChannel._5D3B503A_1069_44C1_9284_266B7CC0D14C("19a66a91_eb1d_4b70_bd26a0961f770316"); // Dispense
+}
+// }} ""
+// {{ 99 1 0 "1de21f2f_85a2_4515_973be10cd93c714b" "NimbusChannel:{413D5718-074F-494B-8846-F959B3FA6EFF}"
+{
+	NimbusChannel._413D5718_074F_494B_8846_F959B3FA6EFF("1de21f2f_85a2_4515_973be10cd93c714b"); // TipEject
+}
+// }} ""
+// {{ 100 1 0 "6fa64eaf_6d09_4b93_bac4d053928f4ae4" "{B31F353B-5D80-11d4-A5EB-0050DA737D89}"
+intCurrentPosition_sample = NimbusChannel.demo_DW96_samples.GetCurrentPosition();
+// }} ""
+// {{ 101 1 0 "c9d98c4a_2b0c_4c82_986202122849d186" "{B31F3531-5D80-11d4-A5EB-0050DA737D89}"
+if (intCurrentPosition_sample > intNumberOfSample)
+{
+// }} ""
+// {{ 102 1 0 "9decd111_f371_4666_9b04c12d7fdebcc3" "{F07B0071-8EFC-11d4-A3BA-002035848439}"
+MECC::TraceComment(Translate("loop break"));
+// }} ""
+// {{ 103 1 0 "d6085554_1ea6_49c9_a62d06e3fdb36442" "{B31F3533-5D80-11d4-A5EB-0050DA737D89}"
+break;
+// }} ""
+// {{ 104 1 0 "c9d98c4a_2b0c_4c82_986202122849d186" "{B31F3531-5D80-11d4-A5EB-0050DA737D89}"
+}
+// }} ""
+// {{ 105 1 0 "a8bd8bbc_6789_408e_866a1bff0cdc2be8" "{B31F3532-5D80-11d4-A5EB-0050DA737D89}"
+if (
+   (NimbusChannel.demo_DW96_samples.GetCurrentPosition() > 0 && NimbusChannel.demo_DW96_samples.GetMax() == 0 )
+)
+{ MECC::EndlessSequenceLoopWarning(GetFileName()); }
+
+}
+NimbusChannel.demo_DW96_samples.SetMax(NimbusChannel.demo_DW96_samples.GetTotal());
+NimbusChannel.demo_DW96_samples.SetCurrentPosition(1);
+}
+// }} ""
+// {{ 106 1 0 "2a1115d0_f425_4112_ad1c3eb1615c8d82" "{586C3429-F931-405f-9938-928E22C90BFA}"
+
+// }} ""
+// {{ 107 1 0 "b703c08a_cfdd_45df_ba9eaebd8e3bbeed" "NimbusChannel:{3A356192-E4CF-40AA-B9D6-8B00717D034D}"
+{
+	NimbusChannel._3A356192_E4CF_40AA_B9D6_8B00717D034D("b703c08a_cfdd_45df_ba9eaebd8e3bbeed"); // Initialize
+}
+// }} ""
+// {{{ 108 1 0 "6d0f7b13_7c21_4a1d_9c6d2a9c2cc6f63f" "{C1F3C015-47B3-4514-9407-AC2E65043419}"
+TipCount1::Write2(NimbusChannel.All_1000ul_Tips, all_tips_1000ul_full_counter, NimbusChannel);
+// }} ""
+// {{ 2 "AutoExitBlock" ""
+// }} ""
+// {{{ 5 "main" "End"
+} }
+// }} ""
+// $$author=Admin$$valid=0$$time=2023-02-09 10:22$$checksum=3614a30e$$length=084$$

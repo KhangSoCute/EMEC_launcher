@@ -1,0 +1,469 @@
+Starting Export of "demo_HBV_masterMix_v2.med" at 05-Dec-22 4:36:01 PM
+
+Used Configuration:
+
+  <input>:	"C:\Users\Admin\OneDrive - CONG TY TNHH THIET BI Y TE PHUONG DONG\0work\HAMILTON\Methods\demo_HBV_masterMix_v2.med"
+  RunMode:	"rmFullGuiMode"
+  ProcOrg:	"poYes"
+  OutputFile:	"C:\Users\Admin\OneDrive - CONG TY TNHH THIET BI Y TE PHUONG DONG\0work\HAMILTON\demo_HBV_masterMix_v2.pkg"
+  Release:	"4.5.0.7977"
+
+
+===== START: Analyze Method / Library / Workflow =====
+
+Parsing file "demo_HBV_masterMix_v2.hsl"... 
+Done.
+
+Analyzing includes of "demo_HBV_masterMix_v2.hsl"... 
+  C:\Users\Admin\OneDrive - CONG TY TNHH THIET BI Y TE PHUONG DONG\0work\HAMILTON\Methods\demo_HBV_masterMix_v2.res
+  C:\Program Files (x86)\HAMILTON\Library\HSLMETEDLib.hs_
+  C:\Users\Admin\OneDrive - CONG TY TNHH THIET BI Y TE PHUONG DONG\0work\HAMILTON\Methods\HSLMECCLib.hs_
+  C:\Program Files (x86)\HAMILTON\Library\HSLUtilLib2.hsl
+  C:\Program Files (x86)\HAMILTON\Library\HSLStrLib.hsl
+  C:\Program Files (x86)\HAMILTON\Library\HSLStringTableLib.hs_
+  C:\Program Files (x86)\HAMILTON\Library\HSLMthLib.hsl
+  C:\Program Files (x86)\HAMILTON\Library\HSLMthLibImpl.hs_
+  C:\Program Files (x86)\HAMILTON\Library\HSLSynLib.hsl
+  C:\Program Files (x86)\HAMILTON\Library\HSLSynLib.hs_
+  C:\Program Files (x86)\HAMILTON\Library\HSLStringTableLib.hs_
+  C:\Program Files (x86)\HAMILTON\Library\HSLErrLib.hsl
+  C:\Program Files (x86)\HAMILTON\Library\HSLUtilLib2Def.hs_
+  C:\Program Files (x86)\HAMILTON\Library\HSLUtilLib.hsl
+  C:\Program Files (x86)\HAMILTON\Library\HSLStringTableLib.hs_
+  C:\Users\Admin\OneDrive - CONG TY TNHH THIET BI Y TE PHUONG DONG\0work\HAMILTON\Methods\HSLMECCLibImpl.hs_
+  C:\Program Files (x86)\HAMILTON\Library\HSLStringTableLib.hs_
+  C:\Users\Admin\OneDrive - CONG TY TNHH THIET BI Y TE PHUONG DONG\0work\HAMILTON\Methods\HSLPTLLib.hsl
+  C:\Program Files (x86)\HAMILTON\Library\HSLPTLLibImpl.hs_
+  C:\Program Files (x86)\HAMILTON\Library\HSLTipCountingLib.hsl
+  C:\Program Files (x86)\HAMILTON\Library\HSLFilLib.hsl
+  C:\Program Files (x86)\HAMILTON\Library\HSLStringTableLib.hs_
+  C:\Program Files (x86)\HAMILTON\Library\HSLMlStarCfgKeys.hs_
+  C:\Program Files (x86)\HAMILTON\Library\HSLStringTableLib.hs_
+  C:\Program Files (x86)\HAMILTON\Library\HSLMlStarStepReturnLib.hsl
+  C:\Program Files (x86)\HAMILTON\Library\HSLStringTableLib.hs_
+  C:\Program Files (x86)\HAMILTON\Library\HSLGCCMlStarStepLib.hs_
+  C:\Program Files (x86)\HAMILTON\Library\SmartStepCustomizedErrorHandling\SmartStepCustomErrorHandling.hs_
+  C:\Program Files (x86)\HAMILTON\Library\SmartStepCustomizedErrorHandling\SmartStepCustomErrorHandling.hsi
+  C:\Program Files (x86)\HAMILTON\Library\HSLErrLib.hsl
+  C:\Program Files (x86)\HAMILTON\Library\HSLMETEDLib.hs_
+  C:\Program Files (x86)\HAMILTON\Library\HSLMECCLib.hs_
+  C:\Program Files (x86)\HAMILTON\Library\HSLStrLib.hsl
+  C:\Program Files (x86)\HAMILTON\Library\HSLSeqLib.hsl
+  C:\Program Files (x86)\HAMILTON\Library\HSLStringTableLib.hs_
+  C:\Program Files (x86)\HAMILTON\Library\HSLKitLotLib.hsl
+  C:\Program Files (x86)\HAMILTON\Library\HSLKitLotLib.hs_
+  C:\Program Files (x86)\HAMILTON\Library\HSLSynLib.hsl
+  C:\Program Files (x86)\HAMILTON\Library\HSLStrLib.hsl
+  C:\Program Files (x86)\HAMILTON\Library\HSLStringTableLib.hs_
+  C:\Program Files (x86)\HAMILTON\Library\HSLMlStarDeckDef.hs_
+  C:\Program Files (x86)\HAMILTON\Library\HSLVectorDbTracking.hsl
+  C:\Program Files (x86)\HAMILTON\Library\HSLVectorDbTrackingImpl.hs_
+  C:\Program Files (x86)\HAMILTON\Library\HSLVectorDb.hs_
+  C:\Program Files (x86)\HAMILTON\Library\HSLVectorDbTrackingDefs.hs_
+  C:\Program Files (x86)\HAMILTON\Library\HSLVectorDbWorklistManagement.hsl
+  C:\Program Files (x86)\HAMILTON\Library\HSLVectorDbWorklistManagementImpl.hs_
+  C:\Program Files (x86)\HAMILTON\Library\HSLVectorDb.hs_
+  C:\Program Files (x86)\HAMILTON\Library\HSLVectorDbWorklistManagementDefs.hs_
+  C:\Program Files (x86)\HAMILTON\Library\HSLTrcLib.hsl
+  C:\Program Files (x86)\HAMILTON\Library\HSLMappingReportImpl.hs_
+  C:\Program Files (x86)\HAMILTON\Library\HSLStringTableLib.hs_
+  C:\Program Files (x86)\HAMILTON\Library\HSLStringTableLib.hs_
+  C:\Users\Admin\OneDrive - CONG TY TNHH THIET BI Y TE PHUONG DONG\0work\HAMILTON\Methods\demo_HBV_masterMix_v2.sub
+Done.
+
+Analyzing device "ML_STAR"... 
+  C:\Users\Admin\OneDrive - CONG TY TNHH THIET BI Y TE PHUONG DONG\0work\HAMILTON\Methods\demo_HBV_masterMix_v2.lay
+  Seegene\Seegene_2Reagent50mLx6_1DWP_2PCR_R01.tml
+  Seegene\RGT_CONT_50ml_A00.rck
+  Seegene\AB_fast_8Strip.rck
+  Seegene\AB_fast_plate.rck
+  Seegene\AB_7500_plate.rck
+  Seegene\DWP96_MN_Sq_RdBottom_Magnet.rck
+  seegene\AB_8Strip.rck
+  Seegene\Bioplastics_8Strip.rck
+  Seegene\PCR_Plate96.rck
+  Seegene\White_Strip.rck
+  seegene\Clear_8Strip.rck
+  seegene\Bioplastics_Plate.rck
+  Seegene\RT_PCR_8Strip.rck
+  Seegene\Seegene_1HHS_1Magnet_1Tip_2Tube_R01.tml
+  Seegene\Adapter_PCR3_RevA.rck
+  Seegene\Adapter_PCR2_RevA.rck
+  Seegene\Adapter_PCR4_RevA.rck
+  Seegene\Adapter_PCR5_RevA.rck
+  Seegene\Adapter_PCR6_RevA.rck
+  Seegene\Adapter_PCR7_RevA.rck
+  Seegene\DWP96_MN_Sq_RdBottom_Magnet_STARlet.rck
+  ML_STAR\htf_l.rck
+  Seegene\Adapter_PCR1_RevA.rck
+  Seegene\DWP96_MN_Sq_RdBottom_Heater_STARlet.rck
+  Seegene\Seegene_2Reagent50mLx6_1DWP_1QiaEL_1PCR_R01.tml
+  ML_STAR\TIP_CAR_480BC_HTF_A00.tml
+  ML_STAR\STF_L.rck
+  ML_STAR\CORE\WasteBlock.tml
+  ML_STAR\CO-RE-GRIP\COREGripTool_OnWaste_1000ul.rck
+  ML_STAR\CORE\teachingneedleblock.rck
+  ML_STAR\CORE\waste2.rck
+  Seegene\SMP_CAR_32_Vials.rck
+  Seegene\SMP_CAR_32_2ml.rck
+  seegene\SMP_CAR_12_Thinprep.rck
+WARNING: 
+  The file "C:\Program Files (x86)\HAMILTON\Labware\roche\smp_car_12_d35_a00.bmp" referenced by
+  "C:\Program Files (x86)\HAMILTON\Labware\seegene\SMP_CAR_12_Thinprep.rck" does not exist.
+
+WARNING: 
+  The file "C:\Program Files (x86)\HAMILTON\Labware\roche\smp_car_12_d35_a00.png" referenced by
+  "C:\Program Files (x86)\HAMILTON\Labware\seegene\SMP_CAR_12_Thinprep.rck" does not exist.
+
+  Seegene\SMP_CAR_24_15x100_A00.rck
+  Seegene\SMP_CAR_32_Copan12mm.rck
+  Seegene\SMP_CAR_12_Thinprep.rck
+  ML_STAR\SMP_CAR_32_12x100_A00.rck
+  ML_STAR\SMP_CAR_24_15x100_A00.rck
+  ML_STAR\LiquidWaste.rck
+  C:\Users\Admin\OneDrive - CONG TY TNHH THIET BI Y TE PHUONG DONG\0work\HAMILTON\Methods\demo_HBV_masterMix_v2.lay
+  C:\Users\Admin\OneDrive - CONG TY TNHH THIET BI Y TE PHUONG DONG\0work\HAMILTON\Methods\demo_HBV_masterMix_v2.lay
+Done.
+
+Analyzing selected methods of "demo_HBV_masterMix_v2.hsl"... 
+Done.
+
+Analyzing additional dependencies... 
+Done.
+
+===== END: Analyze Method / Library / Workflow =====
+
+
+
+===== START: Export Data =====
+
+Exporting instrument data for "ML_STAR" ("demo_HBV_masterMix_v2.hsl")... 
+Done.
+
+Exporting system configuration... 
+Done.
+
+===== END: Export Data =====
+
+
+
+===== START: Generate Package =====
+
+Preparing package... 
+Done.
+
+Creating package information... 
+Done.
+
+Compressing files... 
+  demo_HBV_masterMix_v2.hsl
+  demo_HBV_masterMix_v2.med
+  demo_HBV_masterMix_v2.sub
+  demo_HBV_masterMix_v2.stp
+  c--users-admin-onedrive - cong ty tnhh thiet bi y te phuong dong-0work-hamilton-methods-demo_hbv_mastermix_v2.adp
+  C--Users-Admin-OneDrive - CONG TY TNHH THIET BI Y TE PHUONG DONG-0work-HAMILTON-Methods-demo_HBV_masterMix_v2Admin.medbkm
+  demo_HBV_masterMix_v2.res
+  HSLMETEDLib.hs_
+  HSLMETEDLib.stp
+  HSLMECCLib.hs_
+  HSLMECCLib.stp
+  HSLMECCLibEnu.hs_
+  HSLMECCLibEnu.stp
+  HSLUtilLib2.hsl
+  HSLUtilLib2.stp
+  HSLUtilLib2Enu.chm
+  HSLUtilLib2.bmp
+  HSLStrLib.hsl
+  HSLStrLib.stp
+  HSLStrLibEnu.hs_
+  HSLStrLibEnu.stp
+  HSLStrLibEnu.chm
+  HSLStrLib.bmp
+  HSLStringTableLib.hs_
+  HSLStringTableLib.stp
+  HSLStringTableLibEnu.chm
+  HSLMthLib.hsl
+  HSLMthLib.stp
+  HSLMthLibEnu.chm
+  HSLMthLib.bmp
+  HSLMthLibImpl.hs_
+  HSLMthLibImpl.stp
+  HSLSynLib.hsl
+  HSLSynLib.stp
+  HSLSynLib.hs_
+  HSLSynLibEnu.chm
+  HSLSynLib.bmp
+  HSLSynLib.CloseConnection.bmp
+  HSLSynLib.Connect.bmp
+  HSLSynLib.GetAllReceivedData.bmp
+  HSLSynLib.GetReceivedData.bmp
+  HSLSynLib.ResetBuffer.bmp
+  HSLSynLib.SendData.bmp
+  HSLErrLib.hsl
+  HSLErrLib.stp
+  HSLErrLibEnu.chm
+  HSLErrLib.bmp
+  HSLUtilLib2Def.hs_
+  HSLUtilLib2Def.stp
+  HSLUtilLib2Def.bmp
+  HSLUtilLib.hsl
+  HSLUtilLib.stp
+  HSLUtilLibEnu.hs_
+  HSLUtilLibEnu.stp
+  HSLUtilLibEnu.chm
+  HSLUtilLib.bmp
+  HSLUtilLib.AsyncShell.bmp
+  HSLUtilLib.GetEMailAddressOfSender.bmp
+  HSLUtilLib.GetSMTPServerHostName.bmp
+  HSLUtillib.sendEmail.bmp
+  HSLUtilLib.SetEMailAddressOfSender.bmp
+  HSLUtilLib.SetSMTPServerHostName.bmp
+  HSLUtilLib.SyncShell.bmp
+  HSLMECCLibImpl.hs_
+  HSLMECCLibImpl.stp
+  HSLPTLLib.hsl
+  HSLPTLLib.stp
+  HSLPTLLibENU.hlp
+  HSLPTLLibENU.cnt
+  HSLPTLLibEnu.chm
+  HSLPTLLib.bmp
+  HSLPTLLibImpl.hs_
+  HSLPTLLibImpl.stp
+  HSLTipCountingLib.hsl
+  HSLTipCountingLib.stp
+  HSLTipCountingLibEnu.hs_
+  HSLTipCountingLibEnu.stp
+  HSLTipCountingLibEnu.chm
+  HSLTipCountingLib.bmp
+  HSLFilLib.hsl
+  HSLFilLib.stp
+  HSLFilLibEnu.hs_
+  HSLFilLibEnu.stp
+  HSLFilLibEnu.chm
+  HSLFilLib.bmp
+  HSLMlStarCfgKeys.hs_
+  HSLMlStarCfgKeys.stp
+  HSLMlStarStepReturnLib.hsl
+  HSLMlStarStepReturnLib.stp
+  HSLMlStarStepReturnLibEnu.hs_
+  HSLMlStarStepReturnLibEnu.stp
+  HSLMlStarStepReturnLibEnu.chm
+  HSLMlStarStepReturnLib.bmp
+  HSLGCCMlStarStepLib.hs_
+  HSLGCCMlStarStepLib.stp
+  SmartStepCustomErrorHandling.hs_
+  SmartStepCustomErrorHandling.smt
+  SmartStepCustomErrorHandling.hsi
+  SmartStepCustomErrorHandling.stp
+  HSLMECCLib.hs_
+  HSLMECCLib.stp
+  HSLMECCLibEnu.hs_
+  HSLMECCLibEnu.stp
+  HSLSeqLib.hsl
+  HSLSeqLib.stp
+  HSLSeqLibEnu.hs_
+  HSLSeqLibEnu.stp
+  HSLSeqLibEnu.chm
+  HSLSeqLib.bmp
+  HSLKitLotLib.hsl
+  HSLKitLotLib.stp
+  HSLKitLotLib.hs_
+  HSLKitLotLibEnu.hlp
+  HSLKitLotLibEnu.cnt
+  HSLKitLotLib.bmp
+  HSLKitLotLib.CheckBarcode.bmp
+  HSLKitLotLib.CheckKitLot.bmp
+  HSLKitLotLib.GetKitLotValue.bmp
+  HSLKitLotLib.SetAccessRepetition.bmp
+  HSLKitLotLib.SetDateColName.bmp
+  HSLKitLotLib.SetIdColName.bmp
+  HSLKitLotLib.SetKitlotFile.bmp
+  HSLKitLotLib.SetKitlotPath.bmp
+  HSLKitLotLib.SetTableName.bmp
+  HSLKitLotLib.SetTimeColName.bmp
+  HSLKitLotLib.SplitBarcode.bmp
+  HSLMlStarDeckDef.hs_
+  HSLMlStarDeckDef.stp
+  HSLMlStarDeckDefEnu.chm
+  HSLMlStarDeckDef.bmp
+  HSLVectorDbTracking.hsl
+  HSLVectorDbTracking.stp
+  HSLVectorDbTrackingEnu.chm
+  HSLVectorDbTracking.bmp
+  HSLVectorDbTrackingImpl.hs_
+  HSLVectorDbTrackingImpl.stp
+  HSLVectorDb.hs_
+  HSLVectorDb.stp
+  HSLVectorDbTrackingDefs.hs_
+  HSLVectorDbTrackingDefs.stp
+  HSLVectorDbWorklistManagement.hsl
+  HSLVectorDbWorklistManagement.stp
+  HSLVectorDbWorklistManagementEnu.chm
+  HSLVectorDbWorklistManagement.bmp
+  HSLVectorDbWorklistManagementImpl.hs_
+  HSLVectorDbWorklistManagementImpl.stp
+  HSLVectorDbWorklistManagementDefs.hs_
+  HSLVectorDbWorklistManagementDefs.stp
+  HSLTrcLib.hsl
+  HSLTrcLib.stp
+  HSLTrcLibEnu.chm
+  HSLTrcLib.bmp
+  HSLMappingReportImpl.hs_
+  HSLMappingReportImpl.stp
+  HSLMappingReportImplEnu.hs_
+  HSLMappingReportImplEnu.stp
+  demo_HBV_masterMix_v2.lay
+  Seegene_2Reagent50mLx6_1DWP_2PCR_R01.tml
+  MFX_CAR_2Empty_DWP_2PCR96.x
+  RGT_CONT_50ml_A00.rck
+  rgt_cont_50ml_a00.ctr
+  AB_fast_8Strip.rck
+  96_l.bmp
+  ab_fast_8strip.ctr
+  AB_fast_plate.rck
+  ab_fast_plate.ctr
+  AB_7500_plate.rck
+  ab_7500_plate.ctr
+  DWP96_MN_Sq_RdBottom_Magnet.rck
+  DW96_L.bmp
+  dwp96_mn_sq_rdbottom_magnet.ctr
+  AB_8Strip.rck
+  ab_8strip.ctr
+  Bioplastics_8Strip.rck
+  bioplastics_8strip_01.ctr
+  PCR_Plate96.rck
+  pcr_plate96.ctr
+  White_Strip.rck
+  white_strip.ctr
+  Clear_8Strip.rck
+  clear_8strip.ctr
+  Bioplastics_Plate.rck
+  bioplastics_plate.ctr
+  RT_PCR_8Strip.rck
+  rt_pcr_8strip.ctr
+  Seegene_1HHS_1Magnet_1Tip_2Tube_R01.tml
+  Adapter_PCR3_RevA.rck
+  vial_3_reva.ctr
+  Adapter_PCR2_RevA.rck
+  vial_2_reva.ctr
+  Adapter_PCR4_RevA.rck
+  vial_4_reva.ctr
+  Adapter_PCR5_RevA.rck
+  vial_5_reva.ctr
+  Adapter_PCR6_RevA.rck
+  vial_6_reva.ctr
+  Adapter_PCR7_RevA.rck
+  vial_7_reva.ctr
+  DWP96_MN_Sq_RdBottom_Magnet_STARlet.rck
+  dwp96_mn_sq_rdbottom_magnet_starlet.ctr
+  htf_l.rck
+  htf_l.bmp
+  htf_l.png
+  ht.ctr
+  Adapter_PCR1_RevA.rck
+  vial_1_reva.ctr
+  DWP96_MN_Sq_RdBottom_Heater_STARlet.rck
+  dwp96_mn_sq_rdbottom_heater_starlet.ctr
+  Seegene_2Reagent50mLx6_1DWP_1QiaEL_1PCR_R01.tml
+  TIP_CAR_480BC_HTF_A00.tml
+  tip_car_480bc_ht_a00.png
+  TIP_CAR_480BC_A00.hxx
+  STF_L.rck
+  stf_l.bmp
+  stf_l.png
+  st.ctr
+  WasteBlock.tml
+  wasteblock.png
+  WasteBlock.hxx
+  verification.rck
+  verification.bmp
+  Verification.hxx
+  verification.ctr
+  waste2.rck
+  waste.bmp
+  Waste2.hxx
+  waste.ctr
+  teachingneedleblock.rck
+  teachingneedleblock.bmp
+  TeachingNeedleBlock.hxx
+  teachingneedleblock.ctr
+  TeachingNeedle5ml.rck
+  TeachingNeedle5ml.bmp
+  TeachingNeedle5ml.hxx
+  teachingneedle5ml.ctr
+  COREGripTool_OnWaste_1000ul.rck
+  COREGripTool_OnWaste_1000ul.png
+  coregriptool_onwaste_1000ul.ctr
+  SMP_CAR_32_Vials.rck
+  SMP_CAR_32.bmp
+  smp_car_32_epil_a00.png
+  vial_sample.ctr
+  SMP_CAR_32_2ml.rck
+  SMP_CAR_12_Thinprep.rck
+  thinprep.ctr
+  SMP_CAR_24_15x100_A00.rck
+  SMP_CAR_24.bmp
+  smp_car_24_15x100_a00.png
+  SMP_CAR_24_A00.hxx
+  utm_helth.ctr
+  SMP_CAR_32_Copan12mm.rck
+  smp_car_32_12x100_a00.png
+  SMP_CAR_32_A00.hxx
+  copan_mini.ctr
+  SMP_CAR_32_12x100_A00.rck
+  cup_12x100.ctr
+  SMP_CAR_24_15x100_A00.rck
+  cup_15x100.ctr
+  LiquidWaste.rck
+  liquidwaste.ctr
+  HSLPTLStringTableEnu.hs_
+  HSLPTLStringTableEnu.stp
+  ML_STAR_200F6800
+  SystemConf
+  ActivityTypes.cfg
+  ActivityTypesEnu.cfg
+  Diagnostic.dck
+  Diagnostic.lay
+  FDxProtocol.cfg
+  HamHeaterShakerUsb.cfg
+  HSLKeywords.cfg
+  HxAtFilter.cfg
+  HxConfigEditor.cfg
+  HxCustomDialogCompCmd.cfg
+  HxGRUCompCmd.cfg
+  HxMetEd.cfg
+  HxMetEdCompCmd.cfg
+  HxMethodCopy.cfg
+  HxRs232Com.cfg
+  HxSchedCompCmd.cfg
+  HxScheduleView.cfg
+  HxServices.cfg
+  HxStandardLanguage.cfg
+  HxStarMaintAndVer.cfg
+  HxStarMaintAndVerEnu.cfg
+  HxSTCompCmd.cfg
+  HxTcpIpBdzComm.cfg
+  HxTrace.cfg
+  HxVectorDb.cfg
+  HxWatchView.cfg
+  ML_FlexStar.dck
+  ML_FlexStar.tpl
+  ML_STAR.cfg
+  ML_STAR2.dck
+  ML_STAR2.tpl
+  ML_Starlet.cfg
+  ML_Starlet.dck
+  ML_Starlet.tpl
+  ML_Starlet_Simulator.cfg
+  ML_STARType.cfg
+  ML_STARTypeEnu.cfg
+  ML_STAR_Simulator.cfg
+  users.cfg
+  pkgConf
+Done.
+
+===== END: Generate Package =====
+
+
+
+Export of "demo_HBV_masterMix_v2.med" completed with 2 warning(s).

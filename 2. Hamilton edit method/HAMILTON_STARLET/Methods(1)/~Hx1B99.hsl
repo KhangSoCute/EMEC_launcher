@@ -1,0 +1,64 @@
+#include "STARlet_v6.1.res"
+global device ML_STAR ("STARlet_v6.1.lay", "ML_STAR", hslTrue);
+/* {{ 2 "LibraryInsertLine" "" */ // }} ""
+/* {{ 2 "VariableInsertLine" "" */ // }} ""
+// {{ 2 "TemplateIncludeBlock" ""
+ namespace _Method { #include "HSLMETEDLib.hs_" } 
+ namespace _Method { #include "HSLMECCLib.hs_" } 
+ namespace _Method { #include "HSLPTLLib.hsl" } 
+// }} ""
+// {{{ 2 "LocalSubmethodInclude" ""
+ namespace _Method {  #include __filename__ ".sub"  } 
+// }} ""
+// {{ 2 "AutoWorkflow" ""
+// AutoWorkflow for method with actions.
+#ifndef HSL_ACTION_METHOD
+   #define HSL_ACTION_METHOD 1
+#endif
+#ifndef HSL_SCHEDULE
+   schedulerprompt = 2;
+   workflow __AutoWorkflow__() void { _Method::HSLMETEDLib::ExecuteMethod( GetFileName()); }
+#endif
+// }} ""
+/* {{ 2 "ProcessInsertLine" "" */ // }} ""
+// {{{ 5 "main" "Begin"
+namespace _Method { method main(  ) void {
+// }} ""
+// {{ 5 "main" "InitLocals"
+// }} ""
+// {{ 2 "AutoInitBlock" ""
+PTL::SetWashingStateDefault("RinseTime1", 5);
+PTL::SetWashingStateDefault("SoakTime1", 5);
+PTL::SetWashingStateDefault("FlowRate1", 11);
+PTL::SetWashingStateDefault("RinseTime2", 0);
+PTL::SetWashingStateDefault("SoakTime2", 0);
+PTL::SetWashingStateDefault("FlowRate2", 11);
+PTL::SetWashingStateDefault("DrainingTime", 10);
+PTL::SetWashingStateDefault("StartWashLiquid", 0);
+PTL::SetLoadingStateDefault("RecoveryOptionContinue", hslFalse);
+PTL::SetLoadingStateDefault("RecoveryOptionExclude", hslTrue);
+PTL::SetLoadingStateDefault("RecoveryOptionDefault", 1);
+PTL::SetLoadingStateDefault("KitLotCheckEnabled", hslFalse);
+::RegisterAbortHandler( "OnAbort");
+// }} ""
+// {{ 1 1 0 "12176bcf_ed4f_4f80_af9a41b01ac849da" "{4FB3C56D-3EF5-4317-8A5B-7CDFAC1CAC8F}"
+{
+actionblock( 120, 16711935, Translate( "Load" ), -1, "{5428B7B9-DB08-4899-9ED5-BBE670958AE4}") {
+{ timer __consume_duration_timer("", GetCurrentActivityViewName()); if (GetSimulationMode( ) != 0)
+{  __consume_duration_timer.SetTimer( GetCurrentActivityDuration()); }
+
+// }} ""
+// {{ 2 1 0 "12176bcf_ed4f_4f80_af9a41b01ac849da" "{4FB3C56D-3EF5-4317-8A5B-7CDFAC1CAC8F}"
+if (GetSimulationMode( ) != 0)
+{ __consume_duration_timer.WaitTimer( hslFalse, hslFalse ); } }
+ } oncancelaction {
+HSLMETEDLib::HandleCanceledAction( Translate( "Load" ) );
+ } }
+
+// }} ""
+// {{ 2 "AutoExitBlock" ""
+// }} ""
+// {{{ 5 "main" "End"
+} }
+// }} ""
+// $$author=Admin$$valid=0$$time=2022-08-30 14:56$$checksum=d12700b1$$length=084$$

@@ -1,0 +1,160 @@
+// {{{ 2 "IncludeGuard" "PragmaOnce"
+#pragma once
+// }} ""
+#include "HSLMlStarStepReturnLib.hsl"
+#include "HSLStrLib.hsl"
+#include "HSLDevLib.hsl"
+#include "HSLSeqLib.hsl"
+/* {{ 2 "LibraryInsertLine" "" */ // }} ""
+// {{ 2 "TemplateIncludeBlock" ""
+#include "HSLMETEDLib.hs_"
+#include "HSLMECCLib.hs_"
+#include "HSLPTLLib.hsl"
+// }} ""
+// {{{ 2 "LibraryNamespace" "Begin"
+namespace CALCULATEVOLUMES {
+// }} ""
+/* {{ 2 "VariableInsertLine" "" */ // }} ""
+// {{{ 2 "SubmethodForwardDeclaration" ""
+function CheckVolume_1mL( device & ML_STAR, sequence SeqToCheck, variable ContainersConnected, variable ChannelUsed, variable MinimumRequired, variable & MeetsRequirement, variable & MeasuredVolume ) void ;
+function CheckVolume_5mL( device & ML_STAR, sequence & SeqToCheck, variable ContainersConnected, variable ChannelUsed, variable MinimumRequired, variable & MeetsRequirement, variable & MeasuredVolume ) void ;
+// }} ""
+function _InitLibrary() {
+// {{ 2 "AutoInitBlock" ""
+PTL::SetWashingStateDefault("RinseTime1", 5);
+PTL::SetWashingStateDefault("SoakTime1", 5);
+PTL::SetWashingStateDefault("FlowRate1", 11);
+PTL::SetWashingStateDefault("RinseTime2", 0);
+PTL::SetWashingStateDefault("SoakTime2", 0);
+PTL::SetWashingStateDefault("FlowRate2", 11);
+PTL::SetWashingStateDefault("DrainingTime", 10);
+PTL::SetWashingStateDefault("StartWashLiquid", 0);
+PTL::SetLoadingStateDefault("RecoveryOptionContinue", hslTrue);
+PTL::SetLoadingStateDefault("RecoveryOptionExclude", hslTrue);
+PTL::SetLoadingStateDefault("RecoveryOptionDefault", 0);
+PTL::SetLoadingStateDefault("KitLotCheckEnabled", hslFalse);
+// }} ""
+}
+function _ExitLibrary() {
+// {{ 2 "AutoExitBlock" ""
+// }} ""
+}
+// {{{ 5 "CheckVolume_5mL" "Begin"
+function CheckVolume_5mL( device & ML_STAR, sequence & SeqToCheck, variable ContainersConnected, variable ChannelUsed, variable MinimumRequired, variable & MeetsRequirement, variable & MeasuredVolume ) void {
+// }} ""
+private variable PositionID;
+private variable LLD_Data_Channel_Height;
+private variable LLD_Data_Channel;
+private variable LabwareID;
+private variable LLD_Result_String;
+// {{ 5 "CheckVolume_5mL" "InitLocals"
+MeetsRequirement = 0;
+MeasuredVolume = 0;
+// }} ""
+// {{ 14 1 0 "c56effff_ab71_4b35_8c2e9b0e54ef50b2" "ML_STAR:{852CFD8F-B5E9-45b2-B17D-CAA88A86E862}"
+{
+	variable arrRetValues[];
+	arrRetValues = ML_STAR.XLGetLastLiquidLevel("c56effff_ab71_4b35_8c2e9b0e54ef50b2");
+	LLD_Result_String = arrRetValues[2];
+}
+// }} ""
+// {{{ 15 1 0 "ead8d7b9_2105_4399_a9a2fbd80a88ad1a" "{C1F3C015-47B3-4514-9407-AC2E65043419}"
+LLD_Data_Channel = StepReturn::GetStepData(ChannelUsed, LLD_Result_String);
+// }} ""
+// {{{ 16 1 0 "ba60b24d_b4ab_4779_97b4f34b2811512e" "{C1F3C015-47B3-4514-9407-AC2E65043419}"
+LLD_Data_Channel_Height = StrFVal(LLD_Data_Channel);
+// }} ""
+// {{{ 17 1 0 "f37ac3d2_9549_454c_9bddac02b5eaacc6" "{C1F3C015-47B3-4514-9407-AC2E65043419}"
+LabwareID = SeqGetLabwareId(SeqToCheck);
+// }} ""
+// {{{ 18 1 0 "0426e4c8_7537_48e4_a1fec994a83e6c0d" "{C1F3C015-47B3-4514-9407-AC2E65043419}"
+PositionID = SeqGetPositionId(SeqToCheck);
+// }} ""
+// {{{ 19 1 0 "ec30b8ba_0ffc_4ec3_a6a1d65854e4a342" "{C1F3C015-47B3-4514-9407-AC2E65043419}"
+MeasuredVolume = DevComputeContainerVolume2(ML_STAR, LabwareID, PositionID, LLD_Data_Channel_Height, 1, 1);
+// }} ""
+Trace ("********** Volume found is:  ", MeasuredVolume, "mL");
+// {{ 21 1 0 "190deea9_e5b7_4021_85d361a9718fe140" "{B31F3531-5D80-11d4-A5EB-0050DA737D89}"
+if (MeasuredVolume >= MinimumRequired)
+{
+// }} ""
+// {{ 22 1 0 "c6812733_cb3c_4aaf_85fc3e0aae21f841" "{B31F3543-5D80-11d4-A5EB-0050DA737D89}"
+MeetsRequirement = 0;
+// }} ""
+// {{ 23 1 0 "190deea9_e5b7_4021_85d361a9718fe140" "{B31F3531-5D80-11d4-A5EB-0050DA737D89}"
+}
+else
+{
+// }} ""
+// {{ 24 1 0 "7e5f9975_49a2_4cbc_9d7de4dd3431f74e" "{B31F3543-5D80-11d4-A5EB-0050DA737D89}"
+MeetsRequirement = -1;
+// }} ""
+// {{ 25 1 0 "190deea9_e5b7_4021_85d361a9718fe140" "{B31F3531-5D80-11d4-A5EB-0050DA737D89}"
+}
+// }} ""
+// {{{ 5 "CheckVolume_5mL" "End"
+}
+// }} ""
+// {{{ 5 "CheckVolume_1mL" "Begin"
+function CheckVolume_1mL( device & ML_STAR, sequence SeqToCheck, variable ContainersConnected, variable ChannelUsed, variable MinimumRequired, variable & MeetsRequirement, variable & MeasuredVolume ) void {
+// }} ""
+private variable LLD_Data_Channel_Height;
+private variable LLD_Data_Channel;
+private variable Position_ID;
+private variable Labware_ID;
+private variable LLD_Result_String;
+// {{ 5 "CheckVolume_1mL" "InitLocals"
+MeetsRequirement = 0;
+MeasuredVolume = 0;
+// }} ""
+// {{ 1 1 0 "d540bc00_064a_404f_be9639013feea89d" "ML_STAR:{9FB6DFE0-4132-4d09-B502-98C722734D4C}"
+{
+	variable arrRetValues[];
+	arrRetValues = ML_STAR.GetLastLiquidLevel("d540bc00_064a_404f_be9639013feea89d");
+	LLD_Result_String = arrRetValues[2];
+}
+// }} ""
+// {{{ 2 1 0 "4391b272_c431_44c0_853beb6dfcc11f61" "{C1F3C015-47B3-4514-9407-AC2E65043419}"
+LLD_Data_Channel = StepReturn::GetStepData(ChannelUsed, LLD_Result_String);
+// }} ""
+// {{{ 3 1 0 "9ccf39d2_9faf_4c3a_89fe4164a1f84536" "{C1F3C015-47B3-4514-9407-AC2E65043419}"
+LLD_Data_Channel_Height = StrFVal(LLD_Data_Channel);
+// }} ""
+// {{{ 4 1 0 "b5b4f82a_f71f_4080_8d463771e16bb341" "{C1F3C015-47B3-4514-9407-AC2E65043419}"
+Labware_ID = SeqGetLabwareId(SeqToCheck);
+// }} ""
+// {{{ 5 1 0 "47eab659_6fba_4c8a_b0cc2074b5d485b5" "{C1F3C015-47B3-4514-9407-AC2E65043419}"
+Position_ID = SeqGetPositionId(SeqToCheck);
+// }} ""
+// {{{ 6 1 0 "2b559f37_88e2_41a5_a19d262d68309630" "{C1F3C015-47B3-4514-9407-AC2E65043419}"
+MeasuredVolume = DevComputeContainerVolume2(ML_STAR, Labware_ID, Position_ID, LLD_Data_Channel_Height, 1, 1);
+// }} ""
+/* {{ 1 "" "0" */ if(0){  /* }} "" */
+Trace ("********** Volume found is:  ", MeasuredVolume, "mL");
+/* {{ 1 "" "1" */ } /* }} "" */
+// {{ 8 1 0 "33427f18_2623_40dc_aee7211aef9782ee" "{B31F3531-5D80-11d4-A5EB-0050DA737D89}"
+if (MeasuredVolume >= MinimumRequired)
+{
+// }} ""
+// {{ 9 1 0 "40bef366_4949_45c3_a63bfc6d68fffd99" "{B31F3543-5D80-11d4-A5EB-0050DA737D89}"
+MeetsRequirement = 0;
+// }} ""
+// {{ 10 1 0 "33427f18_2623_40dc_aee7211aef9782ee" "{B31F3531-5D80-11d4-A5EB-0050DA737D89}"
+}
+else
+{
+// }} ""
+// {{ 11 1 0 "1de331d4_4006_4b0a_b947a1c2b81a32ed" "{B31F3543-5D80-11d4-A5EB-0050DA737D89}"
+MeetsRequirement = -1;
+// }} ""
+// {{ 12 1 0 "33427f18_2623_40dc_aee7211aef9782ee" "{B31F3531-5D80-11d4-A5EB-0050DA737D89}"
+}
+// }} ""
+// {{{ 5 "CheckVolume_1mL" "End"
+}
+// }} ""
+/* {{ 2 "SubmethodInsertLine" "" */ // }} ""
+// {{{ 2 "LibraryNamespace" "End"
+} // library namespace
+// }} ""
+// $$author=Seegene Admin$$valid=0$$time=2011-02-15 15:48$$checksum=1248c3f4$$length=092$$

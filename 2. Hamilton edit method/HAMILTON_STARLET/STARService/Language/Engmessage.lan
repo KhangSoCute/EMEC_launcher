@@ -1,0 +1,537 @@
+:::0001 Error
+Can not initialize pipetters
+:::0002 Error
+Can not delete FLASH
+:::0003 Error
+File does not exist
+:::0004 Error
+Error in download program
+:::0005 Error
+Can not swap map to normal mode
+:::0006 Error
+System information is not at the moment available
+:::0007 Error
+Wrong instruction
+:::0008 Error
+Attention not all Z-drives in init position!
+:::0009 Message
+Stop
+:::0010 Message
+Start
+:::0011 Message
+Master
+:::0012 Message
+Auto load
+:::0013 Message
+All pipetting channels
+:::0014 Message
+Pipetting channel
+:::0015 Message
+Status query
+:::0016 Message
+Swap Map
+:::0017 Message
+Can not swap map
+:::0018 Message
+Delete Flash EPROM
+:::0019 Message
+Open file
+:::0020 Message
+Programming...
+:::0021 Message
+Swap map to program
+:::0022 Message
+Download aborted
+:::0023 Message
+Download completed successfully
+:::0024 Message
+Open
+:::0025 Message
+Save
+:::0026 Message
+LLD-Signal
+:::0027 Message
+The file was not found!
+:::0028 Message
+Info to
+:::0029 Message
+Version
+:::0030 Message
+Input instruction:
+:::0031 Error
+This Command is not implemented!
+:::0032 Error
+Wrong command!
+:::0033 Error
+Can not set the new configuration!
+:::0034 Error
+Communication Error! Please reset the Instrument!
+:::0035 Run Button
+Remove this run button definition?
+:::0036 Label
+Other
+:::0037 Message
+Instrument connected
+:::0038 Message
+Instrument disconnected
+:::0039 Macro Filter
+WinTus Macro (*.mcr)|*.mcr|All Files (*.*)|*.*
+:::0040 Module
+Master
+:::0041 Module
+X-Drive
+:::0042 Module
+Auto load
+:::0043 Module
+Pipetting channel
+:::0044 Zähler Ausdruck
+Microlab STAR Cycles 
+:::0045 Zähler Ausdruck Tabelle
+Count|Value;
+:::0046 Ausdruck Service Daten
+Service data
+:::0047 Ausdruck Service Daten
+Microlab STAR Instrument Data
+:::0048 Ausdruck Service Daten Tabelle
+Description|Value;
+:::0049 Service Daten Filter
+Service-Data File (*.ser)|*.ser|All Files (*.*)|*.*
+:::0050 Alle Dateien
+All Files (*.*)|*.*
+:::0051 Ausdruck der Seite
+Page
+:::0052 Ausdruck der Seite
+of
+:::0053 Ausdruck Instrument Configuration
+Microlab STAR
+:::0054 Instrument Configuration Tabelle
+Description|Value;
+:::0055 Ausdruck Instrument Configuration
+Instrument Configuration
+:::0056 Download Filter
+ACH File (*.ach)|*.ach|All Files (*.*)|*.*
+:::0057 Ausdruck LLD
+Microlab STAR LLD Trace Information
+:::0058 Ausdruck LLD Tabelle
+Parameter|Value;
+:::0059 Ausdruck LLD
+LLD Parameter
+:::0060 Ausdruck LLD
+Mode
+:::0061 Ausdruck LLD
+Sensitivity
+:::0062 LLD-Data Filter
+LLD-Data File (*.lld)|*.lld|All Files (*.*)|*.*
+:::0063 LLD
+Values from instrument
+:::0064 Module
+Detection values
+:::0065 Module
+Detection threshold
+:::0066 Module
+Threshold
+:::0067 Module
+Different
+:::0068 Module
+Different threshold
+:::0069 Print File
+Print File (*.vsp)|*.vsp|All Files (*.*)|*.*
+:::0070 Module
+Firmware version
+:::0071 Module
+t [ms]
+:::0072 Module
+A/D value
+:::0073 Module
+t [2ms]
+:::0074 Module
+Date
+:::0075 Module
+A/D value different
+:::0076 Module
+2/5 Interleaved
+:::0077 Module
+Code 39
+:::0078 Error
+More than 30 submacros!
+:::0079 DCM-Data Filter
+DCM-Data File (*.dcm)|*.dcm|All Files (*.*)|*.*
+:::0080 Ausdruck DCM
+Microlab STAR DCM Trace Information
+:::0081 Module
+UPCA,UPCE
+:::0082 Module
+EAN, 8 or 13
+:::0083 Module
+CODE 128, EAN 128
+:::0084 Ausdruck DCM
+DCM Parameter
+:::0085 Module
+EAN Addendum, 2 or 5
+:::0086 Module
+CODABAR
+:::0087 Error
+Parameter out of range
+:::0088 Module
+delta p threshold
+:::0089 Module
+clot threshold
+:::0090 Error
+Can not run Macro with syntax errors!
+:::0091 Module
+(reserved)
+:::0092 Module
+(reserved)
+:::0093 Module
+Plate handler
+:::0094 Module
+Pipetting channel typ
+:::0095 Module
+not Used
+:::0096 Module
+Cover
+:::0097 Module
+Autoload
+:::0098 Module
+Number of Pipettors
+:::0099 Module
+TS 606836
+:::0100 Module
+Edit
+:::0101 Message
+Open
+:::0102 Macro Filter
+WinTus Macro (*.mcr)|*.mcr|All Files (*.*)|*.*
+:::0103 Message
+Input instruction:
+:::0104 Message
+Instrument connected
+:::0105 Message
+Instrument disconnected
+:::0106 Error
+Communication Error! Please reset the Instrument!
+:::0107 Error
+Error in line
+:::0108 Error
+Wrong command!
+:::0109 Macro Syntax Error
+Can not run Macro with syntax errors!
+:::0110 Error
+This Command is not implemented!
+:::0111 Error
+Wrong instruction
+:::0112 Error
+More than 5 submacros!
+:::0113 DCM-Daten
+counts
+:::0114 Download
+Wash station
+:::0115 Download
+Temperatur carrier
+:::0116 Configuration
+Wash station 1
+:::0117 Configuration
+Wash station 2
+:::0118 Configuration
+Temperatur carrier 1
+:::0119 Configuration
+Temperatur carrier 2
+:::0120 Error
+Wash station
+:::0121 Error
+Temperatur carrier
+:::0122 Temperatur carrier
+Controler is off
+:::0123 Temperatur carrier
+Heating
+:::0124 Temperatur carrier
+Cooling
+:::0125 Temperatur carrier
+Off
+:::0126 Temperatur carrier
+Pumping
+:::0127 DCM-Trace
+Distance
+:::0128 DCM-Trace
+Max. accelerate
+:::0129 DCM-Trace
+Accelerate
+:::0130 DCM-Trace
+Max. speed
+:::0131 DCM-Trace
+Stop speed
+:::0132 Gripper
+Plate Handler
+:::0133 Editor
+Set your Editor
+:::0134 Service Data
+Date / Signature:
+:::0135 CoRe 96 Head
+CoRe 96 Head
+:::0136 WinTus
+Variable not found!
+:::0137 Pump station 1
+Pump station 1
+:::0138 Presure sensor
+Can not connet to Pressure sensor!
+:::0139 Repeat
+Values out of range!
+:::0140 EEProm checksum error
+Can not clear EEProm checksum error!
+:::0141 EEProm checksum error
+Dont know how to clear EEProm checksum error
+:::0142 Configuration
+installed
+:::0143 Configuration
+none
+:::0144 DCM-Data
+(hold)
+:::0145 DCM-Data
+Recording mode
+:::0146 DCM-Data
+no recording
+:::0147 DCM-Data
+control deviation
+:::0148 DCM-Data
+target value
+:::0149 DCM-Data
+actual value
+:::0150 DCM-Data
+pwm value
+:::0151 DCM-Data
+motor current
+:::0152 DCM-Data
+Maximal integral sum value
+:::0153 DCM-Data
+X2-Drive
+:::0154 DCM-Data
+Reserved-Drive
+:::0155 DCM-Data
+Z-Drive
+:::0156 DCM-Data
+W-Drive
+:::0157 DCM-Data
+T-Drive
+:::0158 DCM-Data
+G-Drive
+:::0159 DCM-Data
+Y-Drive
+:::0160 DCM-Data
+Dispensing-Drive
+:::0161 DCM-Data
+Squeezer-Drive
+:::0162 DCM-Data
+D-Drive
+:::0163 X-Drive
+Can not initialize all Z-drives
+:::0164 Calculator
+There are too many open parenthesis in the expression. The method must be aborted.
+:::0165 Calculator
+There are too many close parenthesis in the expression. The method must be aborted.
+:::0166 Calculator
+Divide by zero
+:::0167 Calculator
+Numlist stack pointer ending not correct
+:::0168 Calculator
+Part of the calculation will generate an overflow. The method must be aborted.
+:::0169 Calculator
+Run time error
+:::0170 Download
+Nano dispenser
+:::0171 Download
+CoRe 384 Head
+:::0172 Download
+All pump stations
+:::0173 Download
+Pumpstation 1
+:::0174 Download
+Pumpstation 2
+:::0175 Download
+Pumpstation 3
+:::0176 Pump station 2
+Pump station 2
+:::0177 Pump station 3
+Pump station 3
+:::0178 USB-Error
+USB-Interface is used by an other application!
+:::0179 PDF
+Write PDF
+:::0180 PDF
+PDF File (*.pdf)|*.pdf
+:::0181 WinTus
+Duplicate LABEL
+:::0182 DCM-Data
+Z-Drive 8 channel
+:::0183 DCM-Data
+Z-Drive +n
+:::0184 Seyonic
+Master
+:::0185 Seyonic
+Slave
+:::0186 Pump Station
+CoRe 96/384
+:::0187 Pump Station
+DC
+:::0188 Pump Station
+TripleR
+:::0189 Download
+Pressure controller
+:::0190 Seyonic
+Seyonic Diagnostics
+:::0191 Seyonic
+Parameters|Typ. Value|Typ. Value|Ch 1|Ch 2|Ch 3|Ch 4|Ch 5|Ch 6|Ch 7|Ch 8;
+:::0192 CSV File Filter
+CSV File (*.csv)|*.csv|All Files (*.*)|*.*
+:::0193 Read DCM-Data
+Error on read data!
+:::0194 Read DCM-Data
+Error on calculation!
+:::0195 Macro Filter
+ML-STAR Trace File (*.trc)|*.trc|All Files (*.*)|*.*
+:::0196 Error
+Can start only once!
+:::0197 EEPROM
+Attention! This will only change the Status from 1 to 0 without correcting the problem(s), do you wish to continue?
+:::0198 Download
+Waiting for processor start
+:::0199 Regional Settings
+Attention!/nLocal settings do not match to software functionality./nDecimal separator should be '.'
+:::0200 Download
+All XL-channel
+:::0201 Download
+XL-channel
+:::0202 Download
+All robotic-channel
+:::0203 Download
+Robotic-channel
+:::0204 Download
+Tube Gripper
+:::0205 Download
+Imaging channel
+:::0206 Remote Host
+Remote Host name:
+:::0207 Open Trace file
+Can not open file!/nCheck pathname and permission!
+:::0208 Node Names
+Do you wish to automatically allocate the node names to the installed components? /n (only required after firmware upgrade or hardware upgrade).
+:::0209 Node Names
+Can not set node names!
+:::0210 Node Names
+Allocating the node names!/nPlease wait!
+:::0211 Gel Card Gripper
+Gel Card Gripper
+:::0212 Node Names
+Is 1 or 2 Hamilton Heater Shakers connencted to TCC1 or TCC2 of the STAR Periphery Connector PCB?
+:::0213 Download
+Please power cycle the instrument after firmware download
+:::0214 Download
+Please power cycle the instrument
+:::0215 Master
+Voltage 42V:
+:::0216 Master
+Voltage 5V USB:
+:::0217 Master
+Card Handler
+:::0218 Master
+Card Puncher
+:::0219 Config
+maximal Y distance in 0.1 mm
+:::0220 EEProm Data
+Adjustment values
+:::0221 EEProm Data
+Cycle counter
+:::0222 EEProm Data
+Technical states
+:::0223 EEProm Data
+Adjustment date
+:::0224 EEProm Data
+Download date
+:::0225 EEProm Data
+Configuration data
+:::0226 EEProm Data
+CAN node name
+:::0227 EEProm Data
+Firmware name
+:::0228 Download
+RD5 Process Unit
+:::0229 Download
+RD5 Loading Unit
+:::0230 Download
+ELISA Washer
+:::0231 Download
+ELISA Liquid Unit Processor
+:::0232 Download
+ELISA Incubator
+:::0233 Download
+ELISA Reader
+:::0234 Download
+Decapper
+:::0235 ServiceData
+Hamilton Centrifuge
+:::0300 Report
+Open
+:::0301 Report
+Print File (*.vsp)|*.vsp|All Files (*.*)|*.*
+:::0302 Report
+Write PDF
+:::0303 Report
+PDF File (*.pdf)|*.pdf
+:::0304 Report
+Save
+:::0305 Report
+Page
+:::0306 Report
+of
+:::0500 WinTus DownLoad
+Other
+:::0501 WinTus DownLoad
+Open
+:::0502 WinTus DownLoad
+SIM File (*.sim)|*.sim|All Files (*.*)|*.*
+:::0503 WinTus DownLoad
+ACH File (*.ach)|*.ach|All Files (*.*)|*.*
+:::0504 WinTus DownLoad
+Programming...
+:::0505 WinTus DownLoad
+Status request
+:::0506 WinTus DownLoad
+Swap map
+:::0507 WinTus DownLoad
+Can not swap map
+:::0508 WinTus DownLoad
+Delete flash EPROM
+:::0509 WinTus DownLoad
+Open file
+:::0510 WinTus DownLoad
+File does not exist!
+:::0511 WinTus DownLoad
+Error in download program
+:::0512 WinTus DownLoad
+Swap map to program
+:::0513 WinTus DownLoad
+Download aborted
+:::0514 WinTus DownLoad
+Download completed successfully
+:::0515 WinTus DownLoad
+Can not delete FLASH
+:::0516 WinTus DownLoad
+Can not swap map to normal mode
+:::0517 Macro Syntax Error
+$IF without $ENDIF
+:::0518 Macro Syntax Error
+$LOOP without $ENDLOOP
+:::0519 Macro Syntax Error
+$WHILE without $ENDWHILE
+:::0520 WinShell
+Can not start Program
+:::0521 ShowPic
+OK
+:::0522 ShowPic
+Abort
+:::0523 ShowPic
+Yes
+:::0524 ShowPic
+No
+:::0525 WinTus
+Maximal number of variables reached (32766)!
+

@@ -1,0 +1,51 @@
+global device ML_STAR ("C:\\Users\\Admin\\OneDrive - CONG TY TNHH THIET BI Y TE PHUONG DONG\\0work\\HAMILTON\\Methods\\demo_HBV_masterMix_v3.lay", "ML_STAR", hslTrue);
+ namespace _Method { #include "HSLTipCountingLib.hsl" } 
+/* {{ 2 "LibraryInsertLine" "" */ // }} ""
+dialog dialogHandle0CBCB626F74E45299E4A16928CFA7CC3;
+dialog dialogHandleF013AA8275D342f6AAE3E4B99EFCC5AA;
+variable intNumberOfSample;
+/* {{ 2 "VariableInsertLine" "" */ // }} ""
+// {{ 2 "TemplateIncludeBlock" ""
+ namespace _Method { #include "HSLMETEDLib.hs_" } 
+ namespace _Method { #include "HSLMECCLib.hs_" } 
+ namespace _Method { #include "HSLPTLLib.hsl" } 
+// }} ""
+// {{{ 2 "LocalSubmethodInclude" ""
+ namespace _Method {  #include __filename__ ".sub"  } 
+// }} ""
+/* {{ 2 "ProcessInsertLine" "" */ // }} ""
+// {{{ 5 "main" "Begin"
+namespace _Method { method main(  ) void {
+// }} ""
+// {{ 5 "main" "InitLocals"
+// }} ""
+// {{ 2 "AutoInitBlock" ""
+PTL::SetWashingStateDefault("RinseTime1", 5);
+PTL::SetWashingStateDefault("SoakTime1", 5);
+PTL::SetWashingStateDefault("FlowRate1", 11);
+PTL::SetWashingStateDefault("RinseTime2", 0);
+PTL::SetWashingStateDefault("SoakTime2", 0);
+PTL::SetWashingStateDefault("FlowRate2", 11);
+PTL::SetWashingStateDefault("DrainingTime", 10);
+PTL::SetWashingStateDefault("StartWashLiquid", 0);
+PTL::SetLoadingStateDefault("RecoveryOptionContinue", hslFalse);
+PTL::SetLoadingStateDefault("RecoveryOptionExclude", hslTrue);
+PTL::SetLoadingStateDefault("RecoveryOptionDefault", 1);
+PTL::SetLoadingStateDefault("KitLotCheckEnabled", hslFalse);
+::RegisterAbortHandler( "OnAbort");
+// }} ""
+// {{ 1 1 0 "f200835d_313e_478c_b3839ff59f0e2ddc" "{B31F3539-5D80-11d4-A5EB-0050DA737D89}"
+dialogHandleF013AA8275D342f6AAE3E4B99EFCC5AA.SetInputSize(1);
+dialogHandleF013AA8275D342f6AAE3E4B99EFCC5AA.SetInputField(0, Translate("declairation number of Sample"), hslInteger, 1, 1, 72);
+dialogHandleF013AA8275D342f6AAE3E4B99EFCC5AA.ShowInput(Translate("Number of Sample?"), 120, hslOKCancel | hslDefButton1);
+intNumberOfSample = dialogHandleF013AA8275D342f6AAE3E4B99EFCC5AA.GetInputField(0);
+// }} ""
+//chia so luong mau cho 8, so du chia cho sequence con lai, tuc la luon dung 8 channel cho cac sequence truoc, so du se phai khai bao so luong dau tip tuong ung <8
+
+int num1=intNumberOfSample%8;
+// {{ 2 "AutoExitBlock" ""
+// }} ""
+// {{{ 5 "main" "End"
+} }
+// }} ""
+// $$author=Admin$$valid=0$$time=2022-12-06 16:32$$checksum=66654f1b$$length=084$$

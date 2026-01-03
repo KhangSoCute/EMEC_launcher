@@ -1,0 +1,17 @@
+
+// this ALWAYS GENERATED file contains the sub-method library header
+// Generated at 9/15/2021 1:36:02 PM
+
+#pragma once
+#ifndef HSL_RUNTIME
+namespace ERRORCHANNELSELECTION_V1 {
+function _InitLibrary() { }
+function _ExitLibrary() { }
+function ErrorChannelSelection( variable Instrument, variable & ChannelSelection_ClotDetected, variable & ChannelSelection_LiquidNotCorrectlyAspirated, variable & ChannelSelection_NotEnoughLiquidPresent, variable & ChannelSelection_NoLiquidLevelFound, variable & ChannelSelection_UnexpectedcLLDfound, variable & ChannelSelection_AllError, variable & ChannelSelection_AllError2, variable & ChannelSelection_NotError, variable & ChannelSelection_AllCh, variable & ChannelSelection_decapError ) void { }
+} // namespace
+#endif
+
+#ifdef HSL_RUNTIME
+#include __filename__ ".hsi"
+#endif
+// $$author=Method$$valid=0$$time=2021-09-15 13:36$$checksum=071361aa$$length=083$$

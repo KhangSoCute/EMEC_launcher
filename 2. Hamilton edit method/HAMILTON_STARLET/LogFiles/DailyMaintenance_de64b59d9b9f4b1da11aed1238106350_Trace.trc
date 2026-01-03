@@ -1,0 +1,472 @@
+2022-04-26 10:16:34> SYSTEM : Analyze method - start; Method file C:\Program Files (x86)\HAMILTON\Methods\VM\DailyMaintenance.hsl
+2022-04-26 10:16:34> SYSTEM : Analyze method - complete; 
+2022-04-26 10:16:34> SYSTEM : Start method - start; 
+2022-04-26 10:16:34> SYSTEM : Start method - progress; User name: Admin
+2022-04-26 10:16:34> SYSTEM : Start method - progress; Phoenix software version: 4.5.0.7977
+2022-04-26 10:16:35> SYSTEM : Start method - progress; Database version: DB Plus
+2022-04-26 10:16:35> SYSTEM : Start method - progress; Sample tracking: On
+2022-04-26 10:16:35> SYSTEM : Start method - progress; Vector Database: On
+2022-04-26 10:16:35> SYSTEM : Start method - progress; Vector Database connection: Database 'HamiltonVectorDB' on Microsoft SQL Server 'LOCALHOST\HAMILTON' with user 'Hamilton'
+2022-04-26 10:16:35> SYSTEM : Start method - complete; 
+2022-04-26 10:16:35> SYSTEM : Execute method - start; Method file C:\Program Files (x86)\HAMILTON\Methods\VM\DailyMaintenance.hsl
+2022-04-26 10:16:35> SYSTEM : Get Instrument Type (no instrument passed)  - start; 
+2022-04-26 10:16:35> Microlab® STARlet IVD : Communication - progress; Connection to instrument is created.
+2022-04-26 10:16:36> Microlab® STARlet IVD : Start method command - start;
+2022-04-26 10:16:36> Microlab® STARlet IVD : Start method command - progress; Microlab® STARlet IVD software version: 4.5.0.5217
+2022-04-26 10:16:36> Microlab® STARlet IVD : Start method command - progress; Serial number of Instrument: D585
+2022-04-26 10:16:36> Microlab® STARlet IVD : Start method command - progress; Firmware version of main module: 7.5S 14 2017_09_26 (GRU C0 PLE)
+2022-04-26 10:16:36> Microlab® STARlet IVD : Start method command - progress; Firmware version of 1000µl channels: 4.0S a 2017-04-24, 4.0S a 2017-04-24, 4.0S a 2017-04-24, 4.0S a 2017-04-24, 4.0S a 2017-04-24, 4.0S a 2017-04-24, 4.0S a 2017-04-24, 4.0S a 2017-04-24
+2022-04-26 10:16:36> Microlab® STARlet IVD : Start method command - progress; Firmware version of 5ml channels: not installed
+2022-04-26 10:16:36> Microlab® STARlet IVD : Start method command - progress; Firmware version of labware handling channels: not installed
+2022-04-26 10:16:36> Microlab® STARlet IVD : Start method command - progress; Firmware version of X drive: 1.4S 2012-04-25
+2022-04-26 10:16:36> Microlab® STARlet IVD : Start method command - progress; Firmware version of auto load: 3.4S b 2012-02-13
+2022-04-26 10:16:36> Microlab® STARlet IVD : Start method command - progress; Firmware version of iSWAP: not installed
+2022-04-26 10:16:36> Microlab® STARlet IVD : Start method command - progress; Firmware version of washer 1: not installed
+2022-04-26 10:16:36> Microlab® STARlet IVD : Start method command - progress; Firmware version of washer 2: not installed
+2022-04-26 10:16:36> Microlab® STARlet IVD : Start method command - progress; Firmware version of temperature-controlled carrier 1: not installed
+2022-04-26 10:16:36> Microlab® STARlet IVD : Start method command - progress; Firmware version of temperature-controlled carrier 2: not installed
+2022-04-26 10:16:36> Microlab® STARlet IVD : Start method command - progress; Firmware version of CO-RE 96 Head: not installed
+2022-04-26 10:16:36> Microlab® STARlet IVD : Start method command - progress; Firmware version of pump station 1: not installed
+2022-04-26 10:16:36> Microlab® STARlet IVD : Start method command - progress; Firmware version of pump station 2: not installed
+2022-04-26 10:16:36> Microlab® STARlet IVD : Start method command - progress; Firmware version of pump station 3: not installed
+2022-04-26 10:16:36> Microlab® STARlet IVD : Start method command - progress; Firmware version of nano dispenser: not installed
+2022-04-26 10:16:36> Microlab® STARlet IVD : Start method command - progress; Firmware version of nano dispenser pressure unit: not installed
+2022-04-26 10:16:36> Microlab® STARlet IVD : Start method command - progress; Firmware version of CO-RE 384 Head: not installed
+2022-04-26 10:16:36> Microlab® STARlet IVD : Start method command - progress; Firmware version of tube gripper: not installed
+2022-04-26 10:16:36> Microlab® STARlet IVD : Start method command - progress; Firmware version of camera channel: not installed
+2022-04-26 10:16:36> Microlab® STARlet IVD : Start method command - progress; Firmware version of gel card gripper: not installed
+2022-04-26 10:16:36> Microlab® STARlet IVD : Start method command - progress; Firmware version of punch card gripper: not installed
+2022-04-26 10:16:36> Microlab® STARlet IVD : Start method command - progress; Firmware version of puncher module: not installed
+2022-04-26 10:16:36> Microlab® STARlet IVD : Start method command - progress; Firmware version of twister decapper station 1 module 1: not installed
+2022-04-26 10:16:36> Microlab® STARlet IVD : Start method command - progress; Firmware version of twister decapper station 1 module 2: not installed
+2022-04-26 10:16:36> Microlab® STARlet IVD : Start method command - progress; Firmware version of twister decapper station 2 module 1: not installed
+2022-04-26 10:16:36> Microlab® STARlet IVD : Start method command - progress; Firmware version of twister decapper station 2 module 2: not installed
+2022-04-26 10:16:40> Microlab® STARlet IVD : Start method command - complete;
+2022-04-26 10:16:40> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:16:40> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > QM: er00/00ka000100xt30xa30xw08000xl01xr00xm03500xx11400ys090xu3540xv3700yu0060kl360kc0yx0060ke00000000xn00xo00ym6065kr0km360
+2022-04-26 10:16:40> SYSTEM : Evaluated instrument type: 1 - progress; 
+2022-04-26 10:16:40> Microlab® STARlet IVD : End method command - start;
+2022-04-26 10:16:40> Microlab® STARlet IVD : End method command - progress; TADM curve upload is in progress...
+2022-04-26 10:16:42> Microlab® STARlet IVD : End method command - complete;
+2022-04-26 10:16:42> SYSTEM : Get Instrument Type (no instrument passed)  - complete; 
+2022-04-26 10:16:43> Microlab® STARlet IVD : Communication - progress; Connection to instrument is created.
+2022-04-26 10:16:44> Microlab® STARlet IVD : Start method command - start;
+2022-04-26 10:16:44> Microlab® STARlet IVD : Start method command - progress; Microlab® STARlet IVD software version: 4.5.0.5217
+2022-04-26 10:16:44> Microlab® STARlet IVD : Start method command - progress; Serial number of Instrument: D585
+2022-04-26 10:16:44> Microlab® STARlet IVD : Start method command - progress; Firmware version of main module: 7.5S 14 2017_09_26 (GRU C0 PLE)
+2022-04-26 10:16:44> Microlab® STARlet IVD : Start method command - progress; Firmware version of 1000µl channels: 4.0S a 2017-04-24, 4.0S a 2017-04-24, 4.0S a 2017-04-24, 4.0S a 2017-04-24, 4.0S a 2017-04-24, 4.0S a 2017-04-24, 4.0S a 2017-04-24, 4.0S a 2017-04-24
+2022-04-26 10:16:44> Microlab® STARlet IVD : Start method command - progress; Firmware version of 5ml channels: not installed
+2022-04-26 10:16:44> Microlab® STARlet IVD : Start method command - progress; Firmware version of labware handling channels: not installed
+2022-04-26 10:16:44> Microlab® STARlet IVD : Start method command - progress; Firmware version of X drive: 1.4S 2012-04-25
+2022-04-26 10:16:44> Microlab® STARlet IVD : Start method command - progress; Firmware version of auto load: 3.4S b 2012-02-13
+2022-04-26 10:16:44> Microlab® STARlet IVD : Start method command - progress; Firmware version of iSWAP: not installed
+2022-04-26 10:16:44> Microlab® STARlet IVD : Start method command - progress; Firmware version of washer 1: not installed
+2022-04-26 10:16:44> Microlab® STARlet IVD : Start method command - progress; Firmware version of washer 2: not installed
+2022-04-26 10:16:44> Microlab® STARlet IVD : Start method command - progress; Firmware version of temperature-controlled carrier 1: not installed
+2022-04-26 10:16:44> Microlab® STARlet IVD : Start method command - progress; Firmware version of temperature-controlled carrier 2: not installed
+2022-04-26 10:16:44> Microlab® STARlet IVD : Start method command - progress; Firmware version of CO-RE 96 Head: not installed
+2022-04-26 10:16:44> Microlab® STARlet IVD : Start method command - progress; Firmware version of pump station 1: not installed
+2022-04-26 10:16:44> Microlab® STARlet IVD : Start method command - progress; Firmware version of pump station 2: not installed
+2022-04-26 10:16:44> Microlab® STARlet IVD : Start method command - progress; Firmware version of pump station 3: not installed
+2022-04-26 10:16:44> Microlab® STARlet IVD : Start method command - progress; Firmware version of nano dispenser: not installed
+2022-04-26 10:16:44> Microlab® STARlet IVD : Start method command - progress; Firmware version of nano dispenser pressure unit: not installed
+2022-04-26 10:16:44> Microlab® STARlet IVD : Start method command - progress; Firmware version of CO-RE 384 Head: not installed
+2022-04-26 10:16:44> Microlab® STARlet IVD : Start method command - progress; Firmware version of tube gripper: not installed
+2022-04-26 10:16:44> Microlab® STARlet IVD : Start method command - progress; Firmware version of camera channel: not installed
+2022-04-26 10:16:44> Microlab® STARlet IVD : Start method command - progress; Firmware version of gel card gripper: not installed
+2022-04-26 10:16:44> Microlab® STARlet IVD : Start method command - progress; Firmware version of punch card gripper: not installed
+2022-04-26 10:16:44> Microlab® STARlet IVD : Start method command - progress; Firmware version of puncher module: not installed
+2022-04-26 10:16:44> Microlab® STARlet IVD : Start method command - progress; Firmware version of twister decapper station 1 module 1: not installed
+2022-04-26 10:16:44> Microlab® STARlet IVD : Start method command - progress; Firmware version of twister decapper station 1 module 2: not installed
+2022-04-26 10:16:44> Microlab® STARlet IVD : Start method command - progress; Firmware version of twister decapper station 2 module 1: not installed
+2022-04-26 10:16:44> Microlab® STARlet IVD : Start method command - progress; Firmware version of twister decapper station 2 module 2: not installed
+2022-04-26 10:16:48> Microlab® STARlet IVD : Start method command - complete;
+2022-04-26 10:16:48> Microlab® STARlet IVD : Initialize (Single Step) - start;
+2022-04-26 10:16:48> Microlab® STARlet IVD : Initialize (Single Step) - complete;  > channel 1: Waste,  > channel 2: Waste,  > channel 3: Waste,  > channel 4: Waste,  > channel 5: Waste,  > channel 6: Waste,  > channel 7: Waste,  > channel 8: Waste, 
+2022-04-26 10:16:48> USER : Trace - complete; Instrument Name: Microlab® STARlet IVD
+2022-04-26 10:16:48> USER : Trace - complete; User Software Version: 4.5.0.5217
+2022-04-26 10:16:48> USER : Trace - complete; Operator:Admin
+2022-04-26 10:16:48> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:16:48> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > RI: er00/00si2019-06-06snD585
+2022-04-26 10:16:48> USER : Trace - complete; Instrument Serial No: D585
+2022-04-26 10:16:48> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:16:48> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > RM: er00/00kb0Dkp08 C00000 X00000 P10000 P20000 P30000 P40000 P50000 P60000 P70000 P80000 I00000
+2022-04-26 10:16:48> USER : Trace - complete; Instrument Number of 1000ul Channels: 8
+2022-04-26 10:16:48> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:16:48> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > QM: er00/00ka000100xt30xa30xw08000xl01xr00xm03500xx11400ys090xu3540xv3700yu0060kl360kc0yx0060ke00000000xn00xo00ym6065kr0km360
+2022-04-26 10:16:48> USER : Trace - complete; Instrument Number of 5ml Channels: 0
+2022-04-26 10:16:48> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:16:48> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > RA: zh09320
+2022-04-26 10:16:48> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:16:48> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > RA: zc31200
+2022-04-26 10:16:48> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:16:48> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > RA: zi0000
+2022-04-26 10:16:48> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:16:48> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > RA: zj0
+2022-04-26 10:16:48> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:16:48> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > RA: zv12000
+2022-04-26 10:16:48> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:16:48> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > RA: zl04500
+2022-04-26 10:16:48> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:16:48> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > RA: dp00000
+2022-04-26 10:16:48> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:16:48> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > RU: er00/00ru00950 08000 30000 30000
+2022-04-26 10:16:48> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:16:50> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > KX: er00/00
+2022-04-26 10:16:50> Microlab® STARlet IVD : Move Auto Load (Single Step) - start;
+2022-04-26 10:16:51> Microlab® STARlet IVD : Move Auto Load (Single Step) - complete;  > position: 01
+2022-04-26 10:16:51> Microlab® STARlet IVD : Lock/Unlock Front Cover (Single Step) - start;
+2022-04-26 10:16:51> Microlab® STARlet IVD : Lock/Unlock Front Cover (Single Step) - complete;  > Front Cover: unlocked
+2022-04-26 10:16:51> SYSTEM : Message Box - start; <Daily maintenance - check deck cleaning>,   Available button(s): <OK>, <Cancel>,   Default button: <OK>,   Message: <Open the front cover and check if the deck needs to be cleaned.  If the deck is clean, press OK to continue.  If the deck needs to be cleaned, press Cancel to abort the daily maintenance. Instead, proceed with the weekly maintenance.>
+2022-04-26 10:16:54> SYSTEM : Message Box - complete; <Daily maintenance - check deck cleaning>,   Closed with: <OK (1)>
+2022-04-26 10:16:54> SYSTEM : Message Box - start; <Daily maintenance - tip waste>,   Available button(s): <OK>, <Cancel>,   Default button: <OK>,   Message: <Empty the tip waste and press OK to continue.  Cancel will abort the daily maintenance.>
+2022-04-26 10:16:55> SYSTEM : Message Box - complete; <Daily maintenance - tip waste>,   Closed with: <OK (1)>
+2022-04-26 10:16:55> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:16:55> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > RW: er00/00rw100
+2022-04-26 10:16:55> Microlab® STARlet IVD : Lock/Unlock Front Cover (Single Step) - start;
+2022-04-26 10:16:55> Microlab® STARlet IVD : Lock/Unlock Front Cover (Single Step) - complete;  > Front Cover: locked
+2022-04-26 10:16:55> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:16:56> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > AV: er00/00
+2022-04-26 10:16:56> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:16:56> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > AA: er00
+2022-04-26 10:16:56> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - start;
+2022-04-26 10:17:09> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - complete;  > channel 1: teachingNeedleBlock, 1 > channel 2: teachingNeedleBlock, 2 > channel 3: teachingNeedleBlock, 3 > channel 4: teachingNeedleBlock, 4 > channel 5: teachingNeedleBlock, 5 > channel 6: teachingNeedleBlock, 6 > channel 7: teachingNeedleBlock, 7 > channel 8: teachingNeedleBlock, 8
+2022-04-26 10:17:09> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:17:10> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > BP: er00
+2022-04-26 10:17:10> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:17:10> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > DS: er00
+2022-04-26 10:17:10> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:17:10> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > RP: rp+4057
+2022-04-26 10:17:10> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:17:11> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > DS: er00
+2022-04-26 10:17:11> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:17:11> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > RP: rp+4077
+2022-04-26 10:17:11> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:17:11> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > DS: er00
+2022-04-26 10:17:11> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:17:11> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > RP: rp+4047
+2022-04-26 10:17:11> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:17:12> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > DS: er00
+2022-04-26 10:17:12> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:17:12> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > RP: rp+4057
+2022-04-26 10:17:12> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:17:12> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > DS: er00
+2022-04-26 10:17:12> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:17:13> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > RP: rp+4082
+2022-04-26 10:17:13> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:17:13> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > DS: er00
+2022-04-26 10:17:13> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:17:13> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > RP: rp+3906
+2022-04-26 10:17:13> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:17:13> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > DS: er00
+2022-04-26 10:17:13> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:17:14> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > RP: rp+4062
+2022-04-26 10:17:14> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:17:14> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > DS: er00
+2022-04-26 10:17:14> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:17:14> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > RP: rp+4023
+2022-04-26 10:17:14> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:17:15> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > DS: er00
+2022-04-26 10:17:15> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:17:15> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > RP: rp+4091
+2022-04-26 10:17:17> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:17:17> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > RP: rp+4042
+2022-04-26 10:17:17> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:17:17> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > RP: rp+4072
+2022-04-26 10:17:17> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:17:17> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > RP: rp+4038
+2022-04-26 10:17:17> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:17:18> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > RP: rp+4052
+2022-04-26 10:17:18> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:17:18> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > RP: rp+4077
+2022-04-26 10:17:18> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:17:18> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > RP: rp+4057
+2022-04-26 10:17:18> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:17:18> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > RP: rp+4013
+2022-04-26 10:17:18> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:17:18> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > RP: rp+4091
+2022-04-26 10:17:38> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:17:39> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > RP: rp+4028
+2022-04-26 10:17:39> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:17:39> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > RP: rp+4067
+2022-04-26 10:17:39> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:17:39> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > RP: rp+4028
+2022-04-26 10:17:39> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:17:39> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > RP: rp+4042
+2022-04-26 10:17:39> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:17:39> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > RP: rp+4067
+2022-04-26 10:17:40> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:17:40> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > RP: rp+4042
+2022-04-26 10:17:40> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:17:40> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > RP: rp+4003
+2022-04-26 10:17:40> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:17:40> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > RP: rp+4086
+2022-04-26 10:17:40> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - start;
+2022-04-26 10:17:47> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - complete;  > channel 1: teachingNeedleBlock, 1 > channel 2: teachingNeedleBlock, 2 > channel 3: teachingNeedleBlock, 3 > channel 4: teachingNeedleBlock, 4 > channel 5: teachingNeedleBlock, 5 > channel 6: teachingNeedleBlock, 6 > channel 7: teachingNeedleBlock, 7 > channel 8: teachingNeedleBlock, 8
+2022-04-26 10:17:47> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:17:47> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > AA: er00
+2022-04-26 10:17:47> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - start;
+2022-04-26 10:17:56> Microlab® STARlet IVD : 1000ul Channel Tip Pick Up (Single Step) - complete;  > channel 1: teachingNeedleBlock, 1 > channel 2: teachingNeedleBlock, 2 > channel 3: teachingNeedleBlock, 3 > channel 4: teachingNeedleBlock, 4 > channel 5: teachingNeedleBlock, 5 > channel 6: teachingNeedleBlock, 6 > channel 7: teachingNeedleBlock, 7 > channel 8: teachingNeedleBlock, 8
+2022-04-26 10:17:56> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:17:57> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > BP: er00
+2022-04-26 10:17:57> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:17:57> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > DS: er00
+2022-04-26 10:17:57> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:17:57> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > RP: rp-4301
+2022-04-26 10:17:57> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:17:58> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > DS: er00
+2022-04-26 10:17:58> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:17:58> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > RP: rp-4370
+2022-04-26 10:17:58> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:17:58> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > DS: er00
+2022-04-26 10:17:58> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:17:58> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > RP: rp-4379
+2022-04-26 10:17:58> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:17:59> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > DS: er00
+2022-04-26 10:17:59> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:17:59> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > RP: rp-4399
+2022-04-26 10:17:59> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:17:59> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > DS: er00
+2022-04-26 10:17:59> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:17:59> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > RP: rp-4370
+2022-04-26 10:17:59> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:18:00> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > DS: er00
+2022-04-26 10:18:00> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:18:00> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > RP: rp-4135
+2022-04-26 10:18:00> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:18:00> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > DS: er00
+2022-04-26 10:18:00> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:18:01> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > RP: rp-4321
+2022-04-26 10:18:01> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:18:01> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > DS: er00
+2022-04-26 10:18:01> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:18:01> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > RP: rp-4404
+2022-04-26 10:18:03> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:18:03> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > RP: rp-4291
+2022-04-26 10:18:03> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:18:04> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > RP: rp-4365
+2022-04-26 10:18:04> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:18:04> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > RP: rp-4370
+2022-04-26 10:18:04> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:18:04> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > RP: rp-4399
+2022-04-26 10:18:04> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:18:04> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > RP: rp-4360
+2022-04-26 10:18:04> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:18:04> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > RP: rp-4121
+2022-04-26 10:18:04> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:18:05> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > RP: rp-4316
+2022-04-26 10:18:05> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:18:05> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > RP: rp-4384
+2022-04-26 10:18:25> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:18:25> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > RP: rp-4277
+2022-04-26 10:18:25> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:18:25> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > RP: rp-4350
+2022-04-26 10:18:25> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:18:25> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > RP: rp-4355
+2022-04-26 10:18:25> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:18:26> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > RP: rp-4389
+2022-04-26 10:18:26> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:18:26> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > RP: rp-4340
+2022-04-26 10:18:26> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:18:26> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > RP: rp-4096
+2022-04-26 10:18:26> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:18:26> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > RP: rp-4296
+2022-04-26 10:18:26> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:18:27> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > RP: rp-4365
+2022-04-26 10:18:27> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:18:27> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > AL: er00
+2022-04-26 10:18:27> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:18:29> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > JM: er00/00
+2022-04-26 10:18:29> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:18:29> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > ZL: er70
+2022-04-26 10:18:29> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:18:29> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > RN: rn0
+2022-04-26 10:18:29> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:18:30> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > ZL: er74
+2022-04-26 10:18:30> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:18:30> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > RN: rn1
+2022-04-26 10:18:30> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:18:31> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > KZ: er00/00
+2022-04-26 10:18:31> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:18:32> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > JM: er00/00
+2022-04-26 10:18:32> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:18:32> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > ZL: er70
+2022-04-26 10:18:32> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:18:32> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > RN: rn0
+2022-04-26 10:18:32> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:18:33> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > ZL: er74
+2022-04-26 10:18:33> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:18:33> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > RN: rn1
+2022-04-26 10:18:33> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:18:34> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > KZ: er00/00
+2022-04-26 10:18:34> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:18:35> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > JM: er00/00
+2022-04-26 10:18:35> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:18:35> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > ZL: er70
+2022-04-26 10:18:35> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:18:35> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > RN: rn0
+2022-04-26 10:18:35> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:18:36> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > ZL: er74
+2022-04-26 10:18:36> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:18:36> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > RN: rn1
+2022-04-26 10:18:36> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:18:37> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > KZ: er00/00
+2022-04-26 10:18:37> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:18:38> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > JM: er00/00
+2022-04-26 10:18:38> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:18:39> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > ZL: er70
+2022-04-26 10:18:39> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:18:39> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > RN: rn0
+2022-04-26 10:18:39> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:18:40> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > ZL: er00
+2022-04-26 10:18:40> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:18:40> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > RN: rn1
+2022-04-26 10:18:40> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:18:41> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > KZ: er00/00
+2022-04-26 10:18:41> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:18:42> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > JM: er00/00
+2022-04-26 10:18:42> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:18:43> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > ZL: er70
+2022-04-26 10:18:43> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:18:43> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > RN: rn0
+2022-04-26 10:18:43> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:18:44> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > ZL: er74
+2022-04-26 10:18:44> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:18:44> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > RN: rn1
+2022-04-26 10:18:44> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:18:44> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > KZ: er00/00
+2022-04-26 10:18:44> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:18:46> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > JM: er00/00
+2022-04-26 10:18:46> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:18:46> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > ZL: er70
+2022-04-26 10:18:46> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:18:46> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > RN: rn0
+2022-04-26 10:18:46> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:18:47> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > ZL: er74
+2022-04-26 10:18:47> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:18:47> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > RN: rn1
+2022-04-26 10:18:47> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:18:48> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > KZ: er00/00
+2022-04-26 10:18:48> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:18:50> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > JM: er00/00
+2022-04-26 10:18:50> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:18:50> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > ZL: er70
+2022-04-26 10:18:50> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:18:50> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > RN: rn0
+2022-04-26 10:18:50> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:18:51> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > ZL: er74
+2022-04-26 10:18:51> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:18:51> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > RN: rn1
+2022-04-26 10:18:51> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:18:52> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > KZ: er00/00
+2022-04-26 10:18:52> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:18:53> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > JM: er00/00
+2022-04-26 10:18:53> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:18:54> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > ZL: er70
+2022-04-26 10:18:54> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:18:54> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > RN: rn0
+2022-04-26 10:18:54> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:18:55> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > ZL: er00
+2022-04-26 10:18:55> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:18:56> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > RN: rn1
+2022-04-26 10:18:56> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:18:56> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > KZ: er00/00
+2022-04-26 10:18:56> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:18:56> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > AL: er00
+2022-04-26 10:18:56> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - start;
+2022-04-26 10:19:07> Microlab® STARlet IVD : 1000ul Channel Tip Eject (Single Step) - complete;  > channel 1: teachingNeedleBlock, 1 > channel 2: teachingNeedleBlock, 2 > channel 3: teachingNeedleBlock, 3 > channel 4: teachingNeedleBlock, 4 > channel 5: teachingNeedleBlock, 5 > channel 6: teachingNeedleBlock, 6 > channel 7: teachingNeedleBlock, 7 > channel 8: teachingNeedleBlock, 8
+2022-04-26 10:19:07> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:19:08> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > AA: er00
+2022-04-26 10:19:08> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:19:14> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > DI: er00
+2022-04-26 10:19:14> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:19:14> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > RU: er00/00ru00950 08000 30000 30000
+2022-04-26 10:19:14> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:19:15> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > KX: er00/00
+2022-04-26 10:19:15> Microlab® STARlet IVD : Move Auto Load (Single Step) - start;
+2022-04-26 10:19:18> Microlab® STARlet IVD : Move Auto Load (Single Step) - complete;  > position: 30
+2022-04-26 10:19:18> SYSTEM : Message Box - start; <Daily maintenance - successful>,   Available button(s): <OK>,   Default button: <OK>,   Message: <Daily maintenance successfully completed.>
+2022-04-26 10:19:21> SYSTEM : Message Box - complete; <Daily maintenance - successful>,   Closed with: <OK (1)>
+2022-04-26 10:19:21> Microlab® STARlet IVD : Lock/Unlock Front Cover (Single Step) - start;
+2022-04-26 10:19:21> Microlab® STARlet IVD : Lock/Unlock Front Cover (Single Step) - complete;  > Front Cover: unlocked
+2022-04-26 10:19:21> Microlab® STARlet IVD : Firmware Command (Single Step) - start;
+2022-04-26 10:19:22> Microlab® STARlet IVD : Firmware Command (Single Step) - complete;  > AV: er00/00
+2022-04-26 10:19:22> Microlab® STARlet IVD : End method command - start;
+2022-04-26 10:19:22> Microlab® STARlet IVD : End method command - progress; TADM curve upload is in progress...
+2022-04-26 10:19:23> Microlab® STARlet IVD : Clean up instrument - progress; Move up 1000ul channels
+2022-04-26 10:19:23> Microlab® STARlet IVD : Clean up instrument - progress; Move down auto load Y drive
+2022-04-26 10:19:24> Microlab® STARlet IVD : Clean up instrument - progress; Spreading channels
+2022-04-26 10:19:26> Microlab® STARlet IVD : Clean up instrument - progress; Switch off loading lights
+2022-04-26 10:19:27> Microlab® STARlet IVD : End method command - complete;
+2022-04-26 10:19:27> SYSTEM : Execute method - complete; 
+2022-04-26 10:19:27> SYSTEM : End method - start; 
+2022-04-26 10:19:27> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Config\Diagnostic.dck (14-Mar-17 1:14:40 PM)
+2022-04-26 10:19:27> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Config\Diagnostic.lay (14-Mar-17 1:14:40 PM)
+2022-04-26 10:19:27> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Config\HxServices.cfg (25-Apr-22 1:27:17 PM)
+2022-04-26 10:19:27> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Config\HxStandardLanguage.cfg (25-Apr-22 1:27:17 PM)
+2022-04-26 10:19:27> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Config\HxStarMaintAndVer.cfg (26-Apr-22 10:12:24 AM)
+2022-04-26 10:19:27> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Config\HxStarMaintAndVerEnu.cfg (06-Jul-10 2:15:20 PM)
+2022-04-26 10:19:27> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Config\HxVectorDb.cfg (25-Apr-22 1:27:17 PM)
+2022-04-26 10:19:27> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Config\ML_Starlet.cfg (26-Apr-22 10:15:41 AM)
+2022-04-26 10:19:27> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Config\ML_Starlet.dck (14-Mar-17 1:14:42 PM)
+2022-04-26 10:19:27> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Config\ML_STARType.cfg (15-Apr-22 3:10:43 PM)
+2022-04-26 10:19:27> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Config\ML_STARTypeEnu.cfg (02-Dec-16 4:18:12 PM)
+2022-04-26 10:19:27> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Labware\ML_STAR\CORE\TeachingNeedle5ml.rck (17-Jun-08 10:19:28 AM)
+2022-04-26 10:19:27> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Labware\ml_star\core\teachingneedleblock.ctr (29-Oct-04 4:32:24 PM)
+2022-04-26 10:19:27> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Labware\ml_star\core\teachingneedleblock.rck (17-Jun-08 10:19:28 AM)
+2022-04-26 10:19:27> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Labware\ml_star\core\verification.ctr (26-Apr-07 7:20:54 AM)
+2022-04-26 10:19:27> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Labware\ml_star\core\verification.rck (12-Dec-07 3:27:46 PM)
+2022-04-26 10:19:27> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Labware\ml_star\core\waste.ctr (29-Oct-04 4:32:24 PM)
+2022-04-26 10:19:27> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Labware\ml_star\core\waste2.rck (12-Dec-07 3:27:46 PM)
+2022-04-26 10:19:27> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Labware\ml_star\core\wasteblock.tml (22-Mar-08 8:28:32 AM)
+2022-04-26 10:19:27> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HslDailyMaintMetEnu.hs_ (14-Mar-17 1:14:50 PM)
+2022-04-26 10:19:27> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HslDailyMaintMetEnu.stp (14-Mar-17 1:14:50 PM)
+2022-04-26 10:19:27> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLErrLib.hsl (09-Mar-17 7:27:38 AM)
+2022-04-26 10:19:27> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLErrLib.stp (09-Mar-17 7:27:38 AM)
+2022-04-26 10:19:27> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLFilLib.hsl (09-Mar-17 7:27:38 AM)
+2022-04-26 10:19:27> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLFilLib.stp (09-Mar-17 7:27:38 AM)
+2022-04-26 10:19:27> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HslMaintMetLib.hs_ (14-Mar-17 1:14:50 PM)
+2022-04-26 10:19:27> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HslMaintMetLib.stp (14-Mar-17 1:14:50 PM)
+2022-04-26 10:19:27> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HslMaintMetLibEnu.hs_ (14-Mar-17 1:14:50 PM)
+2022-04-26 10:19:27> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HslMaintMetLibEnu.stp (14-Mar-17 1:14:52 PM)
+2022-04-26 10:19:27> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLML_STARLib.hs_ (14-Mar-17 1:14:52 PM)
+2022-04-26 10:19:27> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLML_STARLib.hsl (14-Mar-17 1:14:52 PM)
+2022-04-26 10:19:27> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLML_STARLib.stp (14-Mar-17 1:14:52 PM)
+2022-04-26 10:19:27> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLML_STARStringTableEnu.hs_ (14-Mar-17 1:14:52 PM)
+2022-04-26 10:19:27> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLML_STARStringTableEnu.stp (14-Mar-17 1:14:52 PM)
+2022-04-26 10:19:27> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLMlStarCfgKeys.hs_ (14-Mar-17 1:14:52 PM)
+2022-04-26 10:19:27> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLMlStarCfgKeys.stp (14-Mar-17 1:14:52 PM)
+2022-04-26 10:19:27> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLMlStarStepLib.hs_ (14-Mar-17 1:14:52 PM)
+2022-04-26 10:19:27> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLMlStarStepLib.stp (14-Mar-17 1:14:52 PM)
+2022-04-26 10:19:27> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLMlStarStepReturnLib.hsl (14-Mar-17 1:14:52 PM)
+2022-04-26 10:19:27> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLMlStarStepReturnLib.stp (14-Mar-17 1:14:52 PM)
+2022-04-26 10:19:27> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLMthLib.hsl (09-Mar-17 7:27:38 AM)
+2022-04-26 10:19:27> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLMthLib.stp (09-Mar-17 7:27:38 AM)
+2022-04-26 10:19:27> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLMthLibImpl.hs_ (09-Mar-17 7:27:38 AM)
+2022-04-26 10:19:27> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLMthLibImpl.stp (09-Mar-17 7:27:38 AM)
+2022-04-26 10:19:27> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLSeqLib.hsl (09-Mar-17 7:27:40 AM)
+2022-04-26 10:19:27> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLSeqLib.stp (09-Mar-17 7:27:40 AM)
+2022-04-26 10:19:27> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLStringTableLib.hs_ (09-Mar-17 7:27:40 AM)
+2022-04-26 10:19:27> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLStringTableLib.stp (09-Mar-17 7:27:40 AM)
+2022-04-26 10:19:27> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLStrLib.hsl (09-Mar-17 7:27:40 AM)
+2022-04-26 10:19:27> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLStrLib.stp (09-Mar-17 7:27:40 AM)
+2022-04-26 10:19:27> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLStrLibEnu.hs_ (09-Mar-17 7:27:40 AM)
+2022-04-26 10:19:27> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLStrLibEnu.stp (09-Mar-17 7:27:40 AM)
+2022-04-26 10:19:27> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLSynLib.hs_ (09-Mar-17 7:27:40 AM)
+2022-04-26 10:19:27> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLSynLib.hsl (09-Mar-17 7:27:40 AM)
+2022-04-26 10:19:27> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLSynLib.stp (09-Mar-17 7:27:40 AM)
+2022-04-26 10:19:27> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLTimLib.hsl (09-Mar-17 7:27:40 AM)
+2022-04-26 10:19:27> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLTimLib.stp (09-Mar-17 7:27:40 AM)
+2022-04-26 10:19:27> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLTipCountingLib.hsl (14-Mar-17 1:14:54 PM)
+2022-04-26 10:19:27> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLTipCountingLib.stp (14-Mar-17 1:14:54 PM)
+2022-04-26 10:19:27> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLUtilLib.hsl (09-Mar-17 7:27:40 AM)
+2022-04-26 10:19:27> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLUtilLib.stp (09-Mar-17 7:27:40 AM)
+2022-04-26 10:19:27> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLUtilLib2.hsl (09-Mar-17 7:27:40 AM)
+2022-04-26 10:19:27> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLUtilLib2.stp (09-Mar-17 7:27:40 AM)
+2022-04-26 10:19:27> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLUtilLib2Def.hs_ (09-Mar-17 7:27:40 AM)
+2022-04-26 10:19:27> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Library\HSLUtilLib2Def.stp (09-Mar-17 7:27:40 AM)
+2022-04-26 10:19:27> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Methods\VM\DailyMaintenance.hsl (14-Mar-17 1:15:00 PM)
+2022-04-26 10:19:27> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\Methods\VM\Maintenance_Starlet.lay (21-Oct-09 11:06:18 AM)
+2022-04-26 10:19:27> SYSTEM : End method - progress; Object referenced: File C:\Program Files (x86)\HAMILTON\System\ML_STARNeedle.dat (26-Apr-22 10:16:15 AM)
+2022-04-26 10:19:27> SYSTEM : End method - complete; 
+2022-04-26 10:19:27> SYSTEM : File checksum - written; $$author=Admin$$valid=0$$time=2022-04-26 10:19$$checksum=b2925818$$length=134$$
